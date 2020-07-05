@@ -1,7 +1,11 @@
+import Layout from '../components/layout'
+
 export default function Index() {
   return (
-    <div>
-      <p>Hello Next.js</p>
-    </div>
-  );
+    <Layout>
+      <div>
+        <p>Home Page</p>
+      </div>
+    </Layout>
+  )
 }
