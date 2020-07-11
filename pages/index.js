@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React from "react";
-=======
-import Layout from '../components/layout'
->>>>>>> e4963730d08fb2843be319b7f105036c3434e7c9
+import Layout from "../components/Page_Layout/layout";
 
 export default function Index() {
   return (
@@ -11,5 +7,5 @@ export default function Index() {
         <p>Home Page</p>
       </div>
     </Layout>
-  )
+  );
 }
