@@ -1,4 +1,3 @@
-import Layout from "../components/Website_Layout/Layout";
 import Header from "../components/Page_Layout/Header";
 import About from "../components/Page_Layout/About";
 import Events from "../components/Page_Layout/Events";

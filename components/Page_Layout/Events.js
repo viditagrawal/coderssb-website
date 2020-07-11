@@ -40,7 +40,6 @@ export default function Events() {
           style={{ width: "100%" }}
         />
       </div>
-      <hr />
     </div>
   );
 }

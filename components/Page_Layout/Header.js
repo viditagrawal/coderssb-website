@@ -1,12 +1,12 @@
 export default function Header() {
   return (
     <header
-      class="w3-display-container w3-content w3-wide"
+      className="w3-display-container w3-content w3-wide"
       style={{ maxWidth: 1600, minWidth: 500 }}
       id="home"
     >
       <img
-        class="w3-image"
+        className="w3-image"
         src="banner.png"
         alt="Header"
         width="1600"
