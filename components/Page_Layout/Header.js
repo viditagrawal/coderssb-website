@@ -12,8 +12,8 @@ export default function Header() {
         width="1600"
         height="800"
       />
-      <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-        <h1 class="w3-xxlarge">End of Header</h1>
+      <div className="w3-display-bottomleft w3-padding-large w3-opacity">
+        <h1 className="w3-xxlarge">End of Header</h1>
       </div>
     </header>
   );
