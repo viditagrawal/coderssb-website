@@ -1,10 +1,10 @@
-import Navbar from './navbar'
+import Navbar from "./Navbar";
 
-const Layout = (props) => (
-    <div>
-        <Navbar />
-        {props.children}
-    </div>
-)
+const Layout = props => (
+  <div>
+    <Navbar />
+    {props.children}
+  </div>
+);
 
-export default Layout 
+export default Layout;
