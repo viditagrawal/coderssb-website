@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div class="w3-container w3-padding-64" id="contact">
+    <div className="w3-container w3-padding-64" id="contact">
       <h1>Contact Us</h1>
       <br />
       <p>
@@ -9,7 +9,7 @@ export default function Contact() {
         criteria of them all, both look and taste. Do not hesitate to contact
         us.
       </p>
-      <p class="w3-text-blue-grey w3-large">
+      <p className="w3-text-blue-grey w3-large">
         <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
       </p>
       <p>
@@ -19,7 +19,7 @@ export default function Contact() {
       <form action="/action_page.php" target="_blank">
         <p>
           <input
-            class="w3-input w3-padding-16"
+            className="w3-input w3-padding-16"
             type="text"
             placeholder="Name"
             required
@@ -28,7 +28,7 @@ export default function Contact() {
         </p>
         <p>
           <input
-            class="w3-input w3-padding-16"
+            className="w3-input w3-padding-16"
             type="number"
             placeholder="How many people"
             required
@@ -37,7 +37,7 @@ export default function Contact() {
         </p>
         <p>
           <input
-            class="w3-input w3-padding-16"
+            className="w3-input w3-padding-16"
             type="datetime-local"
             placeholder="Date and time"
             required
@@ -46,7 +46,7 @@ export default function Contact() {
         </p>
         <p>
           <input
-            class="w3-input w3-padding-16"
+            className="w3-input w3-padding-16"
             type="text"
             placeholder="Message \ Special requirements"
             required
@@ -54,7 +54,7 @@ export default function Contact() {
           />
         </p>
         <p>
-          <button class="w3-button w3-light-grey w3-section" type="submit">
+          <button className="w3-button w3-light-grey w3-section" type="submit">
             SEND MESSAGE
           </button>
         </p>
