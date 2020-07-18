@@ -1,11 +1,12 @@
-import Layout from '../components/layout'
+import Layout from "../components/Website_Layout/Layout";
+import HomePage from "./HomePage";
 
 export default function Index() {
   return (
     <Layout>
       <div>
-        <p>Home Page</p>
+        <HomePage />
       </div>
     </Layout>
-  )
+  );
 }

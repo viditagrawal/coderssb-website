@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build && next export",
-    "start": "next start -p $PORT"
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "next": "^9.3.4",
+    "@zeit/next-css": "^1.0.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+    "react-dom": "^16.13.1",
+    "heroku-dotenv": "^0.4.1"
+  },
+  "devDependencies": {}
 }
