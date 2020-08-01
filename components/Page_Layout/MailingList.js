@@ -37,7 +37,7 @@ export default function MailingList() {
   }, [status]);
 
   return (
-    <div id="contact">
+    <div className="w3-container w3-padding-64" id="contact">
       <h1>Join Our Mailing List</h1>
       <form onSubmit={event => handleSubmit(event, params)}>
         <p>
