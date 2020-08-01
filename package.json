@@ -12,26 +12,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@zeit/next-css": "^1.0.1",
     "elliptic": ">=6.5.3",
     "heroku-dotenv": "^0.4.1",
-=======
-    "@zeit/next-css": "^1.0.1",
-    "heroku-dotenv": "^0.4.1",
     "moment": "^2.27.0",
->>>>>>> a050b6b09cebd2c6bee9d8e0e5fdabfd12349165
     "next": "^9.3.4",
     "react": "^16.13.1",
     "react-big-calendar": "^0.26.0",
     "react-dom": "^16.13.1",
-<<<<<<< HEAD
     "use-mailchimp-form": "^1.1.1"
-=======
-    "react-moment": "^0.9.7"
->>>>>>> a050b6b09cebd2c6bee9d8e0e5fdabfd12349165
   },
   "devDependencies": {}
 }
