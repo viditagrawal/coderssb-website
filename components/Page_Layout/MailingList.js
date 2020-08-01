@@ -16,9 +16,8 @@ const useFormFields = initialState => {
 };
 
 export default function MailingList() {
-  const url = "YOUR_SUBSCRIBE_URL";
-  // The url looks like the url below:
-  // https://aaaaaaaaa.us20.list-manage.com/subscribe/post?u=xxxxxxxxxxxxxxxxxx&amp;id=yyyyyyyyyy
+  const url =
+    "https://facebook.us4.list-manage.com/subscribe/post?u=a4c5aea99f7cb23b39e5f7c55&amp;id=33418f55d4";
   const { status, message, handleSubmit } = useMailChimpForm(url);
   const [params, handleFieldChange] = useFormFields({
     EMAIL: ""
@@ -33,12 +32,12 @@ export default function MailingList() {
       btn.innerHTML = "Err adding to Mailing List";
     } else if (status.success) {
       btn.innerHTML = "Added to Mailing List";
-      btn.disabled = true; //OR
+      btn.disabled = true;
     }
   }, [status]);
 
   return (
-    <div className="w3-container w3-padding-64" id="contact">
+    <div id="contact">
       <h1>Join Our Mailing List</h1>
       <form onSubmit={event => handleSubmit(event, params)}>
         <p>
