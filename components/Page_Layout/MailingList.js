@@ -1,5 +1,10 @@
+import React from "react";
 import { useState, useEffect } from "react";
 import { useMailChimpForm } from "use-mailchimp-form";
+import { makeStyles } from "@material-ui/core/styles";
+import CircularProgress from "@material-ui/core/CircularProgress";
+import CheckIcon from "@material-ui/icons/Check";
+import ErrorOutlinedIcon from "@material-ui/icons/ErrorOutlined";
 
 const useFormFields = initialState => {
   const [fields, setValues] = useState(initialState);
@@ -22,6 +27,16 @@ export default function MailingList() {
   const [params, handleFieldChange] = useFormFields({
     EMAIL: ""
   });
+  const useStyles = makeStyles(theme => ({
+    root: {
+      display: "flex",
+      "& > * + *": {
+        marginLeft: theme.spacing(2)
+      }
+    }
+  }));
+
+  const classes = useStyles();
 
   useEffect(() => {
     var btn = document.getElementById("MailchimpSubmitBtn");
@@ -29,10 +44,11 @@ export default function MailingList() {
       btn.innerHTML = "Adding to Mailing List ...";
       btn.disabled = true;
     } else if (status.error) {
-      btn.innerHTML = "Err adding to Mailing List";
+      btn.innerHTML = "Submit Another Email";
+      btn.disabled = false;
     } else if (status.success) {
-      btn.innerHTML = "Added to Mailing List";
-      btn.disabled = true;
+      btn.innerHTML = "Submit";
+      btn.disabled = false;
     }
   }, [status]);
 
@@ -61,6 +77,23 @@ export default function MailingList() {
         >
           Submit
         </button>
+        {status.loading && (
+          <div className={classes.root}>
+            <CircularProgress />
+          </div>
+        )}
+        {status.success && (
+          <div className={classes.root}>
+            Joined
+            <CheckIcon />
+          </div>
+        )}
+        {status.error && (
+          <div className={classes.root}>
+            Email Already in Mailing List
+            <ErrorOutlinedIcon />
+          </div>
+        )}
       </form>
     </div>
   );
