@@ -1,64 +1,175 @@
-export default function Contact() {
-  return (
-    <div className="w3-container w3-padding-64" id="contact">
-      <h1>Contact Us</h1>
-      <br />
-      <p>
-        We offer full-service catering for any event, large or small. We
-        understand your needs and we will cater the food to satisfy the biggerst
-        criteria of them all, both look and taste. Do not hesitate to contact
-        us.
-      </p>
-      <p className="w3-text-blue-grey w3-large">
-        <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
-      </p>
-      <p>
-        You can also contact us by phone 00553123-2323 or email
-        catering@catering.com, or you can send us a message here:
-      </p>
-      <form action="/action_page.php" target="_blank">
-        <p>
-          <input
-            className="w3-input w3-padding-16"
-            type="text"
-            placeholder="Name"
-            required
-            name="Name"
-          />
-        </p>
-        <p>
-          <input
-            className="w3-input w3-padding-16"
-            type="number"
-            placeholder="How many people"
-            required
-            name="People"
-          />
-        </p>
-        <p>
-          <input
-            className="w3-input w3-padding-16"
-            type="datetime-local"
-            placeholder="Date and time"
-            required
-            name="date"
-          />
-        </p>
-        <p>
-          <input
-            className="w3-input w3-padding-16"
-            type="text"
-            placeholder="Message \ Special requirements"
-            required
-            name="Message"
-          />
-        </p>
-        <p>
-          <button className="w3-button w3-light-grey w3-section" type="submit">
-            SEND MESSAGE
-          </button>
-        </p>
-      </form>
-    </div>
-  );
+import { Component } from "react"
+import TextareaAutosize from "react-autosize-textarea"
+import { sendContactMail } from "../networking/mail-api" 
+
+class Contact extends Component {
+    state = {
+        formButtonDisabled: false,
+        formButtonText: "Send",
+        name: "",
+        mail: "",
+        formContent: ""
+    }
+
+    render() {    
+        const { formButtonText, formButtonDisabled, name, mail, formContent } = this.state
+        
+        const btnClass = formButtonDisabled ? "disabled" : "" 
+
+        return (
+            <div>               
+                <div className="grid"> 
+                    <div className="col-8">
+                        <h2>Contact form title</h2>
+                        <p>Contact form introduction text</p>                    
+                    </div>
+                </div>
+                <div className="grid">
+                    <div className="col-4">
+                        <input
+                            type="text"
+                            placeholder="Name"
+                            value={name}
+                            name="fname"
+                            onChange={this.onNameChange} />
+                    </div>
+                    <div className="col-4">
+                        <input
+                            type="email"
+                            placeholder="E-Mail"
+                            value={mail}
+                            name="email"
+                            onChange={this.onMailChange} />
+                    </div>
+                </div>
+                <div className="grid">
+                    <div className="col-8">
+                        <TextareaAutosize
+                            name="text"
+                            placeholder="Message"
+                            value={formContent}
+                            onChange={this.onFormContentChange}
+                            style={{
+                                minHeight: "48px",
+                                width: "100%",
+                                border: "none",
+                                borderRadius: "0px",
+                                margin: "8px 0px",
+                                resize: "none",
+                                padding: "0px",
+                                paddingBottom: "14px",
+                                WebkitAppearance: "none",
+                                MozAppearance: "none"
+                            }} /> 
+                    </div>
+                    <div className="col-8">
+                        <button
+                            className={btnClass}
+                            type="submit"
+                            onClick={this.submitContactForm}
+                            disabled={formButtonDisabled}>
+
+                           {formButtonText}
+                       </button>
+                    </div>
+                </div>
+                <style jsx>{`
+                    .grid {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        max-width: 1280px;
+                        margin-right: auto;
+                        margin-left: auto;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                    }
+
+                    .col-4,
+                    .col-8 {
+                        padding: 8px 12px;
+                        box-sizing: border-box;
+                    }
+                    .col-4 {
+                        flex-basis: 50%;
+                        max-width: 50%;
+                    }
+                    .col-8 {
+                        flex-basis: 100%;
+                        max-width: 100%;
+                    }
+                    @media only screen and (max-width: 768px) {
+                        .grid {
+                            flex-direction: column;
+                            padding-left: 0px;
+                            padding-right: 0px;
+                        }
+                        .col-4,
+                        .col-8 {
+                            padding-left: 24px;
+                            padding-right: 24px;
+                            flex-basis: 100%;
+                            max-width: 100%;
+                        }
+                    }
+                    input[type=text], input[type=email] {
+                        height: 48px;
+                        width: 100%;
+                        border: none;
+                        border-radius: 0px;
+                        border-bottom: 1px solid #121212;
+                        margin: 8px 0px;
+                        box-shadow: none;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        padding: 0px;
+                        outline: none;
+                    }
+
+                    ::placeholder {
+                        color: #C8CBCE;
+                    }
+
+                    ::-ms-input-placeholder {
+                        color: #C8CBCE;
+                    }
+
+                    button {
+                        padding: 0px 24px;
+                        height: 48px;
+                        background-color: #F83850;
+                        margin: 16px 0px;
+                        border: none;
+                        border-radius: 0px;
+                        cursor: pointer;
+                        color: #fff;
+                    }
+
+                    .disabled {
+                        background-color: #fff;
+                        color: #121212;
+                        cursor: auto;
+                        padding-left: 0px;
+                    }
+                `}</style>
+            </div>
+        )
+    }
+
+    onNameChange = (event) => {
+        this.setState({ name: event.target.value })
+    }
+
+    onMailChange = (event) => {
+        this.setState({ mail: event.target.value })
+    }
+
+    onFormContentChange = (event) => {
+        this.setState({ formContent: event.target.value })
+    }
+
+    submitContactForm = async (event) => {
+    }
 }
+
+export default Contact
