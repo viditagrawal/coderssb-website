@@ -16,6 +16,7 @@
     "@material-ui/icons": "^4.9.1",
     "@zeit/next-css": "^1.0.1",
     "elliptic": ">=6.5.3",
+    "google-spreadsheet": "^3.0.11",
     "heroku-dotenv": "^0.4.1",
     "moment": "^2.27.0",
     "next": "^9.3.4",
