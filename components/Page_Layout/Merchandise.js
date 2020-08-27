@@ -18,12 +18,10 @@ export default function Merchandise() {
         <h3 className="w3-center">Colors: Black, Blue, Gray</h3>
         <br />
       </div>
-    </div>
-    
-    <div className="w3-row w3-padding-64" id="about">
+   
       <div className="w3-col m6 w3-padding-large w3-hide-small">
         <img
-          src="sticker.png"
+          src="shirt.png". //change to sticker.png
           className="w3-round w3-image w3-opacity-min"
           alt="Coders SB Laptop Stickers"
           width="600"
@@ -36,6 +34,7 @@ export default function Merchandise() {
         <h3 className="w3-center">Price: $2</h3>
         <br />
       </div>
+    
     </div>
     
     <h2>Fill out the form below if you would like to order our merchandise!</h2>
