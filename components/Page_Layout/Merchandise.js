@@ -21,7 +21,7 @@ export default function Merchandise() {
    
       <div className="w3-col m6 w3-padding-large w3-hide-small">
         <img
-          src="shirt.png". //change to sticker.png
+          src="shirt.png" //change to sticker.png
           className="w3-round w3-image w3-opacity-min"
           alt="Coders SB Laptop Stickers"
           width="600"
