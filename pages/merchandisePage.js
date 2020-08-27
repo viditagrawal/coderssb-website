@@ -1,3 +1,4 @@
+//merchandise page for selling tshirt and stickers
 import Layout from "../components/Website_Layout/Layout";
 import Merchandise from "../components/Page_Layout/Merchandise";
 
