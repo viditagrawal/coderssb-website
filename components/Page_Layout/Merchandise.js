@@ -21,7 +21,7 @@ export default function Merchandise() {
     </div>
      
     <div class = "Form">
-				<h2>Fill out the form below if you would like to order our merchandise!</h2>
+	<h2>Fill out the form below if you would like to order our merchandise!</h2>
         <h3><a href="https://forms.gle/CoVxX6HQeCbaEyqVA" target="_blank">Order Form</a></h3>
     </div>
     
