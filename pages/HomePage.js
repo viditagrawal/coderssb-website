@@ -2,6 +2,7 @@ import Header from "../components/Page_Layout/Header";
 import About from "../components/Page_Layout/About";
 import Events from "../components/Page_Layout/Events";
 import Contact from "../components/Page_Layout/Contact";
+import Resources from "../components/Page_Layout/Resources";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,8 @@ export default function HomePage() {
         <Events />
         <hr />
         <Contact />
+        <hr />
+        <Resources />
       </div>
       {/* <-- End page content --> */}
     </div>
