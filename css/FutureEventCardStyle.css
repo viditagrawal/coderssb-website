@@ -1,0 +1,58 @@
+.all {
+	display: flex;
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	border-style: solid;
+	border-radius: 10%;
+	border-color: black;
+	background-color: #F1F4FFFF;
+	width: 30%;;
+	height: auto;
+	/* aspect-ratio: 1; */
+}
+
+.overlay {
+	/* transition: .5s ease; */
+	opacity: 0;
+	position: absolute;
+	/* transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+	/* top: 270%;
+	left: 10%; */
+	top: 275%;
+	/* display: block; */
+	text-align: center;
+	/* padding-left: 10%; */
+	width: 26%;
+}
+
+.card:hover img {
+	opacity: 0.05;
+    /*-webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;*/
+    backface-visibility: hidden;
+    transition: .5s ease;
+}
+
+.card:hover .overlay {
+	opacity: 1;
+}
+
+
+.first {
+	/* object-fit: contain; */
+	width: 100%;
+	/* height: 80%; */
+}
+
+img {
+	height: 300px;
+	object-fit: contain;
+}
