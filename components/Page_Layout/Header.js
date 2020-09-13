@@ -34,7 +34,7 @@ export default function Header() {
       autoPlay={true}
       showPlayButton={false}
       showNav={false}
-      slideInterval={4000}
+      slideInterval={6000}
       slideDuration={1000}
       thumbnailPosition={"bottom"}
       slideOnThumbnailOver={true}
