@@ -11,15 +11,17 @@ export default function HomePage() {
       <Header />
       {/* <-- Page content begins --> */}
       <div className="w3-content" style={{ maxWidth: 1100 }}>
-        <About />
-        <hr />
         <Events />
         <hr />
+        <Calendar />
+
+        <hr />
+        <About />
+        <hr />
+
         <Contact />
         <hr />
         <MailingList />
-        <hr />
-        <Calendar />
       </div>
       {/* <-- End page content --> */}
     </div>
