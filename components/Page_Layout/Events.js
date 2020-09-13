@@ -2,7 +2,7 @@ export default function Events() {
   return (
     <div className="w3-row w3-padding-64" id="menu">
       <div className="w3-col l6 w3-padding-large">
-        <h1 className="w3-center">Upcoming Events</h1>
+        <h1 className="w3-center">Our Upcoming Event</h1>
         <br />
         <h4>Bread Basket</h4>
         <p className="w3-text-grey">
@@ -29,7 +29,9 @@ export default function Events() {
         <br />
 
         <h4>Blueberry Pancakes</h4>
-        <p className="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+        <p className="w3-text-grey">
+          With syrup, butter and lots of berries 8.50
+        </p>
       </div>
 
       <div className="w3-col l6 w3-padding-large">
