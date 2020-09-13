@@ -1,16 +1,16 @@
 export default function Merchandise() {
   return (
-    <div className="w3-row w3-padding-64" id="about">
+    <div>
 	  
-      <div className="w3-col m6 w3-padding-large">
-        <h1 className="w3-center">Coders SB T-Shirt</h1>
-        <h3 className="w3-center">Price: $15</h3>
-        <h3 className="w3-center">Available sizes: S M L</h3>
-        <h3 className="w3-center">Colors: Black, Blue, Gray</h3>
+      <div>
+        <h1>Coders SB T-Shirt</h1>
+        <h3>Price: $15</h3>
+        <h3>Available sizes: S M L</h3>
+        <h3>Colors: Black, Blue, Gray</h3>
         <br />
       </div>
 	  
-      <div className="w3-col m6 w3-padding-large w3-hide-small">
+      <div>
         <img
           src="shirt.png"
           className="w3-round w3-image w3-opacity-min"
@@ -20,7 +20,7 @@ export default function Merchandise() {
         />
       </div> 
 	  
-      <div className="w3-col m6 w3-padding-large w3-hide-small">
+      <div>
         <img
           src="shirt.png"
           className="w3-round w3-image w3-opacity-min"
@@ -30,7 +30,7 @@ export default function Merchandise() {
         />
       </div> 
      
-      <div class = "Form">
+      <div>
 	<h2>Fill out the form below if you would like to order our merchandise!</h2>
         <h3><a href="https://forms.gle/CoVxX6HQeCbaEyqVA" target="_blank">Order Form</a></h3>
       </div>
