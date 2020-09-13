@@ -19,11 +19,22 @@ export default function Merchandise() {
           height="600"
         />
       </div> 
+	  
+      <div className="w3-col m6 w3-padding-large w3-hide-small">
+        <img
+          src="shirt.png"
+          className="w3-round w3-image w3-opacity-min"
+          alt="Coders SB Tshirt"
+          width="600"
+          height="600"
+        />
+      </div> 
      
-    <div class = "Form">
+      <div class = "Form">
 	<h2>Fill out the form below if you would like to order our merchandise!</h2>
         <h3><a href="https://forms.gle/CoVxX6HQeCbaEyqVA" target="_blank">Order Form</a></h3>
-    </div>
+      </div>
+    
     </div>
     
     
