@@ -1,6 +1,34 @@
 import { Component } from "react"
 import TextareaAutosize from "react-autosize-textarea"
-const { GoogleSpreadsheet } = require('google-spreadsheet');
+
+
+const nodemailer = require('nodemailer')
+const sgTransport = require('nodemailer-sendgrid-transport')
+
+const transporter = nodemailer.createTransport(sgTransport({
+  auth: {
+    api_key: process.env.SENDGRID_API
+  }
+}))
+
+const send = ({ email, name, text }) => {
+  const from = name && email ? `${name} <${email}>` : `${name || email}`
+  const message = {
+    from,
+    to: 'pkuang@ucsb.edu',
+    subject: `New message from ${from}`,
+    text,
+    replyTo: from
+  }
+
+  return new Promise((resolve, reject) => {
+    transporter.sendMail(message, (error, info) =>
+      error ? reject(error) : resolve(info)
+    )
+  })
+}
+
+
 
 class Contact extends Component {
     state = {
@@ -12,19 +40,6 @@ class Contact extends Component {
     }
 
     render() {
-
-        // spreadsheet key is the long id in the sheets URL
-        const doc = new GoogleSpreadsheet('<the sheet ID from the url>');
-
-        // use service account creds
-        doc.useServiceAccountAuth({
-            client_email: "pkuang@ucsb.edu",
-            private_key: //password,
-        });
-
-        doc.loadInfo(); // loads document properties and worksheets
-        console.log(doc.title);
-        doc.updateProperties({ title: 'renamed doc' });
 
         const { formButtonText, formButtonDisabled, name, mail, formContent } = this.state
 
@@ -177,7 +192,8 @@ class Contact extends Component {
         this.setState({ formContent: event.target.value })
     }
 
-    submitContactForm = async (event) => {
+    submitContactForm = () => {
+        send(this.state.name, this.state.mail, this.state.formContent)
     }
 }
 
