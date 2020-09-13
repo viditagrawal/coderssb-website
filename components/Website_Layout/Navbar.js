@@ -23,7 +23,7 @@ export default function navbar() {
       <Link href="/samplePage">
         <a style={tabStyle}>sample</a>
       </Link>
-      <Link href="/merchandisePage">
+      <Link href="/MerchandisePage">
         <a style={tabStyle}>Buy our Merchandise!</a>
       </Link>
     </div>
