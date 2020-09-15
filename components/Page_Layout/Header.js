@@ -28,18 +28,22 @@ const images = [
   }
 ];
 
+const typing_wait_ms = 4000;
+
 export default function Header() {
   return (
-    <ImageGallery
-      autoPlay={true}
-      showPlayButton={false}
-      showNav={false}
-      slideInterval={6000}
-      slideDuration={1000}
-      thumbnailPosition={"bottom"}
-      slideOnThumbnailOver={true}
-      showFullscreenButton={false}
-      items={images}
-    />
+    <div>
+      <ImageGallery
+        autoPlay={true}
+        showPlayButton={false}
+        showNav={false}
+        slideInterval={6000}
+        slideDuration={1000}
+        thumbnailPosition={"bottom"}
+        slideOnThumbnailOver={true}
+        showFullscreenButton={false}
+        items={images}
+      />
+    </div>
   );
 }
