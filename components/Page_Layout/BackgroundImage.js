@@ -14,13 +14,6 @@ class BackgroundImage extends Component {
   handleMouseHover() {
     if (this.props.hover) {
       this.setState(this.toggleHoverState);
-      if (this.state.isHovering) {
-        document.getElementById("background_image_text").style.fontSize = 100;
-      } else {
-        document.getElementById(
-          "background_image_text"
-        ).style.fontSizeAdjust -= 0.05;
-      }
     }
   }
 
