@@ -1,6 +1,8 @@
 export default function About() {
   return (
     <div className="w3-row w3-padding-64" id="about">
+      <h1 className="w3-center">About Coders SB</h1>
+
       <div className="w3-col m6 w3-padding-large w3-hide-small">
         <img
           src="shirt.png"
@@ -12,25 +14,24 @@ export default function About() {
       </div>
 
       <div className="w3-col m6 w3-padding-large">
-        <h1 className="w3-center">About Coders SB</h1>
         <br />
-        <h5 className="w3-center">Tradition since 1889</h5>
         <p className="w3-large">
-          The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor
-          sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only
-          use <span className="w3-tag w3-light-grey">seasonal</span>{" "}
-          ingredients.
-        </p>
-        <p className="w3-large w3-text-grey w3-hide-medium">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum consectetur adipiscing
-          elit, sed do eiusmod temporincididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat.
+          Computer Science/Engineering courses at UCSB are cool and all, but
+          they don't really allow you to build your real-world engineering
+          skills. Coders SB helps bridge the gap between school and the
+          real-world, enabling you to build real world programs, apps, websites,
+          utilities, and services. Come learn about building real-world,
+          scalable web services, APIs, iOS/Android Applications, or gorgeous,
+          professional-looking websites that will impress anyone. Coders SB
+          provides an environment where students can have fun building cool
+          stuff with their peers, improving both their programming and
+          collaboration skills, which are vital to working in the industry (and
+          boosting their resume!). We will also host workshops and have industry
+          professionals come and share their wisdom with us. Most importantly,
+          we're extremely open and welcoming to students of all ages and
+          skill-sets, from freshmen with no experience to seniors with various
+          internships and hackathon awards. Come to our next meeting to join to
+          get started! Let's build something.
         </p>
       </div>
     </div>
