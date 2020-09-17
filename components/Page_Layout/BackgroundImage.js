@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "../../css/BackgroundImage.css";
-import MailingList from "../../components/Page_Layout/MailingList";
 
 class BackgroundImage extends Component {
   constructor(props) {
