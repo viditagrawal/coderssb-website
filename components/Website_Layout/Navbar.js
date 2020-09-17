@@ -1,7 +1,11 @@
 import Link from "next/link";
 import { GoogleLogin } from "react-google-login";
+import React, { useState } from 'react'
 
 export default function navbar(props) {
+
+  const [loggedIn, setLoggedIn] = useState(false)
+  const [username, setUsername] = useState("")
   
   let navbarStyle = {
     width: "100%",
@@ -19,8 +23,11 @@ export default function navbar(props) {
 
   const responseGoogle = (googleUser) => {
     var googleId = googleUser.getId();
-    console.log(googleId)
+    let profile = googleUser.getBasicProfile();
+    var username = profile.getEmail().split('@')[0];
     props.setGoogleId(googleId)
+    setUsername(username)
+    setLoggedIn(true)
   }
 
   return (
@@ -34,6 +41,7 @@ export default function navbar(props) {
       <Link href="/MerchandisePage">
         <a style={tabStyle}>Buy our Merchandise!</a>
       </Link>
+      {loggedIn ? <p>{username}</p>:
       <GoogleLogin
         render={renderProps => (
           <button onClick={renderProps.onClick} disabled={renderProps.disabled}>Login</button>
@@ -43,7 +51,7 @@ export default function navbar(props) {
         onSuccess={responseGoogle}
         onFailure={responseGoogle}
         cookiePolicy={"single_host_origin"}
-      />
+      />}
     </div>
     
   );
