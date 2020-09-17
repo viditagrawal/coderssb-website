@@ -24,11 +24,11 @@ export default function HomePage() {
       <div className="w3-content" style={{ maxWidth: 1100 }}>
         <hr />
         <About />
-        <hr />
       </div>
 
+      <hr />
       <Companies />
-      {/* <hr /> */}
+      <hr />
       <BackgroundImage
         source="storke_background_blur.png"
         missing_source="banner_1.png"
