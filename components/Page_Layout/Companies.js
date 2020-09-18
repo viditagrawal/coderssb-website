@@ -24,8 +24,12 @@ export default function Companies() {
     variableWidth: true,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 3000
+    autoplaySpeed: 2500
   };
 
-  return <Slider {...settings}>{imgComponents}</Slider>;
+  return (
+    <Slider key={"slider"} {...settings}>
+      {imgComponents}
+    </Slider>
+  );
 }
