@@ -22,7 +22,7 @@ class BackgroundImage extends Component {
     };
   }
 
-  render(props) {
+  render() {
     return (
       <div
         className="backgroundParentDiv"
