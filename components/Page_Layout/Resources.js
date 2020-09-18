@@ -29,7 +29,7 @@ export default function Resources() {
     
     return (
         <div className="w3-container w3-padding-64">
-            <h1>Resources</h1>
+            <h1> Coding Resources</h1>
             <br/>
             <p> Here are some resources that can help you get started learning a new programming skill!</p>
             {resourceList}
