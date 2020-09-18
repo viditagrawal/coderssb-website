@@ -29,11 +29,23 @@ h1.background {
   z-index: 1;
 }
 
-a {
+a.blueHighlight {
   background-image: linear-gradient(
     to right,
     rgba(255, 255, 255, 0) 50%,
     rgb(144, 215, 241) 50%
+  );
+  background-position: -0% 0;
+  background-size: 200% auto;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+a.yellowHighlight {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(250, 176, 60) 50%
   );
   background-position: -0% 0;
   background-size: 200% auto;
