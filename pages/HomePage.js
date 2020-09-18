@@ -14,9 +14,9 @@ export default function HomePage() {
         <hr />
         <Events />
         <hr />
-        <Contact />
-        <hr />
         <Resources />
+        <hr />
+        <Contact />
       </div>
       {/* <-- End page content --> */}
     </div>

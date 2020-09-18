@@ -14,7 +14,7 @@ function NewResource(props) {
 
     return (
         <div>
-            <h2>{props.resource.name}</h2 >
+            <h3>{props.resource.name}</h3 >
             <p>{props.resource.description}</p>
             {listOfLinks}
             <br/>
