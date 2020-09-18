@@ -2,7 +2,6 @@ import Header from "../components/Page_Layout/Header";
 import About from "../components/Page_Layout/About";
 import Events from "../components/Page_Layout/Events";
 import Contact from "../components/Page_Layout/Contact";
-import MailingList from "../components/Page_Layout/MailingList";
 import Calendar from "../components/Page_Layout/Calendar";
 import Typing from "../components/Page_Layout/Typing";
 import BackgroundImage from "../components/Page_Layout/BackgroundImage";
@@ -30,19 +29,36 @@ export default function HomePage() {
       <Companies />
       <hr />
       <BackgroundImage
-        source="storke_background_blur.png"
+        source="Background/storke_background_blur.png"
         missing_source="banner_1.png"
         title={
-          <a href="https://www.facebook.com/groups/coderssb" target="_blank">
+          <a
+            className={"blueHighlight"}
+            href="https://www.facebook.com/groups/coderssb"
+            target="_blank"
+          >
             Click to Join our Facebook Page!
+          </a>
+        }
+        hover={true}
+      />
+      <hr />
+      <BackgroundImage
+        source="Background/henley_background_blur.png"
+        missing_source="banner_1.png"
+        title={
+          <a
+            className={"yellowHighlight"}
+            href="http://eepurl.com/gPudI1"
+            target="_blank"
+          >
+            Click to Join Our Mailing List
           </a>
         }
         hover={true}
       />
 
       <div className="w3-content" style={{ maxWidth: 1100 }}>
-        <hr />
-        <MailingList />
         <hr />
         <Calendar />
         <hr />
