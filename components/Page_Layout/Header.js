@@ -1,32 +1,6 @@
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-
-const images = [
-  {
-    original: "banner_2_header.png",
-    thumbnail: "banner_2.png"
-  },
-  {
-    original: "banner_2_header.png",
-    thumbnail: "banner_2.png"
-  },
-  {
-    original: "banner_2_header.png",
-    thumbnail: "banner_2.png"
-  },
-  {
-    original: "banner_2_header.png",
-    thumbnail: "banner_2.png"
-  },
-  {
-    original: "banner_2_header.png",
-    thumbnail: "banner_2.png"
-  },
-  {
-    original: "banner_2_header.png",
-    thumbnail: "banner_2.png"
-  }
-];
+import gallery_images from "../../utils/header";
 
 const typing_wait_ms = 4000;
 
@@ -42,7 +16,7 @@ export default function Header() {
         thumbnailPosition={"bottom"}
         slideOnThumbnailOver={true}
         showFullscreenButton={false}
-        items={images}
+        items={gallery_images}
       />
     </div>
   );
