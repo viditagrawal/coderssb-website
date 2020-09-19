@@ -9,7 +9,6 @@ export default class CustomEvent extends React.Component {
   	window.open(this.props.event.url);
   }
     render() {
-    	console.log('hi');
         return (
         <h8 onClick={this.handleClick}>
             {this.props.event.title}

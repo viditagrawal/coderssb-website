@@ -25,7 +25,6 @@ return (
         showMultiDayTimes
         defaultDate={moment().toDate()}
         localizer={localizer}
-        onSelectEvent = {console.log("tst")}
         components={{event: CustomEvent,}}
   />
     </div>
