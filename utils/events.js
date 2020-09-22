@@ -1,4 +1,5 @@
-const now = new Date()
+// Date Object documentation: 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
 
 export default [
   {
