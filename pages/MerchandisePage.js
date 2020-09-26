@@ -2,7 +2,7 @@
 import Layout from "../components/Website_Layout/Layout";
 import Merchandise from "../components/Page_Layout/Merchandise";
 
-export default function merchandisePage() {
+export default function MerchandisePage() {
   return (
     <div>
       {/* <-- Page content begins --> */}
