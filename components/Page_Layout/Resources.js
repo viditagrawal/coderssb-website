@@ -1,17 +1,14 @@
 import React from "react"
-import resourceData from "../../public/ResourceList"
+import resourceData from "../../public/resourcelist"
 
 
 function NewResource(props) {
 
     const listOfLinks = []
-
     for (const [index, value] of props.resource.links.entries()) {
         listOfLinks.push(<li key={index}><a href = {value}>{value}</a></li>)
       }
     
-
-
     return (
         <div>
             <h3>{props.resource.name}</h3 >
@@ -36,8 +33,3 @@ export default function Resources() {
         </div>
     )
 }
-
-
-
-
-
