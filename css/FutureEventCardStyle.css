@@ -1,58 +1,42 @@
 .all {
-	display: flex;
-	/* flex-direction: row; */
-	flex-wrap: wrap;
-	justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 5%;
 }
 
 .card {
-	border-style: solid;
-	border-radius: 10%;
-	border-color: black;
-	background-color: #F1F4FFFF;
-	width: 30%;;
-	height: auto;
-	/* aspect-ratio: 1; */
+  border-style: solid;
+  border-radius: 10%;
+  border-color: black;
+  background-color: #f1f4ffff;
+  width: 30%;
+  height: auto;
 }
 
 .overlay {
-	/* transition: .5s ease; */
-	opacity: 0;
-	position: absolute;
-	/* transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); */
-	/* top: 270%;
-	left: 10%; */
-	top: 275%;
-	/* display: block; */
-	text-align: center;
-	/* padding-left: 10%; */
-	width: 26%;
+  opacity: 0;
+  position: absolute;
+  top: 295%;
+  text-align: center;
+  width: 26%;
 }
 
 .card:hover img {
-	opacity: 0.05;
-    /*-webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;*/
-    backface-visibility: hidden;
-    transition: .5s ease;
+  opacity: 0.05;
+  backface-visibility: hidden;
+  transition: 0.5s ease;
 }
 
 .card:hover .overlay {
-	opacity: 1;
+  opacity: 1;
 }
 
-
 .first {
-	/* object-fit: contain; */
-	width: 100%;
-	/* height: 80%; */
+  width: 100%;
 }
 
 img {
-	height: 300px;
-	object-fit: contain;
+  height: 300px;
+  object-fit: contain;
 }
