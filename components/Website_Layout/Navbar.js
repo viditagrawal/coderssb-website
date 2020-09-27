@@ -6,6 +6,7 @@ export default function navbar(props) {
 
   const [loggedIn, setLoggedIn] = useState(false)
   const [username, setUsername] = useState("")
+  const [profileImgUrl, setProfileImgUrl] = useState("")
   
   let navbarStyle = {
     width: "100%",
@@ -28,6 +29,7 @@ export default function navbar(props) {
     props.setGoogleId(googleId)
     setUsername(username)
     setLoggedIn(true)
+    setProfileImgUrl(googleUser.profileObj.imageUrl)
   }
 
   return (
@@ -41,7 +43,7 @@ export default function navbar(props) {
       <Link href="/MerchandisePage">
         <a style={tabStyle}>Buy our Merchandise!</a>
       </Link>
-      {loggedIn ? <p>{username}</p>:
+      {loggedIn ? <img style={{borderRadius: '9999px', height: '3rem', width: '3rem' }} src={profileImgUrl}/>:
       <GoogleLogin
         render={renderProps => (
           <button onClick={renderProps.onClick} disabled={renderProps.disabled}>Login</button>
