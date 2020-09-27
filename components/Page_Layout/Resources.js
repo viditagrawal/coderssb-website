@@ -10,10 +10,21 @@ function NewResource(props) {
       }
     
     return (
-        <div>
-            <h3>{props.resource.name}</h3 >
-            <p>{props.resource.description}</p>
-            {listOfLinks}
+        <div style={{padding: 0, margin: 0}}>
+            <div style={{display: "inline-block", float: "left",  width: "10%", marginTop: 30, marginRight: 30}}>
+                <img 
+                    src = {props.resource.image}
+                    alt="resource image"
+                    className="w3-round w3-image w3-opacity-min"
+                    width="200"
+                    height="200"
+                />
+            </div>
+            <div style= {{display: "inline-block", float: "left", width: "80%"}}>
+                <h2>{props.resource.name}</h2 >
+                <p>{props.resource.description}</p>
+                {listOfLinks}
+            </div>
             <br/>
         </div>
     )
