@@ -14,6 +14,6 @@ module.exports = withCSS({
       process.env.SESSION_COOKIE_SECRET ||
       "viloxyf_z2GW6K4CT-KQD_MoLEA2wqv5jWuq4Jd0P7ymgG5GJGMpvMneXZzhK3sL",
     LOCAL_GOOGLE_CLIENT_ID: 
-      process.env.LOCAL_GOOGLE_CLIENT_ID
+      process.env.GOOGLE_CLIENT_ID
   }
 });
