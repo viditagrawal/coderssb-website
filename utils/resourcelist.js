@@ -42,7 +42,7 @@ export default [
         name: "Android App Development",
         description: "Learn how to create your own Android mobile apps using Kotlin, Java, or C++.",
         links: ["https://tinyurl.com/coderssbandroidapp", "https://developer.android.com/training/basics/firstapp"],
-        image: "androidstudio-icon2.png",
+        image: "androidstudio-icon.png",
 
         
     }
