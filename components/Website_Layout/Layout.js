@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import Head from "next/head";
+import FooterPage from "./FooterPage";
 
 const Layout = props => (
   <div>
@@ -11,7 +12,7 @@ const Layout = props => (
       <link
         rel="stylesheet"
         type="text/css"
-        charset="UTF-8"
+        charSet="UTF-8"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
       />
       <link
@@ -20,8 +21,9 @@ const Layout = props => (
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
     </Head>
-    {/* <Navbar /> */}
+    <Navbar setGoogleId={id => props.setGoogleId(id)} />
     {props.children}
+    <FooterPage />
   </div>
 );
 
