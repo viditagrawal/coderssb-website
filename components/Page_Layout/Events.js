@@ -1,5 +1,5 @@
 import FutureEventCard from "./FutureEventCard";
-import { stuff } from "../../utils/events";
+import { events } from "../../utils/events";
 import "../../css/FutureEventCardStyle.css";
 
 export default function Events() {
@@ -8,27 +8,24 @@ export default function Events() {
       <h1>Upcoming Events</h1>
       <div className="all">
         <FutureEventCard
-          website={stuff[0].url}
-          name={stuff[0].title}
-          imgUrl={stuff[0].pic}
-          when={stuff[0].start.toString()}
-          info={stuff[0].info}
+          website={events[0].url}
+          imgUrl={events[0].pic}
+          when={events[0].start.toString()}
+          info={events[0].info}
         />
 
         <FutureEventCard
-          website={stuff[1].url}
-          name={stuff[1].title}
-          imgUrl={stuff[0].pic}
-          when={stuff[1].start.toString()}
-          info={stuff[1].info}
+          website={events[1].url}
+          imgUrl={events[0].pic}
+          when={events[1].start.getMonth()}
+          info={events[1].info}
         />
 
         <FutureEventCard
-          website={stuff[2].url}
-          name={stuff[2].title}
-          imgUrl={stuff[0].pic}
-          when={stuff[2].start.toString()}
-          info={stuff[2].info}
+          website={events[2].url}
+          imgUrl={events[0].pic}
+          when={events[2].start.toString()}
+          info={events[2].info}
         />
       </div>
     </div>

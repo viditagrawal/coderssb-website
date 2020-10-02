@@ -3,9 +3,6 @@ import "../../css/FutureEventCardStyle.css";
 export default function FutureEventCard(props) {
   return (
     <div className="card">
-      <center>
-        <h3> {props.name} </h3>
-      </center>
       <img className="first" src={props.imgUrl} />
       <a href={props.website}>
         <div className="overlay">
