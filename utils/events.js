@@ -1,4 +1,9 @@
+
 // const now = new Date();
+
+// Date Object documentation: 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date
+
 
 export const events = [
   {
@@ -10,16 +15,20 @@ export const events = [
     info: "first event info",
     pic:
       "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15196011_1167971753282681_4498467004737646061_o.jpg?_nc_cat=110&_nc_sid=ca434c&_nc_ohc=yDkoSm8Do-8AX_P3UZr&_nc_ht=scontent-atl3-1.xx&oh=04b38411617f53767cf986084f289f84&oe=5F95C05A",
+
   },
   {
     id: 2,
     title: "Test Event 2",
     start: new Date(2020, 7, 10, 18, 0, 0), // 7 = AUGUST, months start from 0 (January)
     end: new Date(2020, 7, 10, 20, 0, 0),
+
     url: "http://facebook.com", //placeholder
     info: "second event info",
     pic:
       "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15196011_1167971753282681_4498467004737646061_o.jpg?_nc_cat=110&_nc_sid=ca434c&_nc_ohc=yDkoSm8Do-8AX_P3UZr&_nc_ht=scontent-atl3-1.xx&oh=04b38411617f53767cf986084f289f84&oe=5F95C05A",
+ 
+
   },
   {
     id: 3,
