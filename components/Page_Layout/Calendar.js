@@ -16,8 +16,6 @@ export default function Calendar() {
   // Views are the Day/Week/Month/Work Week/Agenda views. Right now the default has all views.
   let allViews = Object.keys(Views).map((k) => Views[k]);
 
-let allViews = Object.keys(Views).map(k => Views[k])
-
 return (
   <div>
     <div style={{ height: '500pt'}}>
