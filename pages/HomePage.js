@@ -4,6 +4,7 @@ import Events from "../components/Page_Layout/Events";
 import Contact from "../components/Page_Layout/Contact";
 import MailingList from "../components/Page_Layout/MailingList";
 import Calendar from "../components/Page_Layout/Calendar";
+import FutureEventCard from "../components/Page_Layout/FutureEventCard";
 
 export default function HomePage() {
   return (
