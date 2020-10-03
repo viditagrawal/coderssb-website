@@ -3,7 +3,7 @@ import "../../css/FutureEventCardStyle.css";
 
 export default function Merchandise() {
   return (
-    <div>
+    <div className="w3-container w3-padding-64" id="contact">
       <h1>Buy CodersSB Merch!</h1>
       <div className="all">
         <FutureEventCard
