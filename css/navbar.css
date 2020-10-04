@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.tab {
+    text-decoration: none;
+    margin: 1rem;
+}
+
+.tab:hover {
+    color: #718096;
+}
+
+.login {
+    height: 2rem;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    background-color: #38b2ac;
+  }
