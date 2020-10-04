@@ -16,7 +16,6 @@ function DateConv(dateObj) {
 export default function Events() {
   return (
     <div>
-      <h1>Upcoming Events</h1>
       <div className="all">
         <FutureEventCard
           // website={window.open(events[0].url, "_blank")}
@@ -28,14 +27,14 @@ export default function Events() {
 
         <FutureEventCard
           website={events[1].url}
-          imgUrl={events[0].pic}
+          imgUrl={events[1].pic}
           when={DateConv(events[1].start)}
           info={events[1].info}
         />
 
         <FutureEventCard
           website={events[2].url}
-          imgUrl={events[0].pic}
+          imgUrl={events[2].pic}
           when={DateConv(events[2].start)}
           info={events[2].info}
         />

@@ -39,6 +39,9 @@ export default function navbar(props) {
         <Link href="/MerchandisePage">
           <a className="tab">Buy our Merchandise!</a>
         </Link>
+        <Link href="/CalendarPage">
+        <a className="tab">Calendar</a>
+      </Link>
         {loggedIn ? 
           <img style={{ borderRadius: '9999px', height: '3rem', width: '3rem' }} src={profileImgUrl} />
           :
