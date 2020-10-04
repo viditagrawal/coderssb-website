@@ -12,6 +12,10 @@ const gallery_images = [
     thumbnail: "Header/resized/engineering_thumbnail.jpg"
   },
   {
+    original: "Header/resized/whiteBanner.png",
+    thumbnail: "Header/resized/whiteBanner.png"
+  },
+  {
     original: "Header/resized/sunset_2.png",
     thumbnail: "Header/resized/sunset_2_thumbnail.png"
   },
