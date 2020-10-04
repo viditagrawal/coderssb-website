@@ -1,18 +1,24 @@
 import Navbar from "./Navbar";
 import Head from "next/head";
-import React, { useState, useEffect } from 'react'
+import FooterPage from "./FooterPage";
+import React, { useState, useEffect } from "react";
 
 function Layout(props) {
+  const [googleUserObject, setGoogleUserObject] = useState(null);
 
-  const [googleUserObject, setGoogleUserObject] = useState(null)
-
-  useEffect (() => {
-    if (googleUserObject) localStorage.setItem('googleUserObject', JSON.stringify(googleUserObject))
+  useEffect(() => {
+    if (googleUserObject)
+      localStorage.setItem(
+        "googleUserObject",
+        JSON.stringify(googleUserObject)
+      );
     else {
-      let googleUserObject = JSON.parse(localStorage.getItem('googleUserObject'));
-      if (googleUserObject) setGoogleUserObject(googleUserObject)
+      let googleUserObject = JSON.parse(
+        localStorage.getItem("googleUserObject")
+      );
+      if (googleUserObject) setGoogleUserObject(googleUserObject);
     }
-  }, [googleUserObject]) 
+  }, [googleUserObject]);
 
   return (
     <div>
@@ -20,13 +26,19 @@ function Layout(props) {
       <Head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link
+          rel="stylesheet"
+          href="https://www.w3schools.com/w3css/4/w3.css"
+        />
       </Head>
-      <Navbar googleUserObject={googleUserObject} setGoogleUserObject={(obj) => setGoogleUserObject(obj)} />
+      <Navbar
+        googleUserObject={googleUserObject}
+        setGoogleUserObject={obj => setGoogleUserObject(obj)}
+      />
       {props.children}
+      <FooterPage />
     </div>
-  )
+  );
 }
-
 
 export default Layout;
