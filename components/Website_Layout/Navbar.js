@@ -44,8 +44,11 @@ export default function navbar(props) {
         <Link href="/About">
           <a className="tab">About Us</a>
         </Link>
+        <Link href="/ResourcesPage">
+          <a className="tab">Useful Resources</a>
+        </Link>
         <Link href="/MerchandisePage">
-          <a className="tab">Buy our Merchandise!</a>
+          <a className="tab">Coders SB Merch</a>
         </Link>
         <Link href="/CalendarPage">
           <a className="tab">Calendar</a>

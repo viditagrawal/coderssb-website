@@ -1,9 +1,6 @@
 import Header from "../components/Page_Layout/Header";
-import AboutUs from "../components/Page_Layout/AboutUs";
 import Events from "../components/Page_Layout/Events";
-import Typing from "../components/Page_Layout/Typing";
 import BackgroundImage from "../components/Page_Layout/BackgroundImage";
-import Companies from "../components/Page_Layout/Companies";
 import Resources from "../components/Page_Layout/Resources";
 import FutureEventCard from "../components/Page_Layout/FutureEventCard";
 
@@ -17,7 +14,7 @@ export default function HomePage() {
         <hr />
       </div>
       <BackgroundImage
-        source="Background/rfilm/4_wide_blur.png"
+        source="Background/rfilm/8_wide_blur.png"
         missing_source="banner_1.png"
         title={
           <a
@@ -61,11 +58,6 @@ export default function HomePage() {
         hover={true}
       />
       <hr />
-
-      <div className="w3-content" style={{ maxWidth: 1100 }}>
-        <hr />
-        <Resources />
-      </div>
     </div>
   );
 }
