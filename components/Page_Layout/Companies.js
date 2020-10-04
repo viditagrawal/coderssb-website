@@ -29,7 +29,7 @@ export default function Companies() {
 
   return (
     // a random distinct key
-    <Slider key={"distinct key"} {...settings}>
+    <Slider key={"distinct key + 1000"} {...settings}>
       {imgComponents}
     </Slider>
   );

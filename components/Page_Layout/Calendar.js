@@ -6,7 +6,6 @@ import {
 } from "react-big-calendar";
 import moment from "moment";
 import events from "../../utils/events";
-// import "../../css/CalendarStyle.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import CustomEvent from "./CustomEvent";
 
