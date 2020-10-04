@@ -9,7 +9,7 @@ export const events = [
     title: "Test Event 1",
     start: new Date(2020, 8, 1, 19, 30, 0), // 8 = SEPTEMBER, months start from 0 (January)
     end: new Date(2020, 8, 1, 20, 30, 0),
-    url: "http://facebook.com", //I have a placeholder here for now, until we have actual fb event pages
+    url: "https://www.facebook.com/groups/coderssb/", //I have a placeholder here for now, until we have actual fb event pages
     info: "first event info",
     pic: "resources_images/event1.jpg",
   },
@@ -19,7 +19,7 @@ export const events = [
     start: new Date(2020, 7, 10, 18, 0, 0), // 7 = AUGUST, months start from 0 (January)
     end: new Date(2020, 7, 10, 20, 0, 0),
 
-    url: "http://facebook.com", //placeholder
+    url: "https://www.facebook.com/groups/coderssb/", //placeholder
     info: "second event info",
     pic: "resources_images/event2.jpg",
   },
@@ -28,7 +28,7 @@ export const events = [
     title: "Test Event 3",
     start: new Date(2020, 10, 10, 18, 0, 0), // 11 = NOVEMBER, months start from 0 (January)
     end: new Date(2020, 7, 10, 20, 0, 0),
-    url: "http://facebook.com", //placeholder
+    url: "https://www.facebook.com/groups/coderssb/", //placeholder
     info: "third event info",
     pic: "resources_images/event3.png",
   },

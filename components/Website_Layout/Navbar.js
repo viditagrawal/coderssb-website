@@ -31,14 +31,7 @@ export default function navbar(props) {
   return (
     <div className="navbar">
       <Link href="/">
-        <img
-          style={{ cursor: "pointer" }}
-          className="w3-image"
-          src="logo.png"
-          alt="Header"
-          width="100"
-          height="50"
-        />
+        <img className="w3-image logo" src="logo.png" alt="Header" />
       </Link>
       <div>
         <Link href="/About">
@@ -54,10 +47,7 @@ export default function navbar(props) {
           <a className="tab">Calendar</a>
         </Link>
         {loggedIn ? (
-          <img
-            style={{ borderRadius: "9999px", height: "3rem", width: "3rem" }}
-            src={profileImgUrl}
-          />
+          <img className="profile" src={profileImgUrl} />
         ) : (
           <GoogleLogin
             render={renderProps => (
@@ -77,6 +67,7 @@ export default function navbar(props) {
           />
         )}
       </div>
+      {/* <p style={{width: "100vw", position: "absolute", backgroundColor: "gray", alignSelf: 'flex-end'}}>logout</p> */}
     </div>
   );
 }
