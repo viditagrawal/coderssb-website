@@ -13,6 +13,14 @@
     text-align: center;
 }
 
+#profile-inner-body {
+  width: 700px;
+  margin: auto;
+  padding-top: 50px;
+    background: rgba(255, 255, 255, 0.7);
+  padding-bottom: 50px;
+}
+
 #profile-h1 {
   font-size: 42px;
   font-weight: bold;
@@ -70,12 +78,4 @@
 #content {
     display: inline-block;
     text-align: left;
-}
-
-#profile-inner-body {
-	width: 700px;
-	margin: auto;
-	padding-top: 50px;
-    background: rgba(255, 255, 255, 0.65);
-	padding-bottom: 50px;
 }
