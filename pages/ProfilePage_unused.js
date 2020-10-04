@@ -3,7 +3,7 @@
 //THIS PAGE IS NOT CURRENTLY BEING USED. Will be used in the future for people to look at other people's profiles once that's implemented.
 
 import React, { useState } from 'react';
-import Profile from '../components/Page_Layout/Profile';
+import Profile from '../components/Page_Layout/Profile_unused';
 
 class ProfilePage extends React.Component {
   constructor(props) {
