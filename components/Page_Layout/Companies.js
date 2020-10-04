@@ -5,7 +5,7 @@ import company_images from "../../utils/companies";
 export default function Companies() {
   const imgComponents = company_images.map(company => {
     return (
-      <div>
+      <div key={company}>
         <img src={company} alt={"banner_1.png"} />
       </div>
     );
@@ -29,8 +29,6 @@ export default function Companies() {
 
   return (
     // a random distinct key
-    <Slider key={"distinct key + 1000"} {...settings}>
-      {imgComponents}
-    </Slider>
+    <Slider {...settings}>{imgComponents}</Slider>
   );
 }
