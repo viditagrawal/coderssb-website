@@ -4,18 +4,18 @@ import HomePage from "./HomePage";
 
 export default function Index() {
 
-  const [googleUserObject, setGoogleUserObject] = useState(null)
+  // const [googleUserObject, setGoogleUserObject] = useState(null)
 
-  useEffect (() => {
-    if (googleUserObject) localStorage.setItem('googleUserObject', JSON.stringify(googleUserObject))
-    else {
-      let googleUserObject = JSON.parse(localStorage.getItem('googleUserObject'));
-      if (googleUserObject) setGoogleUserObject(googleUserObject)
-    }
-  }, [googleUserObject]) 
+  // useEffect (() => {
+  //   if (googleUserObject) localStorage.setItem('googleUserObject', JSON.stringify(googleUserObject))
+  //   else {
+  //     let googleUserObject = JSON.parse(localStorage.getItem('googleUserObject'));
+  //     if (googleUserObject) setGoogleUserObject(googleUserObject)
+  //   }
+  // }, [googleUserObject]) 
 
   return (
-    <Layout googleUserObject={googleUserObject} setGoogleUserObject={(obj) => setGoogleUserObject(obj)}>
+    <Layout>
       <div>
         <HomePage />
       </div>
