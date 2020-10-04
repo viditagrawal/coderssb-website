@@ -30,6 +30,11 @@ export default function navbar(props) {
     setUsername(username)
     setLoggedIn(true)
     setProfileImgUrl(googleUser.profileObj.imageUrl)
+    sessionStorage.setItem('loggedIn', true);
+    sessionStorage.setItem('email', profile.getEmail());
+    sessionStorage.setItem('username', username);
+    sessionStorage.setItem('image', googleUser.profileObj.imageUrl);
+    //TODO here: get points, linkedin/facebook (if applicable), skills, projectInterest from database and save in session storage. then, it will be loaded in the profile page.
   }
 
   return (
@@ -46,7 +51,7 @@ export default function navbar(props) {
       <Link href="/CalendarPage">
         <a style={tabStyle}>Calendar</a>
       </Link>
-      {loggedIn ? <img style={{borderRadius: '9999px', height: '3rem', width: '3rem' }} src={profileImgUrl}/>:
+      {loggedIn ? <Link href="/UserProfilePage"><img style={{borderRadius: '9999px', height: '3rem', width: '3rem' }} src={profileImgUrl}/></Link>:
       <GoogleLogin
         render={renderProps => (
           <button onClick={renderProps.onClick} disabled={renderProps.disabled}>Login</button>
