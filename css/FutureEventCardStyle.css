@@ -1,6 +1,11 @@
+* {
+  margin: 0%;
+}
+
 .all {
   display: flex;
   flex-wrap: wrap;
+  direction: row;
   justify-content: space-around;
   padding-top: 5%;
 }
@@ -10,7 +15,7 @@
   border-radius: 10%;
   border-color: black;
   background-color: #f1f4ffff; */
-  width: 30%;
+  width: 31%;
   height: auto;
 }
 
@@ -30,8 +35,12 @@
   bottom: 200px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .card:hover img {
-  opacity: 0.05;
+  opacity: 0.1;
   backface-visibility: hidden;
   transition: 0.5s ease;
 }

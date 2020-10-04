@@ -11,17 +11,17 @@ export default function HomePage() {
     <div>
       <Header />
       {/* <-- Page content begins --> */}
-      <div className="w3-content" style={{ maxWidth: 1100 }}>
-        <About />
-        <hr />
-        <Events />
-        <hr />
-        <Contact />
-        <hr />
-        <MailingList />
-        <hr />
-        <Resources />
-      </div>
+      {/* <div className="w3-content" style={{ maxWidth: 1100 }}> */}
+      <About />
+      <hr />
+      <Events />
+      <hr />
+      <Contact />
+      <hr />
+      <MailingList />
+      <hr />
+      <Resources />
+      {/* </div> */}
       {/* <-- End page content --> */}
     </div>
   );
