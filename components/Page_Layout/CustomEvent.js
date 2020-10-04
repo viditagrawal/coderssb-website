@@ -1,5 +1,5 @@
 export default class CustomEvent extends React.Component {
-	constructor(props) {
+  constructor(props) {
     super(props);
 
     // This binding is necessary to make `this` work in the callback
@@ -13,15 +13,15 @@ export default class CustomEvent extends React.Component {
     this.render();
   }
   handleClick() {
-  	window.open(this.props.event.url);
+    window.open(this.props.event.url);
   }
     render() {
-    	var linkStyle;
-	    if (this.state.hover) {
-	      linkStyle = {color: 'black'};
-	    } else {
-	      linkStyle = {color: 'white'};
-	    }
+      var linkStyle;
+      if (this.state.hover) {
+        linkStyle = {color: 'black', textDecoration: 'underline'};
+      } else {
+        linkStyle = {color: 'white'};
+      }
 
         return (
         <h8 style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onClick={this.handleClick}>
