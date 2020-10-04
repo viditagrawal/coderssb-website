@@ -3,7 +3,7 @@ import "../../css/FutureEventCardStyle.css";
 
 export default function Merchandise() {
   return (
-    <div className="w3-container w3-padding-64" id="contact">
+    <div>
       <h1>Buy CodersSB Merch!</h1>
       <div className="all">
         <FutureEventCard
@@ -23,8 +23,14 @@ export default function Merchandise() {
           info={"Price $2"}
         />
       </div>
-      <h2>Fill out the form below if you would like to order our merchandise!</h2>
-      <h3><a href="https://forms.gle/CoVxX6HQeCbaEyqVA" target="_blank">Order Form</a></h3>
+      <h2>
+        Fill out the form below if you would like to order our merchandise!
+      </h2>
+      <h3>
+        <a href="https://forms.gle/CoVxX6HQeCbaEyqVA" target="_blank">
+          Order Form
+        </a>
+      </h3>
     </div>
   );
 }

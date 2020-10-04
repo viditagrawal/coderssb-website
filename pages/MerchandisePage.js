@@ -6,7 +6,6 @@ import Header from "../components/Page_Layout/Header";
 export default function MerchandisePage() {
   return (
     <div>
-      <Header />
       {/* <-- Page content begins --> */}
       <div className="w3-content" style={{ maxWidth: 1100 }}>
         <Merchandise />
@@ -14,4 +13,4 @@ export default function MerchandisePage() {
       {/* <-- End page content --> */}
     </div>
   );
-} 
+}
