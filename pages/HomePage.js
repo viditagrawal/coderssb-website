@@ -1,11 +1,17 @@
 import Header from "../components/Page_Layout/Header";
 import AboutUs from "../components/Page_Layout/AboutUs";
 import Events from "../components/Page_Layout/Events";
+<<<<<<< HEAD
 import Calendar from "../components/Page_Layout/Calendar";
 import Typing from "../components/Page_Layout/Typing";
 import BackgroundImage from "../components/Page_Layout/BackgroundImage";
 import Companies from "../components/Page_Layout/Companies";
 import Resources from "../components/Page_Layout/Resources";
+=======
+import Contact from "../components/Page_Layout/Contact";
+import Resources from "../components/Page_Layout/Resources";
+import MailingList from "../components/Page_Layout/MailingList";
+>>>>>>> 6bcd8a8b3671155efd1f143e97f508d93d2d841a
 import FutureEventCard from "../components/Page_Layout/FutureEventCard";
 
 export default function HomePage() {
@@ -75,8 +81,6 @@ export default function HomePage() {
       <hr />
 
       <div className="w3-content" style={{ maxWidth: 1100 }}>
-        <hr />
-        <Calendar />
         <hr />
         <Resources />
       </div>
