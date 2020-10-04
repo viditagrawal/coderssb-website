@@ -48,6 +48,9 @@ export default function navbar(props) {
       <Link href="/MerchandisePage">
         <a style={tabStyle}>Buy our Merchandise!</a>
       </Link>
+      <Link href="/CalendarPage">
+        <a style={tabStyle}>Calendar</a>
+      </Link>
       {loggedIn ? <Link href="/UserProfilePage"><img style={{borderRadius: '9999px', height: '3rem', width: '3rem' }} src={profileImgUrl}/></Link>:
       <GoogleLogin
         render={renderProps => (
