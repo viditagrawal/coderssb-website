@@ -24,12 +24,9 @@ export default function navbar(props) {
     <div className="navbar">
       <Link href="/">
         <img 
-          style={{cursor: 'pointer'}}
           className="w3-image logo"
           src="logo.png"
           alt="Header"
-          // width="100"
-          // height="50"
         />
       </Link>
       <div>
