@@ -40,6 +40,26 @@ export const events = [
     pic:
       "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15196011_1167971753282681_4498467004737646061_o.jpg?_nc_cat=110&_nc_sid=ca434c&_nc_ohc=yDkoSm8Do-8AX_P3UZr&_nc_ht=scontent-atl3-1.xx&oh=04b38411617f53767cf986084f289f84&oe=5F95C05A",
   },
+  {
+    id: 4,
+    title: 'Test Event 4',
+    start: new Date(2020, 9, 1, 18, 0, 0), // 9 = OCTOBER, months start from 0 (January)
+    end: new Date(2020, 9, 1, 18, 20, 0),
+    url: 'http://facebook.com', //placeholder
+    info: "fourth event info",
+    pic:
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15196011_1167971753282681_4498467004737646061_o.jpg?_nc_cat=110&_nc_sid=ca434c&_nc_ohc=yDkoSm8Do-8AX_P3UZr&_nc_ht=scontent-atl3-1.xx&oh=04b38411617f53767cf986084f289f84&oe=5F95C05A",
+  },
+  {
+    id: 5,
+    title: 'Test Event 5',
+    start: new Date(2020, 9, 3, 18, 0, 0), // 9 = OCTOBER, months start from 0 (January)
+    end: new Date(2020, 9, 3, 20, 0, 0),
+    url: 'http://facebook.com', //placeholder
+    info: "fifth event info",
+    pic:
+      "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15196011_1167971753282681_4498467004737646061_o.jpg?_nc_cat=110&_nc_sid=ca434c&_nc_ohc=yDkoSm8Do-8AX_P3UZr&_nc_ht=scontent-atl3-1.xx&oh=04b38411617f53767cf986084f289f84&oe=5F95C05A",
+    }
 ];
 
 // export default [
