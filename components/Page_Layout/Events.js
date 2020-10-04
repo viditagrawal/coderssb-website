@@ -16,7 +16,6 @@ function DateConv(dateObj) {
 export default function Events() {
   return (
     <div>
-      <h1>Upcoming Events</h1>
       <div className="all">
         <FutureEventCard
           // website={window.open(events[0].url, "_blank")}
