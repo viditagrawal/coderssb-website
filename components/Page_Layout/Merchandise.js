@@ -1,9 +1,11 @@
 import FutureEventCard from "./FutureEventCard";
 import "../../css/FutureEventCardStyle.css";
+import Navbar from "../Website_Layout/Navbar";
 
 export default function Merchandise() {
   return (
     <div>
+      <Navbar setGoogleId={(id) => props.setGoogleId(id)} />
       <h1>Buy CodersSB Merch!</h1>
       <div className="all">
         <FutureEventCard
