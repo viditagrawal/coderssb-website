@@ -7,9 +7,7 @@ export default function MerchandisePage() {
   return (
     <div>
       {/* <-- Page content begins --> */}
-      <div className="w3-content" style={{ maxWidth: 1100 }}>
-        <Merchandise />
-      </div>
+      <Merchandise />
       {/* <-- End page content --> */}
     </div>
   );
