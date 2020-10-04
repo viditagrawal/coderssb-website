@@ -24,12 +24,9 @@ export default function navbar(props) {
     <div className="navbar">
       <Link href="/">
         <img 
-          style={{cursor: 'pointer'}}
-          className="w3-image"
+          className="w3-image logo"
           src="logo.png"
           alt="Header"
-          width="100"
-          height="50"
         />
       </Link>
       <div>
@@ -43,19 +40,20 @@ export default function navbar(props) {
         <a className="tab">Calendar</a>
       </Link>
         {loggedIn ? 
-          <img style={{ borderRadius: '9999px', height: '3rem', width: '3rem' }} src={profileImgUrl} />
+          <img className="profile" src={profileImgUrl} />
           :
           <GoogleLogin
-            render={renderProps => (
-              <button className="login" onClick={renderProps.onClick} disabled={renderProps.disabled}>Login</button>
+          render={renderProps => (
+            <button className="login" onClick={renderProps.onClick} disabled={renderProps.disabled}>Login</button>
             )}
             clientId={process.env.GOOGLE_CLIENT_ID}
             buttonText="Login"
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
             cookiePolicy={"single_host_origin"}
-          />}
+            />}
       </div>
+      {/* <p style={{width: "100vw", position: "absolute", backgroundColor: "gray", alignSelf: 'flex-end'}}>logout</p> */}
     </div>
 
   );
