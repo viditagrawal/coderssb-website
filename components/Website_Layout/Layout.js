@@ -21,11 +21,10 @@ const Layout = props => (
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
     </Head>
-<<<<<<< HEAD
-    <Navbar setGoogleId={id => props.setGoogleId(id)} />
-=======
-    <Navbar googleUserObject={props.googleUserObject} setGoogleUserObject={(obj) => props.setGoogleUserObject(obj)} />
->>>>>>> 6bcd8a8b3671155efd1f143e97f508d93d2d841a
+    <Navbar
+      googleUserObject={props.googleUserObject}
+      setGoogleUserObject={obj => props.setGoogleUserObject(obj)}
+    />
     {props.children}
     <FooterPage />
   </div>
