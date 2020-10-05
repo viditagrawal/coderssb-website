@@ -22,7 +22,7 @@ export default function HomePage() {
             title={
               <a
                 className={"yellowHighlight"}
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdP77TCVm-nBlPnLEXjojm-bp6NbfKak20_dz1LHkCyx-D7bw/viewform"
+                href="https://docs.google.com/forms/u/3/d/1DWLlMBMK2TT9q8Losv10DK3pG77D_JbximST4tAZKTE/edit"
                 target="_blank"
               >
                 Apply to be a Coders SB Officer
