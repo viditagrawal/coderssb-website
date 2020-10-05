@@ -20,6 +20,10 @@ function Layout(props) {
     }
   }, [googleUserObject]);
 
+  const childrenWithProps = React.Children.map(props.children, (child, index) => {
+    return React.cloneElement(child, {googleUserObject: googleUserObject});
+  });
+
   return (
     <div>
       {/* We expose a built-in component for appending elements to the head of the page to add css*/}
@@ -46,7 +50,7 @@ function Layout(props) {
         googleUserObject={googleUserObject}
         setGoogleUserObject={obj => setGoogleUserObject(obj)}
       />
-      {props.children}
+      {childrenWithProps}
       <FooterPage />
     </div>
   );

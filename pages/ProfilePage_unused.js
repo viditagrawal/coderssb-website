@@ -18,7 +18,6 @@ class ProfilePage extends React.Component {
       linkedIn: '',
       facebook: '',
       skills: '',
-      projectInterest: '',
       points: ''
     }
   }
@@ -34,7 +33,6 @@ class ProfilePage extends React.Component {
           linkedIn={this.state.linkedIn || ''}
           facebook={this.state.facebook || ''}
           skills= {this.state.skills || ''}
-          projectInterest= {this.state.projectInterest || ''}
           points={this.state.points || ''} // We can delete points here if we don't want that info available to others.
         />
       </div>
