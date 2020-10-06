@@ -5,10 +5,12 @@ import Header from "../components/Page_Layout/Header";
 
 export default function MerchandisePage() {
   return (
+    <Layout>
     <div>
       {/* <-- Page content begins --> */}
       <Merchandise />
       {/* <-- End page content --> */}
     </div>
+    </Layout>
   );
 }

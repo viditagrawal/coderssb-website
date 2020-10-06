@@ -5,34 +5,28 @@ import Navbar from "../Website_Layout/Navbar";
 export default function Merchandise() {
   return (
     <div>
-      <Navbar setGoogleId={(id) => props.setGoogleId(id)} />
       <h1>Buy CodersSB Merch!</h1>
       <div className="all">
         <FutureEventCard
+          website={"https://forms.gle/CoVxX6HQeCbaEyqVA"}
           imgUrl={"shirt.png"}
           when={"Coders SB T-shirt"}
-          info={"Price: $15 | Sizes: S M L"}
+          info={"Price: $15 | Sizes: S M L \n Click To Order!"}
         />
 
         <FutureEventCard
+          website={"https://forms.gle/CoVxX6HQeCbaEyqVA"}
           imgUrl={"shirtgroup.png"}
-          when={"Here's what our shirts look like!"}
+          when={"Here's what our shirts look like! \n Click To Order!"}
         />
 
         <FutureEventCard
+          website={"https://forms.gle/CoVxX6HQeCbaEyqVA"}
           imgUrl={"sticker.png"}
           when={"Coders SB Laptop Sticker"}
-          info={"Price $2"}
+          info={"Price $2 \n Click To Order!"}
         />
       </div>
-      <h2>
-        Fill out the form below if you would like to order our merchandise!
-      </h2>
-      <h3>
-        <a href="https://forms.gle/CoVxX6HQeCbaEyqVA" target="_blank">
-          Order Form
-        </a>
-      </h3>
     </div>
   );
 }
