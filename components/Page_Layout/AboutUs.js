@@ -25,7 +25,7 @@ export default function About() {
           welcoming to students of all ages and skill-sets, from freshmen with
           no experience to seniors with various internships and hackathon
           awards. Come to our next meeting to join to get started! Let's build
-          something.
+          something. Here are some of the amazing companies we have worked with:
         </p>
       </div>
     </div>

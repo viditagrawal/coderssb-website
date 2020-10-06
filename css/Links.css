@@ -7,10 +7,10 @@
 
 .linksParentDiv img {
   height: 450px;
-  width: 33%;
   position: absolute;
   z-index: 0;
   margin: -10px;
+  width: auto;
   overflow: hidden;
 }
 
