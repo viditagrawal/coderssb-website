@@ -1,14 +1,21 @@
-import Header from "../components/Page_Layout/Header";
 import Calendar from "../components/Page_Layout/Calendar";
-import Navbar from "../components/Website_Layout/Navbar";
+import Layout from "../components/Website_Layout/Layout";
+import BackgroundImage from "../components/Page_Layout/BackgroundImage";
 
 export default function CalendarPage() {
   return (
-    <div>
-      <Navbar setGoogleId={(id) => props.setGoogleId(id)} />
-      <div style = {{padding: 20}}>
-        <Calendar />
+    <Layout setGoogleId={id => setGoogleId(id)}>
+      <div>
+        <BackgroundImage
+          source="Background/rfilm/6_wide_blur.png"
+          missing_source="banner_1.png"
+          title={<a className={"blueHighlight"}>Calendar Of Events</a>}
+          hover={false}
+        />
+        <div style={{ padding: 20 }}>
+          <Calendar />
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 }

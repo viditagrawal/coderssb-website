@@ -16,7 +16,6 @@ const Profile = (props) => {
       LinkedIn: {props.linkedIn}<br/>
       Facebook: {props.facebook}<br/>
       Skills: {props.skills}<br/>
-      Interested in collaborating on projects?: {props.projectInterest} <br/>
       Points: {props.points} // We can delete points here if we don't want that info available to others.
       </p>
     </div>

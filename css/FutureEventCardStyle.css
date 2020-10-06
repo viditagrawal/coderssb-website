@@ -53,7 +53,7 @@ a {
   width: 100%;
 }
 
-img {
+img.first {
   height: 300px;
   object-fit: contain;
 }
