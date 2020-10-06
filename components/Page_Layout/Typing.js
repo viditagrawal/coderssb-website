@@ -3,7 +3,7 @@ import Typical from "react-typical";
 import "../../css/TypingStyle.css";
 
 const typing_text_interval_ms = 4000;
-const source = "Background/beach_background_blur.png";
+const source = "Background/rfilm/2_wide_blur.png";
 const missing_source = "banner_1.png";
 
 export default function Typing() {
@@ -26,7 +26,7 @@ export default function Typing() {
             typing_text_interval_ms,
             "Apply to be an Officer ✉️ ",
             typing_text_interval_ms,
-            "Over 750 Facebook Members 📈",
+            "Over 800 Facebook Members 📈",
             typing_text_interval_ms
           ]}
           loop={Infinity}
