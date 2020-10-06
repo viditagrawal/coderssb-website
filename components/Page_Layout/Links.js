@@ -31,9 +31,8 @@ class Links extends Component {
       >
         <img
           src={this.props.source}
-          className="w3-round w3-image w3-opacity-min"
+          // className="w3-round w3-image w3-opacity-min"
           alt={this.props.missing_source}
-          width="100%"
         />
         <h1 id="background_image_text" className="backgroundLink">
           {this.props.title}
