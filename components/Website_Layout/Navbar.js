@@ -47,7 +47,9 @@ export default function navbar(props) {
           <a className="tab">Calendar</a>
         </Link>
         {loggedIn ? (
-          <img className="profile" src={profileImgUrl} />
+          <Link href="/UserProfilePage">
+            <img className="profile" src={profileImgUrl} />
+          </Link>
         ) : (
           <GoogleLogin
             render={renderProps => (
