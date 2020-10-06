@@ -1,0 +1,64 @@
+.linksParentDiv {
+  height: 450px;
+  padding: 10px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.linksParentDiv img {
+  height: 450px;
+  position: absolute;
+  z-index: 0;
+  margin: -10px;
+  width: auto;
+  overflow: hidden;
+}
+
+.linksParentDiv h1 {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  /* line-height: 1; */
+  padding-top: 20%;
+  padding-bottom: 50%;
+
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  padding-top: 30%;
+  padding-bottom: 50%;
+
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+a.blueHighlight {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(144, 215, 241) 50%
+  );
+  background-position: -0% 0;
+  background-size: 200% auto;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+a.yellowHighlight {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    rgb(250, 176, 60) 50%
+  );
+  background-position: -0% 0;
+  background-size: 200% auto;
+  line-height: 1.15em;
+  text-decoration: none;
+  transition: background-position 0.5s ease-out;
+}
+a:hover {
+  background-position: -99.99% 0;
+}

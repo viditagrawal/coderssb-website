@@ -34,9 +34,10 @@ export default function Resources() {
     const resourceList = resourceData.map(item => <NewResource key={item.id} resource={item}/>)
     
     return (
-        <div className="w3-container w3-padding-64">
-            <h1> Computer Science Resources</h1>
-            <p> Here are resources to help you contact professors for research, learn new programming skills, apply to internships, and more!</p>
+        <div>
+            <h3> Here are some great resources to help you contact professors for research, learn programming skills, apply to internships, and more!</h3>
+            <br/>
+            <br/>
             {resourceList}
         </div>
     )

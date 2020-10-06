@@ -47,7 +47,7 @@ class Calendar extends React.Component {
           <BigCalendar
             events={events}
             views={this.state.allViews}
-            defaultView={"week"}
+            defaultView={"month"}
             min={this.state.minTime}
             max={this.state.maxTime}
             step={60}

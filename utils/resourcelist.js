@@ -2,9 +2,9 @@
 export default [
     {
         id: "4",
-        name: "Research at UCSB",
-        description: "Here is information about the various computer science research labs on campus and the faculty who lead them. Read about each of the labs and contact the faculty members who are in research areas that excite you.",
-        links: ["https://www.cs.ucsb.edu/research", "https://www.cs.ucsb.edu/people"],
+        name: "Research and Courses at UCSB",
+        description: "Here is information about the various computer science research labs on campus and the faculty who lead them. Read about each of the labs and contact the faculty members who are in research areas that excite you. We also have a link to the CS courses offered by the department.",
+        links: ["https://www.cs.ucsb.edu/research", "https://www.cs.ucsb.edu/people","https://www.cs.ucsb.edu/education/courses/descriptions"],
         image: "resources_images/ucsbcs-logo.png",
     },
     {
