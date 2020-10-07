@@ -17,14 +17,14 @@ export default function Merchandise() {
         <FutureEventCard
           website={"https://forms.gle/CoVxX6HQeCbaEyqVA"}
           imgUrl={"shirtgroup.png"}
-          when={"Here's what our shirts look like! \n Click To Order!"}
+          when={"Here's what our shirts look like!"}n
         />
 
         <FutureEventCard
           website={"https://forms.gle/CoVxX6HQeCbaEyqVA"}
           imgUrl={"sticker.png"}
           when={"Coders SB Laptop Sticker"}
-          info={"Price $2 \n Click To Order!"}
+          info={"Price: $2 | Click To Order!"}
         />
       </div>
     </div>
