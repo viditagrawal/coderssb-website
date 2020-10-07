@@ -10,8 +10,7 @@ export const events = [
     start: new Date(2020, 9, 13, 19, 30, 0), // 8 = SEPTEMBER, months start from 0 (January)
     end: new Date(2020, 9, 13, 20, 30, 0),
     url: "https://www.facebook.com/events/336856614058713/", //I have a placeholder here for now, until we have actual fb event pages
-    info:
-      "Come out and learn about how to build your resume, prep for interviews, and traverse the arduous application process to potentially land your first internship!",
+    info: "Click to learn more about how to land an internship!",
     pic: "resources_images/Oct132020.jpg",
   },
   {
@@ -21,7 +20,7 @@ export const events = [
     end: new Date(2020, 9, 15, 20, 0, 0),
 
     url: "https://www.facebook.com/events/796825201106990/", //placeholder
-    info: "Coffee Talks host Pranav will be speaking with Microsoft Engineers",
+    info: "Click to learn more about Microsoft!",
     pic: "resources_images/Oct152020.jpg",
   },
   {
@@ -30,8 +29,7 @@ export const events = [
     start: new Date(2020, 9, 20, 18, 0, 0), // 11 = NOVEMBER, months start from 0 (January)
     end: new Date(2020, 9, 20, 20, 0, 0),
     url: "https://www.facebook.com/events/1213889215657466/", //placeholder
-    info:
-      "Come out and hear about the internship experiences from a panel of undergrads that have worked at Google, Microsoft, Facebook, Snap, Appfolio, Looker, and more! Learn about their experiences from applications to return offers.",
+    info: "Click to learn more about undergraduates' internship experiences!",
     pic: "resources_images/Oct202020.jpg",
   },
   {
