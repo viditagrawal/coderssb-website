@@ -12,48 +12,65 @@ export const events = [
     title: "How to Land an Internship",
     start: new Date(2020, 9, 13, 19, 0, 0),
     end: new Date(2020, 9, 13, 20, 0, 0),
-    url: "https://fb.me/e/1XRRfMpTb",
+    url: "https://www.facebook.com/events/336856614058713/",
     info: "Click to learn more about how to land an internship!",
-    pic: "resources_images/Oct132020.jpg",
+    pic: "Events/Fall2020/how_to_land_an_internship.png"
   },
   {
     id: 2,
-    title: "Coffee Talks with Microsoft",
+    title: "Coffee Talks w/Microsoft",
     start: new Date(2020, 9, 15, 17, 0, 0),
     end: new Date(2020, 9, 15, 18, 0, 0),
-    url: "https://fb.me/e/3J74O1mHC",
-    info: "Click to learn more about Microsoft!",
-    pic: "resources_images/Oct152020.jpg",
+    url: "https://www.facebook.com/events/796825201106990/",
+    info: "Click to learn more about our Coffee Talk with Microsoft!",
+    pic: "Events/Fall2020/coffee_talk_microsoft.png"
   },
   {
     id: 3,
     title: "Internship Panel",
     start: new Date(2020, 9, 20, 19, 0, 0),
     end: new Date(2020, 9, 20, 20, 0, 0),
-    url: "https://fb.me/e/5FD1eXHKo", //placeholder
+    url: "https://www.facebook.com/events/1213889215657466/",
     info: "Click to learn more about undergraduates' internship experiences!",
-    pic: "resources_images/Oct202020.jpg",
+    pic: "Events/Fall2020/internship_panel.png"
   },
-  //haven't updated the events below
   {
     id: 4,
-    title: "Test Event 4",
-    start: new Date(2020, 9, 1, 18, 0, 0),
-    end: new Date(2020, 9, 1, 18, 20, 0),
-    url: "http://facebook.com", //placeholder
-    info: "fourth event info",
-    pic: "resources_images/Oct282020.png",
+    title: "Inaugural Informational Meeting",
+    start: new Date(2020, 9, 8, 18, 0, 0),
+    end: new Date(2020, 9, 8, 19, 0, 0),
+    url: "https://www.facebook.com/events/467604784157325/",
+    info: "Kick off the quarter with our informational meeting",
+    pic: "Events/Fall2020/informational_meeting.png"
   },
   {
     id: 5,
-    title: "Test Event 5",
-    start: new Date(2020, 9, 3, 18, 0, 0),
-    end: new Date(2020, 9, 3, 20, 0, 0),
-    url: "http://facebook.com", //placeholder
-    info: "fifth event info",
-    pic:
-      "https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/15196011_1167971753282681_4498467004737646061_o.jpg?_nc_cat=110&_nc_sid=ca434c&_nc_ohc=yDkoSm8Do-8AX_P3UZr&_nc_ht=scontent-atl3-1.xx&oh=04b38411617f53767cf986084f289f84&oe=5F95C05A",
+    title: "Coffee Talks w/Google",
+    start: new Date(2020, 9, 22, 17, 0, 0),
+    end: new Date(2020, 9, 22, 18, 0, 0),
+    url: "https://www.facebook.com/coderssb",
+    info: "Click to learn more about our Coffee Talk with Google",
+    pic: "Events/Fall2020/coffee_talk_microsoft.png" // placeholder
   },
+  {
+    id: 6,
+    title: "Class Preview w/SWE",
+    start: new Date(2020, 9, 28, 19, 0, 0),
+    end: new Date(2020, 9, 28, 20, 0, 0),
+    url: "https://www.facebook.com/coderssb", // placeholder
+    info: "Click to learn more about our Classes Preview event w/SWE",
+    pic: "Events/Fall2020/classes_preview.png"
+  },
+  {
+    id: 7,
+    title: "Officer Apps Due",
+    start: new Date(2020, 9, 11, 23, 59, 50),
+    end: new Date(2020, 9, 11, 23, 59, 60),
+    url:
+      "https://docs.google.com/forms/u/3/d/1DWLlMBMK2TT9q8Losv10DK3pG77D_JbximST4tAZKTE/edit",
+    info: "Click to apply to be a Coders SB Officer",
+    pic: "Events/Fall2020/officer_apps.png"
+  }
 ];
 
 export default events;
