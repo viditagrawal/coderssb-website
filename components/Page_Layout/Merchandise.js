@@ -5,7 +5,6 @@ import Navbar from "../Website_Layout/Navbar";
 export default function Merchandise() {
   return (
     <div>
-      <h1>Buy CodersSB Merch!</h1>
       <div className="all">
         <FutureEventCard
           website={"https://forms.gle/CoVxX6HQeCbaEyqVA"}
@@ -13,7 +12,7 @@ export default function Merchandise() {
           when={"Coders SB T-shirt"}
           info={"Price: $15 | Sizes: S M L | Click To Order!"}
         />
-        
+
         <FutureEventCard
           website={"https://forms.gle/CoVxX6HQeCbaEyqVA"}
           imgUrl={"shirtgroup.png"}
@@ -26,8 +25,21 @@ export default function Merchandise() {
           when={"Coders SB Laptop Sticker"}
           info={"Price: $2 | Click To Order!"}
         />
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/> 
-        <br/><br/><br/><br/><br/>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
       </div>
     </div>
   );
