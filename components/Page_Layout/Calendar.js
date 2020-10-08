@@ -33,7 +33,8 @@ class Calendar extends React.Component {
   eventStyleGetter() {
     return {
       style: {
-        minHeight: "38px", //35px is the minimum number required to have the event title not cut off due to the time. 38px just looks a little better
+        minHeight: "40px", //35px is the minimum number required to have the event title not cut off due to the time. 38px just looks a little better
+        fontSize: "80%"
       },
     };
   }
