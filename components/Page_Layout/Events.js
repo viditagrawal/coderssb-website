@@ -9,7 +9,10 @@ function DateConv(dateObj) {
     "/" +
     dateObj.getDate() +
     "/" +
-    dateObj.getFullYear()
+    dateObj.getFullYear() +
+    " @ " +
+    (dateObj.getHours() - 12) +
+    "PM"
   );
 }
 
@@ -18,7 +21,6 @@ export default function Events() {
     <div>
       <div className="all">
         <FutureEventCard
-          // website={window.open(events[0].url, "_blank")}
           website={events[0].url}
           imgUrl={events[0].pic}
           when={DateConv(events[0].start)}
