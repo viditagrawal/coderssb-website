@@ -18,7 +18,7 @@ export default function navbar(props) {
   };
 
   useEffect(() => {
-    if (props.googleUserObject) {
+    if (props.googleUserObject && props.googleUserObject.profileObj) {
       setLoggedIn(true);
       setProfileImgUrl(props.googleUserObject.profileObj.imageUrl);
     }
