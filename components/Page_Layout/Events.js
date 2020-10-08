@@ -41,6 +41,6 @@ export default function Events() {
         info={events[2].info}
       />
     </div>
-    // </div>
+    </div>
   );
 }
