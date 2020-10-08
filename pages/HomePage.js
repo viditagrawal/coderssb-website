@@ -1,18 +1,16 @@
 import Header from "../components/Page_Layout/Header";
 import Events from "../components/Page_Layout/Events";
 import Links from "../components/Page_Layout/Links";
-import FutureEventCard from "../components/Page_Layout/FutureEventCard";
 import "../css/Links.css";
 
 export default function HomePage() {
   return (
     <div>
       <Header />
-      <div className="w3-content" style={{ maxWidth: 1100 }}>
-        <hr />
-        <Events />
-        <hr />
-      </div>
+      <hr />
+      <Events />
+      <hr />
+      <div className="w3-content" style={{ maxWidth: 1100 }}></div>
 
       <div style={{ width: "100%" }}>
         <div style={{ float: "left", width: "33%" }}>
