@@ -14,7 +14,7 @@ export default function ResourcesPage() {
         />
         <hr />
 
-        <div className="w3-content" style={{ maxWidth: 1100 }}>
+        <div className="w3-content" style={{ maxWidth: 1100, paddingBottom: 1150}}>
           <Resources />
         </div>
       </div>
