@@ -9,44 +9,40 @@
 //when they enter letters in the form (no need for "save" button). Then, when they're done editing,
 //they can press the "Done Editing" button to go back to the page showing fields (no longer the form).
 
-import React, { useState, useEffect } from 'react'
-import '../../css/Profile.css';
+import React, { useState, useEffect } from "react";
+import "../../css/Profile.css";
 
-export default function UserProfile (props) {
-
-  const [loggedIn, setLoggedIn] = useState(false)
-  const [username, setUsername] = useState(null)
-  const [name, setName] = useState(null)
-  const [image, setImage] = useState(null)
-  const [email, setEmail] = useState(null)
-  const [linkedIn, setLinkedIn] = useState(null)
-  const [facebook, setFacebook] = useState(null)
-  const [skills, setSkills] = useState(null)
-  const [points, setPoints] = useState(0)
-  const [edit, setEdit] = useState(false)
+export default function UserProfile(props) {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [username, setUsername] = useState(null);
+  const [name, setName] = useState(null);
+  const [image, setImage] = useState(null);
+  const [email, setEmail] = useState(null);
+  const [linkedIn, setLinkedIn] = useState(null);
+  const [facebook, setFacebook] = useState(null);
+  const [skills, setSkills] = useState(null);
+  const [points, setPoints] = useState(0);
+  const [edit, setEdit] = useState(false);
 
   useEffect(() => {
-    if (props.googleUserObject && props.googleUserObject.profileObj)
-    {
-      setLoggedIn(true)
-      setUsername(props.googleUserObject.profileObj.email.split('@')[0])
-      setName(props.googleUserObject.profileObj.name)
-      setImage(props.googleUserObject.profileObj.imageUrl)
-      setEmail(props.googleUserObject.profileObj.email)
+    if (props.googleUserObject && props.googleUserObject.profileObj) {
+      setLoggedIn(true);
+      setUsername(props.googleUserObject.profileObj.email.split("@")[0]);
+      setName(props.googleUserObject.profileObj.name);
+      setImage(props.googleUserObject.profileObj.imageUrl);
+      setEmail(props.googleUserObject.profileObj.email);
       //setLinkedIn() (database query)
       //setFacebook() (database query)
       //setSkills() (database query)
       //setPoints() (database query)
+    } else {
+      setLoggedIn(false);
     }
-    else {
-      setLoggedIn(false)
-    }
-  }, [props.googleUserObject])
-
+  }, [props.googleUserObject]);
 
   const toggleEdit = () => {
     setEdit(!edit);
-    }
+  };
 
   var buttonText;
   if (edit) {
@@ -55,15 +51,23 @@ export default function UserProfile (props) {
     buttonText = "Edit Profile";
   }
 
-  return(
+  return (
     <div id="profile-outer-body">
-      {!loggedIn ?
-      <div><br/><h1>Please log in.</h1></div>
-    :
-      <div id="profile-inner-body"><img style={{borderRadius: '9999px', height: '10rem', width: '10rem'}} src={image}/>
-        <br/>
-        <h1 id="profile-h">Profile for {name}</h1>
-        <div id = "wrap">
+      {false ? (
+        <div>
+          <br />
+          <h1>Please log in.</h1>
+        </div>
+      ) : (
+        <div id="profile-inner-body">
+          <img
+            style={{ borderRadius: "9999px", height: "10rem", width: "10rem" }}
+            src={image}
+          />
+          <br />
+          <h1 id="profile-h">Profile for {name}</h1>
+
+          {/* <div id = "wrap">
           <div id = "content">
         { edit ? 
         <form id="profile-form">
@@ -118,10 +122,14 @@ export default function UserProfile (props) {
           </p>
         }
        </div>
-       </div>
-      <button id="profile-button" onClick={toggleEdit}>{buttonText}</button>
-      </div>
-  }
-  </div>
+       </div> */}
+
+          <button id="profile-button" onClick={toggleEdit}>
+            {buttonText}
+          </button>
+          <h1 id="profile-h">Feature Coming soon ... </h1>
+        </div>
+      )}
+    </div>
   );
 }
