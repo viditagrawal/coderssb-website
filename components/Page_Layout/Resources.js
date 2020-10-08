@@ -11,13 +11,13 @@ function NewResource(props) {
     
     return (
         <div style={{padding: 0, margin: 0}}>
-            <div style={{display: "inline-block", float: "left",  width: "10%", marginTop: 30, marginRight: 30}}>
+            <div style={{display: "inline-block", float: "left",  width: "8%", marginTop: 30, marginRight: 25}}>
                 <img 
                     src = {props.resource.image}
                     alt="resource image"
                     className="w3-round w3-image w3-opacity-min"
-                    width="200"
-                    height="200"
+                    width="80"
+                    height="80"
                 />
             </div>
             <div style= {{display: "inline-block", float: "left", width: "80%"}}>

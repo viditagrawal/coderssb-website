@@ -10,7 +10,7 @@ export default [
     {
         id: "6",
         name: "Applying to Internships",
-        description: "Remember to come to our awesome internship panel, resume workshop, and info sessions to learn how to prepare yourself to apply to internships. Also make sure to create accounts on LinkedIn and Handshake (through UCSB Career Services) and look for internships on these platforms. ",
+        description: "Remember to come to our awesome internship panel, resume workshop, and info sessions to learn how to best prepare yourself for internship applications. Also, make sure to create accounts on LinkedIn and Handshake (through UCSB Career Services) and look for internships on these platforms. ",
         links: ["https://www.linkedin.com", "https://career.ucsb.edu/handshake-help-center"],
         image: "resources_images/linkedin-icon.png",
     },
@@ -20,6 +20,13 @@ export default [
         description: "Here are links to Leetcode and HackerRank, which have great practice problems to help you prepare for coding interviews for your internships.",
         links: ["https://leetcode.com/problemset/all/", "https://www.hackerrank.com/"],
         image: "resources_images/leetcode-logo.png",
+    },
+    {
+        id: "7",
+        name: "SB Hacks",
+        description: "Make sure to check out SB Hacks, UCSB's very own hackathon that takes place in January. Visit the link below to learn more and sign up for their mailing list for updates.",
+        links: ["https://sbhacks.com/"],
+        image: "resources_images/sbhacks-logo.png",
     },
     {
         id: "1",
@@ -38,7 +45,7 @@ export default [
         
     },
     {
-        id: "4",
+        id: "3",
         name: "Android App Development",
         description: "Learn how to create your own Android mobile apps using Kotlin, Java, or C++.",
         links: ["https://tinyurl.com/coderssbandroidapp", "https://developer.android.com/training/basics/firstapp"],
