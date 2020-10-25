@@ -29,14 +29,8 @@ class Links extends Component {
         onMouseEnter={this.handleMouseHover}
         onMouseLeave={this.handleMouseHover}
       >
-        <img
-          src={this.props.source}
-          // className="w3-round w3-image w3-opacity-min"
-          alt={this.props.missing_source}
-        />
-        <h1 id="background_image_text" className="backgroundLink">
-          {this.props.title}
-        </h1>
+        <img src={this.props.source} alt={this.props.missing_source} />
+        <h1>{this.props.title}</h1>
       </div>
     );
   }

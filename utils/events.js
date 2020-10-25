@@ -48,16 +48,16 @@ export const events = [
     title: "Coffee Talks w/Google",
     start: new Date(2020, 9, 22, 17, 0, 0),
     end: new Date(2020, 9, 22, 18, 0, 0),
-    url: "https://www.facebook.com/coderssb",
+    url: "https://www.facebook.com/events/993609941051569/",
     info: "Click to learn more about our Coffee Talk with Google",
-    pic: "Events/Fall2020/coffee_talk_microsoft.png" // placeholder
+    pic: "Events/Fall2020/coffee_talk_google.png"
   },
   {
     id: 6,
     title: "Class Preview w/SWE",
     start: new Date(2020, 9, 28, 19, 0, 0),
     end: new Date(2020, 9, 28, 20, 0, 0),
-    url: "https://www.facebook.com/coderssb", // placeholder
+    url: "https://www.facebook.com/events/373080633839518",
     info: "Click to learn more about our Classes Preview event w/SWE",
     pic: "Events/Fall2020/classes_preview.png"
   },

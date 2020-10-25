@@ -21,26 +21,26 @@ export default function Events() {
     <div>
       <div className="all">
         <FutureEventCard
-          website={events[0].url}
-          imgUrl={events[0].pic}
-          when={DateConv(events[0].start)}
-          info={events[0].info}
+          website={events[2].url}
+          imgUrl={events[2].pic}
+          when={DateConv(events[2].start)}
+          info={events[2].info}
         />
 
-      <FutureEventCard
-        website={events[1].url}
-        imgUrl={events[1].pic}
-        when={DateConv(events[1].start)}
-        info={events[1].info}
-      />
+        <FutureEventCard
+          website={events[4].url}
+          imgUrl={events[4].pic}
+          when={DateConv(events[4].start)}
+          info={events[4].info}
+        />
 
-      <FutureEventCard
-        website={events[2].url}
-        imgUrl={events[2].pic}
-        when={DateConv(events[2].start)}
-        info={events[2].info}
-      />
-    </div>
+        <FutureEventCard
+          website={events[5].url}
+          imgUrl={events[5].pic}
+          when={DateConv(events[5].start)}
+          info={events[5].info}
+        />
+      </div>
     </div>
   );
 }
