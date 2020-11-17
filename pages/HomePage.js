@@ -20,10 +20,10 @@ export default function HomePage() {
             title={
               <a
                 className={"yellowHighlight"}
-                href="https://docs.google.com/forms/u/3/d/1DWLlMBMK2TT9q8Losv10DK3pG77D_JbximST4tAZKTE/edit"
+                href="https://www.instagram.com/coders.sb/"
                 target="_blank"
               >
-                Apply to be a Coders SB Officer
+                Follow us on Instagram
               </a>
             }
             hover={true}
@@ -39,7 +39,7 @@ export default function HomePage() {
                 href="https://www.facebook.com/coderssb"
                 target="_blank"
               >
-                Follow our Facebook Page
+                Like our Facebook Page
               </a>
             }
             hover={true}
