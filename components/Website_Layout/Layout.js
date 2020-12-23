@@ -20,9 +20,12 @@ function Layout(props) {
     }
   }, [googleUserObject]);
 
-  const childrenWithProps = React.Children.map(props.children, (child, index) => {
-    return React.cloneElement(child, {googleUserObject: googleUserObject});
-  });
+  const childrenWithProps = React.Children.map(
+    props.children,
+    (child, index) => {
+      return React.cloneElement(child, { googleUserObject: googleUserObject });
+    }
+  );
 
   return (
     <div>
