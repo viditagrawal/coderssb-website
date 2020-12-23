@@ -3,7 +3,7 @@
   padding-top: 50px;
   height: 1000px;
   width: 100%;
-  background-image: url("/beach.jpg");
+  background-image: url("Background/blue_beach_background.jpg");
   background-size: contain;
   background-size: cover;
   font: 20px "Trebuchet MS", sans-serif;
