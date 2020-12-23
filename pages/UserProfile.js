@@ -7,10 +7,10 @@ import Layout from "../components/Website_Layout/Layout";
 
 export default function UserProfilePage() {
   return (
-  	<div>
-	    <Layout setGoogleId={id => setGoogleId(id)}>
-	      <UserProfile />
-	    </Layout>
+    <div>
+      <Layout setGoogleId={id => setGoogleId(id)}>
+        <UserProfile />
+      </Layout>
     </div>
   );
 }
