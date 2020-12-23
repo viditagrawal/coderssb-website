@@ -1,5 +1,5 @@
 import React from "react";
-import resourceData from "../../utils/resourcelist";
+import resourceData from "../../utils/resources";
 
 function NewResource(props) {
   const listOfLinks = [];
