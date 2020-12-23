@@ -37,17 +37,17 @@ export default function navbar(props) {
         <Link href="/About">
           <a className="tab">About Us</a>
         </Link>
-        <Link href="/ResourcesPage">
+        <Link href="/Resources">
           <a className="tab">Useful Resources</a>
         </Link>
-        <Link href="/MerchandisePage">
+        <Link href="/Merchandise">
           <a className="tab">Coders SB Merch</a>
         </Link>
-        <Link href="/CalendarPage">
+        <Link href="/Calendar">
           <a className="tab">Calendar</a>
         </Link>
         {loggedIn ? (
-          <Link href="/UserProfilePage">
+          <Link href="/UserProfile">
             <img className="profile" src={profileImgUrl} />
           </Link>
         ) : (
