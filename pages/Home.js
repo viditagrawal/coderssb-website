@@ -13,7 +13,7 @@ export default function HomePage() {
       <div className="w3-content" style={{ maxWidth: 1100 }}></div>
 
       <div style={{ width: "100%" }}>
-        <div style={{ float: "left", width: "33%" }}>
+        <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/rfilm/8_blur.png"
             missing_source="banner_1.png"
@@ -29,7 +29,7 @@ export default function HomePage() {
             hover={true}
           />
         </div>
-        <div style={{ float: "left", width: "33%" }}>
+        <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/rfilm/1_blur.png"
             missing_source="banner_1.png"
@@ -45,9 +45,9 @@ export default function HomePage() {
             hover={true}
           />
         </div>
-        <div style={{ float: "left", width: "33%" }}>
+        <div style={{ float: "left", width: "25%" }}>
           <Links
-            source="Background/rfilm/6_blur.png"
+            source="Background/san_nic_blur.png"
             missing_source="banner_1.png"
             title={
               <a
@@ -56,6 +56,22 @@ export default function HomePage() {
                 target="_blank"
               >
                 Join Our Mailing List
+              </a>
+            }
+            hover={true}
+          />
+        </div>
+        <div style={{ float: "left", width: "25%" }}>
+          <Links
+            source="Background/rfilm/6_blur.png"
+            missing_source="banner_1.png"
+            title={
+              <a
+                className={"blueHighlight"}
+                href="https://discord.gg/kesRgzaHuG"
+                target="_blank"
+              >
+                Join the Coders SB Discord
               </a>
             }
             hover={true}
