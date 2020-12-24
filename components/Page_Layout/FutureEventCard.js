@@ -5,7 +5,7 @@ export default function FutureEventCard(props) {
     <div className="card">
       <div>
         <a href={props.website} target="_blank">
-          <img className="first" src={props.imgUrl} />
+          <img className="first" src={props.imgUrl} alt={props.altImgUrl} />
           <div className="overlay">
             <h5> {props.when} </h5>
             <h5> {props.info} </h5>

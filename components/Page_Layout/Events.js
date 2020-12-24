@@ -23,6 +23,7 @@ export default function Events() {
         <FutureEventCard
           website={events[2].url}
           imgUrl={events[2].pic}
+          altImgUrl={events[2].alt}
           when={DateConv(events[2].start)}
           info={events[2].info}
         />
@@ -30,6 +31,7 @@ export default function Events() {
         <FutureEventCard
           website={events[4].url}
           imgUrl={events[4].pic}
+          altImgUrl={events[4].alt}
           when={DateConv(events[4].start)}
           info={events[4].info}
         />
@@ -37,6 +39,7 @@ export default function Events() {
         <FutureEventCard
           website={events[5].url}
           imgUrl={events[5].pic}
+          altImgUrl={events[5].alt}
           when={DateConv(events[5].start)}
           info={events[5].info}
         />

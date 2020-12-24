@@ -16,7 +16,7 @@ export default function HomePage() {
         <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/rfilm/8_blur.png"
-            missing_source="banner_1.png"
+            missing_source="logo.png"
             title={
               <a
                 className={"yellowHighlight"}
@@ -32,7 +32,7 @@ export default function HomePage() {
         <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/rfilm/1_blur.png"
-            missing_source="banner_1.png"
+            missing_source="logo.png"
             title={
               <a
                 className={"blueHighlight"}
@@ -48,7 +48,7 @@ export default function HomePage() {
         <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/san_nic_blur.png"
-            missing_source="banner_1.png"
+            missing_source="logo.png"
             title={
               <a
                 className={"yellowHighlight"}
@@ -64,7 +64,7 @@ export default function HomePage() {
         <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/rfilm/6_blur.png"
-            missing_source="banner_1.png"
+            missing_source="logo.png"
             title={
               <a
                 className={"blueHighlight"}
