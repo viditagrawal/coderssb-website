@@ -8,7 +8,7 @@ export default function MerchandisePage() {
     <Layout>
       <BackgroundImage
         source="Background/rfilm/3_wide_blur.png"
-        missing_source="banner_1.png"
+        missing_source="logo.png"
         title={<a className={"yellowHighlight"}>Coders SB Merch</a>}
         hover={true}
       />
