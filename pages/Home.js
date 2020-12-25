@@ -12,7 +12,7 @@ export default function HomePage() {
       <hr />
       <div className="w3-content" style={{ maxWidth: 1100 }}></div>
 
-      <div style={{ width: "100%" }}>
+      {/* <div style={{ width: "100%" }}>
         <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/rfilm/8_blur.png"
@@ -31,7 +31,7 @@ export default function HomePage() {
         </div>
         <div style={{ float: "left", width: "25%" }}>
           <Links
-            source="Background/rfilm/1_blur.png"
+            source="Background/silhouettes_blur.png"
             missing_source="logo.png"
             title={
               <a
@@ -63,7 +63,7 @@ export default function HomePage() {
         </div>
         <div style={{ float: "left", width: "25%" }}>
           <Links
-            source="Background/rfilm/6_blur.png"
+            source="Background/rfilm/1_blur.png"
             missing_source="logo.png"
             title={
               <a
@@ -79,7 +79,7 @@ export default function HomePage() {
         </div>
         <br style={{ clear: "left" }} />
       </div>
-      <hr />
+      <hr /> */}
     </div>
   );
 }
