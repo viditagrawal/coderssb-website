@@ -3,8 +3,8 @@ import Typical from "react-typical";
 import "../../css/TypingStyle.css";
 
 const typing_text_interval_ms = 4000;
-const source = "Background/rfilm/2_wide_blur.png";
-const missing_source = "banner_1.png";
+const source = "Background/rfilm/8_wide_blur.png";
+const missing_source = "logo.png";
 
 export default function Typing() {
   return (
