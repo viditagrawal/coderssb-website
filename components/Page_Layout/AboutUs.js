@@ -5,7 +5,7 @@ export default function About() {
         <img
           src="Merch/shirt.png"
           className="w3-round w3-image"
-          alt="Coders SB"
+          alt="logo.png"
           width="600"
           height="750"
         />
