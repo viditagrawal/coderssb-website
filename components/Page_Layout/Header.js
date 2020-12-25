@@ -11,7 +11,7 @@ export default function Header() {
         showPlayButton={false}
         showNav={false}
         showThumbnails={false}
-        slideInterval={5000}
+        slideInterval={6000}
         slideDuration={1000}
         thumbnailPosition={"bottom"}
         slideOnThumbnailOver={true}
