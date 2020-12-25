@@ -24,7 +24,7 @@ export default function Typing() {
             typing_text_interval_ms,
             "Networking Opportunities 👥 ",
             typing_text_interval_ms,
-            "Apply to be an Officer ✉️ ",
+            "Join our project series 🏆 ",
             typing_text_interval_ms,
             "Over 800 Facebook Members 📈",
             typing_text_interval_ms
