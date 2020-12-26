@@ -35,13 +35,13 @@ export default function navbar(props) {
       </Link>
       <div>
         <Link href="/About">
-          <a className="tab">About Us</a>
+          <a className="tab">About</a>
         </Link>
         <Link href="/Resources">
           <a className="tab">Useful Resources</a>
         </Link>
         <Link href="/Merchandise">
-          <a className="tab">Coders SB Merch</a>
+          <a className="tab">Merchandise</a>
         </Link>
         <Link href="/Calendar">
           <a className="tab">Calendar</a>

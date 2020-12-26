@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="w3-row w3-padding-64" id="about">
+    <div className="w3-row w3" id="about">
       <div className="w3-col m6 w3-padding-large w3-hide-small">
         <img
           src="Merch/shirt.png"
