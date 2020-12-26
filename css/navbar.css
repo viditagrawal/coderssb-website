@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
 .navbar {
     width: 100vw;
     height: auto;
@@ -26,6 +28,11 @@
     transition: 0.3s;
     padding:0.5rem;
     cursor: pointer;
+
+    /* Change font here */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: black;
 }
 
 .tab:hover {
@@ -41,6 +48,11 @@
     color: white;
     background-color: #38b2ac;
     transition: transform 0.3s;
+
+    /* Change font here */
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: black;
 }
 
 .login:hover {
@@ -49,7 +61,7 @@
 }
 
 .profile {
-    border-radius: 9999px; 
+    border-radius: 99999999999px; 
     height: 2.5rem;
     width: 2.5rem;
     transition: transform 0.3s;

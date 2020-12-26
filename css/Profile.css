@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
 #profile-outer-body {
   border-style: none;
   padding-top: 50px;
@@ -6,7 +8,8 @@
   background-image: url("/Background/blue_beach_background.jpg");
   background-size: contain;
   background-size: cover;
-  font: 20px "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
   text-align: center;
   z-index: 0;
 }
