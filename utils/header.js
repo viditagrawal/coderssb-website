@@ -1,11 +1,5 @@
 const gallery_images = [
   {
-    original: "Header/resized/w21_project_series.png",
-    thumbnail: "Header/resized/w21_project_series.png",
-    originalAlt: "logo.png",
-    tumbnailAlt: "logo.png"
-  },
-  {
     original: "Header/resized/lib.png",
     thumbnail: "Header/resized/lib.png",
     originalAlt: "logo.png",
