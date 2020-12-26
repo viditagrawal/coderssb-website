@@ -1,6 +1,7 @@
 import Calendar from "../components/Page_Layout/Calendar";
 import Layout from "../components/Website_Layout/Layout";
 import BackgroundImage from "../components/Page_Layout/BackgroundImage";
+import "../css/index.css";
 
 export default function CalendarPage() {
   return (
@@ -12,7 +13,7 @@ export default function CalendarPage() {
           title={<a className={"blueHighlight"}>Calendar Of Events</a>}
           hover={false}
         />
-        <div style={{ padding: 20 }}>
+        <div style={{ padding: 20 }} className="paragraph-text">
           <Calendar />
         </div>
       </div>
