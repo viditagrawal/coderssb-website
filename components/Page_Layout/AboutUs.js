@@ -1,11 +1,11 @@
 export default function About() {
   return (
-    <div className="w3-row w3-padding-64" id="about">
+    <div className="w3-row w3" id="about">
       <div className="w3-col m6 w3-padding-large w3-hide-small">
         <img
           src="Merch/shirt.png"
           className="w3-round w3-image"
-          alt="Coders SB"
+          alt="logo.png"
           width="600"
           height="750"
         />

@@ -8,13 +8,16 @@ export default function ResourcesPage() {
       <div>
         <BackgroundImage
           source="Background/rfilm/7_wide_blur.png"
-          missing_source="banner_1.png"
+          missing_source="logo.png"
           title={<a className={"yellowHighlight"}>Useful Resources</a>}
           hover={true}
         />
         <hr />
 
-        <div className="w3-content" style={{ maxWidth: 1100, paddingBottom: 1000}}>
+        <div
+          className="w3-content"
+          style={{ maxWidth: 1100, paddingBottom: 1000 }}
+        >
           <Resources />
         </div>
       </div>

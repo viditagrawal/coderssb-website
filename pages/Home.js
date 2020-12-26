@@ -12,11 +12,11 @@ export default function HomePage() {
       <hr />
       <div className="w3-content" style={{ maxWidth: 1100 }}></div>
 
-      <div style={{ width: "100%" }}>
-        <div style={{ float: "left", width: "33%" }}>
+      {/* <div style={{ width: "100%" }}>
+        <div style={{ float: "left", width: "25%" }}>
           <Links
             source="Background/rfilm/8_blur.png"
-            missing_source="banner_1.png"
+            missing_source="logo.png"
             title={
               <a
                 className={"yellowHighlight"}
@@ -29,10 +29,10 @@ export default function HomePage() {
             hover={true}
           />
         </div>
-        <div style={{ float: "left", width: "33%" }}>
+        <div style={{ float: "left", width: "25%" }}>
           <Links
-            source="Background/rfilm/1_blur.png"
-            missing_source="banner_1.png"
+            source="Background/silhouettes_blur.png"
+            missing_source="logo.png"
             title={
               <a
                 className={"blueHighlight"}
@@ -45,10 +45,10 @@ export default function HomePage() {
             hover={true}
           />
         </div>
-        <div style={{ float: "left", width: "33%" }}>
+        <div style={{ float: "left", width: "25%" }}>
           <Links
-            source="Background/rfilm/6_blur.png"
-            missing_source="banner_1.png"
+            source="Background/san_nic_blur.png"
+            missing_source="logo.png"
             title={
               <a
                 className={"yellowHighlight"}
@@ -61,9 +61,25 @@ export default function HomePage() {
             hover={true}
           />
         </div>
+        <div style={{ float: "left", width: "25%" }}>
+          <Links
+            source="Background/rfilm/1_blur.png"
+            missing_source="logo.png"
+            title={
+              <a
+                className={"blueHighlight"}
+                href="https://discord.gg/kesRgzaHuG"
+                target="_blank"
+              >
+                Join the Coders SB Discord
+              </a>
+            }
+            hover={true}
+          />
+        </div>
         <br style={{ clear: "left" }} />
       </div>
-      <hr />
+      <hr /> */}
     </div>
   );
 }

@@ -9,7 +9,8 @@ export default [
       "https://www.cs.ucsb.edu/people",
       "https://www.cs.ucsb.edu/education/courses/descriptions"
     ],
-    image: "Resources/ucsbcs-logo.png"
+    image: "Resources/ucsbcs-logo.png",
+    alt: "logo.png"
   },
   {
     id: "6",
@@ -20,7 +21,8 @@ export default [
       "https://www.linkedin.com",
       "https://career.ucsb.edu/handshake-help-center"
     ],
-    image: "Resources/linkedin-icon.png"
+    image: "Resources/linkedin-icon.png",
+    alt: "logo.png"
   },
   {
     id: "5",
@@ -31,7 +33,8 @@ export default [
       "https://leetcode.com/problemset/all/",
       "https://www.hackerrank.com/"
     ],
-    image: "Resources/leetcode-logo.png"
+    image: "Resources/leetcode-logo.png",
+    alt: "logo.png"
   },
   {
     id: "7",
@@ -39,7 +42,8 @@ export default [
     description:
       "Make sure to check out SB Hacks, UCSB's very own hackathon that takes place in January. Visit the link below to learn more and sign up for their mailing list for updates.",
     links: ["https://sbhacks.com/"],
-    image: "Resources/sbhacks-logo.png"
+    image: "Resources/sbhacks-logo.png",
+    alt: "logo.png"
   },
   {
     id: "1",
@@ -50,7 +54,8 @@ export default [
       "https://scrimba.com/g/glearnreact",
       "https://reactjs.org/tutorial/tutorial.html"
     ],
-    image: "Resources/reactlogo.png"
+    image: "Resources/reactlogo.png",
+    alt: "logo.png"
   },
   {
     id: "2",
@@ -61,7 +66,8 @@ export default [
       "https://www.learncpp.com",
       "https://www.udemy.com/course/free-learn-c-tutorial-beginners"
     ],
-    image: "Resources/cpp_logo.png"
+    image: "Resources/cpp_logo.png",
+    alt: "logo.png"
   },
   {
     id: "3",
@@ -72,6 +78,7 @@ export default [
       "https://tinyurl.com/coderssbandroidapp",
       "https://developer.android.com/training/basics/firstapp"
     ],
-    image: "Resources/androidstudio-icon.png"
+    image: "Resources/androidstudio-icon.png",
+    alt: "logo.png"
   }
 ];

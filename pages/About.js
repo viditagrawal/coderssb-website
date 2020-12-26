@@ -23,7 +23,7 @@ export default function About() {
 
         <BackgroundImage
           source="Background/rfilm/4_wide_blur.png"
-          missing_source="banner_1.png"
+          missing_source="logo.png"
           title={
             <a
               className={"yellowHighlight"}
