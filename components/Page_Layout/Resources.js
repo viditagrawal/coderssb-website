@@ -27,7 +27,7 @@ function NewResource(props) {
       >
         <img
           src={props.resource.image}
-          alt="resource image"
+          alt={props.resource.alt}
           className="w3-round w3-image w3-opacity-min"
           width="80"
           height="80"

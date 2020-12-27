@@ -75,6 +75,12 @@ export default function FooterPage() {
               title: "SB Hacks",
               url: "https://sbhacks.com",
               openExternal: true
+            },
+            {
+              icon: <img src="Icons/ucsb.png" />,
+              title: "Engineering Student Council",
+              url: "https://esc.engineering.ucsb.edu",
+              openExternal: true
             }
           ]
         }

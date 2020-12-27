@@ -8,8 +8,8 @@ export default function CalendarPage() {
     <Layout setGoogleId={id => setGoogleId(id)}>
       <div>
         <BackgroundImage
-          source="Background/rfilm/6_wide_blur.png"
-          missing_source="banner_1.png"
+          source="Background/henley_background_blur.png"
+          missing_source="logo.png"
           title={<a className={"blueHighlight"}>Calendar Of Events</a>}
           hover={false}
         />

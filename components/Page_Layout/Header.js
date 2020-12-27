@@ -1,8 +1,7 @@
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import gallery_images from "../../utils/header";
-
-const typing_wait_ms = 4000;
+import "../../css/Header.css";
 
 export default function Header() {
   return (
@@ -11,7 +10,8 @@ export default function Header() {
         autoPlay={true}
         showPlayButton={false}
         showNav={false}
-        slideInterval={4000}
+        showThumbnails={false}
+        slideInterval={6000}
         slideDuration={1000}
         thumbnailPosition={"bottom"}
         slideOnThumbnailOver={true}

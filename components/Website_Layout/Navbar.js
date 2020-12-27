@@ -2,6 +2,7 @@ import Link from "next/link";
 import { GoogleLogin } from "react-google-login";
 import React, { useEffect, useState } from "react";
 import "../../css/navbar.css";
+import "../../css/Dropdown.css";
 
 export default function navbar(props) {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -38,21 +39,34 @@ export default function navbar(props) {
         <img className="w3-image logo" src="logo.png" alt="Header" />
       </Link>
       <div>
-        <Link href="/About">
-          <a className="tab">About Us</a>
-        </Link>
+        <div className="dropdown">
+          <button className="dropbtn">About</button>
+          <div className="dropdown-content">
+            <Link href="/About">
+              <a className="navDropDown">Our Mission</a>
+            </Link>
+            <Link href="/Officers">
+              <a className="navDropDown">Our Team</a>
+            </Link>
+          </div>
+        </div>
         <Link href="/Resources">
           <a className="tab">Useful Resources</a>
         </Link>
         <Link href="/Merchandise">
-          <a className="tab">Coders SB Merch</a>
-        </Link>
-        <Link href="/Calendar">
-          <a className="tab">Calendar</a>
+          <a className="tab">Merchandise</a>
         </Link>
         <Link href="/ProjectSeries">
           <a className="tab">Project Series</a>
         </Link>
+        <div className="dropdown">
+          <button className="dropbtn">Events</button>
+          <div className="dropdown-content">
+            <Link href="/Calendar">
+              <a className="navDropDown">Calendar</a>
+            </Link>
+          </div>
+        </div>
         {loggedIn ? (
           <Link href="/UserProfile">
             <img className="profile" src={profileImgUrl} />
