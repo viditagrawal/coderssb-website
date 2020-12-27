@@ -8,7 +8,7 @@ export default function ResourcesPage() {
       <div>
         <BackgroundImage
           source="Background/sunset.jpg"
-          missing_source="banner_1.png"
+          missing_source="logo.png"
           title={<a className={"yellowHighlight"} color="black">Useful Resources</a>}
           hover={true}
         />
