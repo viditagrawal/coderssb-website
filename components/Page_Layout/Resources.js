@@ -39,6 +39,7 @@ function NewResource(props) {
         {listOfLinks}
       </div>
       <br />
+      <br></br>
     </div>
   );
 }
