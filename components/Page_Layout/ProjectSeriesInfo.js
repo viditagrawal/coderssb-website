@@ -7,56 +7,49 @@ export default function ProjectSeriesPage() {
         title: <h2 className="h2">Frequently Asked Questions</h2>,
         rows: [
             {
-                title: <h3 className="paragraph-text">Lorem ipsum dolor sit amet</h3>,
+                title: <h3 className="paragraph-text">Do I have to know how to code to participte?</h3>,
                 content: <p className="paragraph-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                Fusce sed commodo purus, at tempus turpis.
+                Nope. This series is beginner friendly. We'll teach you everything you need
+                 to know about building a website. All skill levels are welcome!
                 </p>
-                // title: "Lorem ipsum dolor sit amet,",
-                // content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                // ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                // In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                // Fusce sed commodo purus, at tempus turpis.`,
             },
             {
-                title: <h3 className="paragraph-text">Lorem ipsum dolor sit amet</h3>,
+                title: <h3 className="paragraph-text">How many team members can I have?</h3>,
                 content: <p className="paragraph-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                Fusce sed commodo purus, at tempus turpis.
+                Ideally, a team will be componsed of 3-4 students. However, you can work solo or with a partner if you'd like.
+                 The maximum number of students allowed in a team is 4. If you have any questions/concerns about your team, feel free to reach
+                 out to us via email at coderssb@gmail.com.
                 </p>
-                // title: "Nunc maximus, magna at ultricies elementum",
-                // content:
-                //     "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor.",
             },
             {
-                title: <h3 className="paragraph-text">Lorem ipsum dolor sit amet</h3>,
+                title: <h3 className="paragraph-text">How can I ensure that I am eligible to participate in the showcase?</h3>,
                 content: <p className="paragraph-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                Fusce sed commodo purus, at tempus turpis.
+                We would like for you to attend all of our workshops, but we understand that might not be possible. You
+                 can only miss 2 workshops to remain qualified for the final showcase. Attending the weekly workshops and check-in is super important because
+                 it'll help you stay on track for your project. 
                 </p>
-                // title: "Curabitur laoreet, mauris vel blandit fringilla",
-                // content: `Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc, ac sagittis leo elit vel lorem.
-                // Fusce tempor lacus ut libero posuere viverra. Nunc velit dolor, tincidunt at varius vel, laoreet vel quam.
-                // Sed dolor urna, lobortis in arcu auctor, tincidunt mattis ante. Vivamus venenatis ultricies nibh in volutpat.
-                // Cras eu metus quis leo vestibulum feugiat nec sagittis lacus.Mauris vulputate arcu sed massa euismod dignissim. `,
             },
             {
-                title: <h3 className="paragraph-text">Lorem ipsum dolor sit amet</h3>,
+                title: <h3 className="paragraph-text">Will the workshops be recorded and will we have access to the presentations?</h3>,
                 content: <p className="paragraph-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor sem. Aenean vel turpis feugiat,
-                ultricies metus at, consequat velit. Curabitur est nibh, varius in tellus nec, mattis pulvinar metus.
-                In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
-                Fusce sed commodo purus, at tempus turpis.
+                Yes! Everything will be posted on this webpage- just click on the links and you will be able to 
+                 access all workshops and recordings. The schedule for the project series is at the top of the page and will be
+                 updated weekly so you can easily see which week of the project series we are on.
                 </p>
-                // title: "What is the package version",
-                // content: <p>current version is 1.2.1</p>,
             },
+            {
+                title: <h3 className="paragraph-text">I don't have a team- what should I do?</h3>,
+                content: <p className="paragraph-text">
+                No worries, we'll help you find one. More details about team formation are coming up soon!
+                </p>
+            },
+            {
+                title: <h3 className="paragraph-text">Who do I contact if I have any questions?</h3>,
+                content: <p className="paragraph-text">
+                You can ask questions in our Discord or email us at coderssb@gmail.com. We're always happy to help and we will get back
+                 to you ask soon as we can.
+                </p>
+            }
         ],
     };
     
@@ -82,9 +75,8 @@ export default function ProjectSeriesPage() {
     }
 
     const config = {
-        // animate: true,
-        // arrowIcon: "V",
-        // tabFocus: true
+        animate: true,
+        tabFocus: true
     };
 
     return (
@@ -124,21 +116,21 @@ export default function ProjectSeriesPage() {
                 <tr>
                     <td>
                         <img
-                            src="ProjectSeries/promo.png"
+                            src="ProjectSeries/promo-c.png"
                             alt="Introducting Coders SB's project series."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workshop1.png"
+                            src="ProjectSeries/workshop1-c.png"
                             alt="Workshop1: Creating and hosting a React application."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workshop2.png"
+                            src="ProjectSeries/workshop2-c.png"
                             alt="Workshop2: React fundamentals."
                             className="imgHoverWithShadow"
                         />
@@ -163,21 +155,21 @@ export default function ProjectSeriesPage() {
                 <tr>
                     <td>
                         <img
-                            src="ProjectSeries/workshop3.png"
+                            src="ProjectSeries/workshop3-c.png"
                             alt="Workshop3: Google OAuth Sign In."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/midpointShowcase.png"
+                            src="ProjectSeries/midpointShowcase-c.png"
                             alt="Midpoint Showcase."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workshop4.png"
+                            src="ProjectSeries/workshop4-c.png"
                             alt="Workshop 4: Creating and hosting a React application."
                             className="imgHoverWithShadow"
                         />
@@ -199,21 +191,21 @@ export default function ProjectSeriesPage() {
                 <tr>                  
                     <td>
                         <img
-                            src="ProjectSeries/workshop5.png"
+                            src="ProjectSeries/workshop5-c.png"
                             alt="Workshop5: connect to database."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/workWeek.png"
+                            src="ProjectSeries/workWeek-c.png"
                             alt="There are no workshops this week. Use this time to finsih up your Website."
                             className="imgHoverWithShadow"
                         />
                     </td>
                     <td>
                         <img
-                            src="ProjectSeries/finalShowcase.png"
+                            src="ProjectSeries/finalShowcase-c.png"
                             alt="Final Project Showcase!"
                             className="imgHoverWithShadow"
                         />
@@ -255,33 +247,18 @@ export default function ProjectSeriesPage() {
                 </div>
             </div>
 
-            {/* <div className="w3-container">
-                <div className="w3-col w3-padding" class="col">
-                    <img
-                        src="ProjectSeries/promo.png"
-                        alt="Introducting Coders SB's project series."
-                        className="imgHoverWithShadow"
-                    />
-                </div>
-                <div className="w3-col w3-padding" class="col">
-                    <img
-                        src="ProjectSeries/promo.png"
-                        alt="Introducting Coders SB's project series."
-                        className="imgHoverWithShadow"
-                    />                    
-                </div>
-                <div className="w3-col w3-padding" class="col">
-                    <img
-                        src="ProjectSeries/promo.png"
-                        alt="Introducting Coders SB's project series."
-                        className="imgHoverWithShadow"
-                    />                    
-                </div>
-            </div> */}
-            {/* <FAQ /> */}
             <div>
                 <br></br>
                 <Faq data={data} styles={styles.faq} config={config} />
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div>
+                <video id="animated-happy-coding-winter-project-series" width="102%" margin="5px" autoPlay loop muted>
+                    <source src="./ProjectSeries/happyCoding.mp4" type="video/mp4"/>
+                    Your browser does not support this video format.
+                </video>
             </div>
         </div>
     );
