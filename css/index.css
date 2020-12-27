@@ -28,13 +28,8 @@
     font-family: 'Quicksand', sans-serif;
     font-size: 17px;
     color: darkcyan;
+    text-decoration: none;
 }
-
-.link {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 17px;
-}
-
 
 /* Project series */
 .projectSeriesText {
@@ -46,6 +41,7 @@
 }
 
 .projectSeriesLink {
+    text-decoration: none;
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Quicksand', sans-serif;

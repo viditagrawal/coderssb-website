@@ -36,6 +36,7 @@
 }
 
 .tab:hover {
+    text-decoration: none;
     color: white;
     background-color: #38b2ac;
     transform: scale(1.1);
