@@ -10,7 +10,7 @@ export default function ProjectSeriesPage() {
       <div>
         <BackgroundImage
           source="Background/ocean.jpg"
-          missing_source="banner_1.png"
+          missing_source="logo.png"
           title={<a className={"yellowHighlight"}>Project Series</a>}
           hover={true}
         />
