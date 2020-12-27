@@ -1,3 +1,5 @@
+import "../../css/index.css"
+
 export default function About() {
   return (
     <div className="w3-row w3" id="about">
@@ -11,7 +13,7 @@ export default function About() {
         />
       </div>
       <div>
-        <p className="w3-large">
+        <p className="paragraph-text">
           Welcome to Coders SB! Our goal is to bridge the gap between classes at
           UCSB and the real-world. Enabling you to build real world programs,
           apps, websites, utilities, and services. Come learn about scalable web
@@ -19,7 +21,7 @@ export default function About() {
           websites that will impress anyone. Coders SB provides an environment
           where students can have fun building cool stuff with their peers,
           improving both their programming and collaboration skills, which are
-          vital to working in the industr (and boosting their resume!). We will
+          vital to working in the industry (and boosting their resume!). We will
           also host workshops and have industry professionals come and share
           their wisdom with us. Most importantly, we're extremely open and
           welcoming to students of all ages and skill-sets, from freshmen with

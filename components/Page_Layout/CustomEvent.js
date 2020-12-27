@@ -1,3 +1,5 @@
+import "../../css/index.css"
+
 export default class CustomEvent extends React.Component {
   constructor(props) {
     super(props);
@@ -24,7 +26,7 @@ export default class CustomEvent extends React.Component {
       }
 
         return (
-        <h8 style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onClick={this.handleClick}>
+        <h8 className="paragraph-text" style={linkStyle} onMouseEnter={this.toggleHover} onMouseLeave={this.toggleHover} onClick={this.handleClick}>
             {this.props.event.title}
         </h8>
         );

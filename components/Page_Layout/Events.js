@@ -20,7 +20,7 @@ export default function Events() {
   return (
     <div>
       <div className="all">
-        <FutureEventCard
+        <FutureEventCard className="paragraph-text"
           website={events[2].url}
           imgUrl={events[2].pic}
           altImgUrl={events[2].alt}
@@ -28,7 +28,7 @@ export default function Events() {
           info={events[2].info}
         />
 
-        <FutureEventCard
+        <FutureEventCard className="paragraph-text"
           website={events[4].url}
           imgUrl={events[4].pic}
           altImgUrl={events[4].alt}
@@ -36,7 +36,7 @@ export default function Events() {
           info={events[4].info}
         />
 
-        <FutureEventCard
+        <FutureEventCard className="paragraph-text"
           website={events[5].url}
           imgUrl={events[5].pic}
           altImgUrl={events[5].alt}

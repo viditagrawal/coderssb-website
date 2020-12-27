@@ -1,12 +1,13 @@
 import React from "react";
 import resourceData from "../../utils/resources";
+import "../../css/index.css"
 
 function NewResource(props) {
   const listOfLinks = [];
   for (const [index, value] of props.resource.links.entries()) {
     listOfLinks.push(
       <li key={index}>
-        <a href={value} target="_blank" style={{ color: "#0000EE" }}>
+        <a href={value} target="_blank" className="link">
           {value}
         </a>
       </li>
@@ -33,11 +34,12 @@ function NewResource(props) {
         />
       </div>
       <div style={{ display: "inline-block", float: "left", width: "80%" }}>
-        <h2>{props.resource.name}</h2>
-        <p>{props.resource.description}</p>
+        <h2 className="h2">{props.resource.name}</h2>
+        <p className="paragraph-text">{props.resource.description}</p>
         {listOfLinks}
       </div>
       <br />
+      <br></br>
     </div>
   );
 }
@@ -47,5 +49,5 @@ export default function Resources() {
     <NewResource key={item.id} resource={item} />
   ));
 
-  return <div>{resourceList}</div>;
+  return <div className="paragraphText">{resourceList}</div>;
 }

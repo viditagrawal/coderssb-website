@@ -1,15 +1,18 @@
 import Footer from "rc-footer";
 import "rc-footer/assets/index.css"; // import 'rc-footer/asssets/index.less';
+import "../../css/index.css";
 
 export default function FooterPage() {
   return (
-    <Footer
+    <Footer className="footer"
       maxColumnsPerRow={4}
       backgroundColor="rgb(34, 68, 122)"
       columns={[
-        {
-          title: "Learn More",
+        { 
           items: [
+            {
+              title: <p className="footerTitle">Learn More</p>
+            },
             {
               icon: <img src="Icons/facebook.png" />,
               title: "Facebook",
@@ -31,8 +34,10 @@ export default function FooterPage() {
           ]
         },
         {
-          title: "Contact Us",
           items: [
+            {
+              title: <p className="footerTitle">Contact Us</p>
+            },
             {
               icon: <img src="Icons/email.png" />,
               title: "Email",
@@ -49,8 +54,10 @@ export default function FooterPage() {
           ]
         },
         {
-          title: "Other CS UCSB Orgs",
           items: [
+            {
+              title: <p className="footerTitle">Other CS Orgs</p>
+            },
             {
               icon: <img src="Icons/swe.png" />,
               title: "UCSB SWE",

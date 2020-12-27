@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+.paragraph-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+.h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+
+.h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.link {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: darkcyan;
+    text-decoration: none;
+}
+
+/* Project series */
+.projectSeriesText {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: black;
+}
+
+.projectSeriesLink {
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #1c5e80;
+}
+
+.imgHoverWithShadow {
+    transition: box-shadow .3s;
+    width: 330px;
+    height: 330px;
+    /* width: auto;
+    height: 30%; */
+    /* float: left; */
+    margin: 20px;
+}
+
+.imgHoverWithShadow:hover {
+    box-shadow: 0 0 30px rgba(90,90,90,.45); 
+}
+
+.resources {
+    margin-right: 40px;
+}
+
+.resources-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    vertical-align: top;
+    /* border: 1px solid #666666; */
+    margin-top: 15px;
+    margin-right: 20px;
+    color: black;
+}  
+
+.resources-text-link {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    margin-top: 100px;
+    vertical-align: top;
+    color: #1c5e80;
+} 
+
+.col {
+    float: left;
+    width: 33.33%;
+}
+
+/* Footer */
+.footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+.footerTitle {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}

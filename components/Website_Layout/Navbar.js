@@ -29,6 +29,10 @@ export default function navbar(props) {
     props.setGoogleUserObject(googleUser);
   };
 
+  function handleDropDownMenuItem() {
+    <a className="tab">Peorja</a>
+  }
+
   return (
     <div className="navbar">
       <Link href="/">
@@ -51,6 +55,9 @@ export default function navbar(props) {
         </Link>
         <Link href="/Merchandise">
           <a className="tab">Merchandise</a>
+        </Link>
+        <Link href="/ProjectSeries">
+          <a className="tab">Project Series</a>
         </Link>
         <div className="dropdown">
           <button className="dropbtn">Events</button>
