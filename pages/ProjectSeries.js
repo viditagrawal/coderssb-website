@@ -16,9 +16,10 @@ export default function ProjectSeriesPage() {
         />
         <hr />
 
-        <div className="w3-content" style={{ maxWidth: 1100, paddingBottom: 100}}>
+        <div className="w3-content" style={{ maxWidth: 1100, marginBottom: 200}}>
           <ProjectSeriesInfo />
         </div>
+        <br></br>
       </div>
     </Layout>
   );
