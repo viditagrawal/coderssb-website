@@ -53,9 +53,6 @@
     transition: box-shadow .3s;
     width: 330px;
     height: 330px;
-    /* width: auto;
-    height: 30%; */
-    /* float: left; */
     margin: 20px;
 }
 
@@ -88,6 +85,75 @@
 .col {
     float: left;
     width: 33.33%;
+}
+
+/* Officers */
+.imageBox {
+    position: relative;
+    width: 100%;
+    opacity: 1;
+}
+
+.officerImg{
+    width: 95%;
+    height: auto;
+    transition: opacity 0.6s;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.hoverImg {
+    width: 95%;
+}
+
+.officerImg:hover {
+    opacity: 0;
+}
+
+.w3-cell-img {
+    width: 35%;
+}
+
+.w3-cell-text {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+.h3-officer-name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.p-officer-role{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.p-officer-description {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+    color: black;
+    margin-top: 15px;
+}
+
+.officer-page-banner {
+    width:100%;
+    height: auto;
+    margin-bottom: 40px;
+    position: center;
 }
 
 /* Footer */
