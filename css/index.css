@@ -53,9 +53,6 @@
     transition: box-shadow .3s;
     width: 330px;
     height: 330px;
-    width: auto;
-    height: 30%;
-    /* float: left;
     margin: 20px;
 }
 
@@ -100,7 +97,7 @@
 .officerImg{
     width: 95%;
     height: auto;
-    transition: opacity 0.5s;
+    transition: opacity 0.6s;
     opacity: 1;
     position: absolute;
     top: 0;
