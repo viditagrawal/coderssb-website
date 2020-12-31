@@ -8,19 +8,19 @@ function NewOfficer(props) {
       <div className="w3-cell-row">
         <div className="w3-cell w3-cell-top w3-cell-img w3-section">
           <div className="imageBox">
-            <div className="officerImg">
-              <img
-                src={props.officer.image}
-                alt="officer image"
-                className="officerImg"
-              />
-            </div>
             <div class="hoverImg">
             <img
               src={props.officer.meme}
               alt="a meme"
               class="hoverImg"
             />
+            </div>
+            <div className="officerImg">
+              <img
+                src={props.officer.image}
+                alt="officer image"
+                className="officerImg"
+              />
             </div>
           </div>
         </div>

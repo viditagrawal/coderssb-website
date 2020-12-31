@@ -53,9 +53,9 @@
     transition: box-shadow .3s;
     width: 330px;
     height: 330px;
-    /* width: auto;
-    height: 30%; */
-    /* float: left; */
+    width: auto;
+    height: 30%;
+    /* float: left;
     margin: 20px;
 }
 
@@ -94,24 +94,26 @@
 .imageBox {
     position: relative;
     width: 100%;
+    opacity: 1;
 }
 
-.officerImg {
+.officerImg{
     width: 95%;
     height: auto;
-}
-
-.imageBox:hover .hoverImg {
-    display: inline;
-}
-
-.imageBox .hoverImg {
-    display: none;
+    transition: opacity 0.5s;
+    opacity: 1;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
+}
+
+.hoverImg {
     width: 95%;
+}
+
+.officerImg:hover {
+    opacity: 0;
 }
 
 .w3-cell-img {
@@ -150,7 +152,6 @@
     margin-top: 15px;
 }
 
-/* Officer Page */
 .officer-page-banner {
     width:100%;
     height: auto;
