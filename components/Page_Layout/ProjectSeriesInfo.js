@@ -199,7 +199,7 @@ export default function ProjectSeriesPage() {
                     <td>
                         <img
                             src="ProjectSeries/workWeek-c.png"
-                            alt="There are no workshops this week. Use this time to finsih up your Website."
+                            alt="There are no workshops this week. Use this time to finish up your Website."
                             className="imgHoverWithShadow"
                         />
                     </td>
