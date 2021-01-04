@@ -20,7 +20,7 @@ figure > img {
 
 figure figcaption {
   background-color: #135796;
-  padding: 100px;
+  padding: 15px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -63,7 +63,8 @@ figure:hover figcaption {
   transition-delay: 0.21s;
   cursor: pointer;
   text-align: center;
-  font-size: 40px;
+  font-size: 10px;
+  font-size: 3.5vw;
 }
 
 /** reveal-top-right **/
