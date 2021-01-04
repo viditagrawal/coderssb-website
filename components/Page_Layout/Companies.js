@@ -14,9 +14,9 @@ export default function Companies() {
   var settings = {
     className: "center",
     centerMode: true,
-    dots: true,
+    dots: false,
     infinite: true,
-    speed: 500,
+    speed: 700,
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows: true,
@@ -24,7 +24,7 @@ export default function Companies() {
     variableWidth: true,
     adaptiveHeight: true,
     autoplay: true,
-    autoplaySpeed: 2500
+    autoplaySpeed: 3000
   };
 
   return (
