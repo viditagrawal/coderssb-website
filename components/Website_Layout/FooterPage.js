@@ -85,7 +85,6 @@ export default function FooterPage() {
           ]
         }
       ]}
-      bottom="Coders SB ©"
     />
   );
 }
