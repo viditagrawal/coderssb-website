@@ -30,7 +30,7 @@ export default function navbar(props) {
   };
 
   function handleDropDownMenuItem() {
-    <a className="tab">Peorja</a>
+    <a className="tab">Peorja</a>;
   }
 
   return (
@@ -42,9 +42,6 @@ export default function navbar(props) {
         <div className="dropdown">
           <button className="dropbtn">About</button>
           <div className="dropdown-content">
-            <Link href="/About">
-              <a className="navDropDown">Our Mission</a>
-            </Link>
             <Link href="/Officers">
               <a className="navDropDown">Our Team</a>
             </Link>

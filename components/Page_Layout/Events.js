@@ -1,6 +1,7 @@
-import FutureEventCard from "./FutureEventCard";
+import EventCard from "./EventCard";
 import { events } from "../../utils/events";
-import "../../css/FutureEventCardStyle.css";
+import "../../css/Events.css";
+import "../../css/Hover/reveal-top-right.css";
 
 function DateConv(dateObj) {
   return (
@@ -20,28 +21,21 @@ export default function Events() {
   return (
     <div>
       <div className="all">
-        <FutureEventCard className="paragraph-text"
-          website={events[2].url}
-          imgUrl={events[2].pic}
-          altImgUrl={events[2].alt}
-          when={DateConv(events[2].start)}
-          info={events[2].info}
+        <EventCard
+          url={events[0].url}
+          pic={events[0].pic}
+          info={DateConv(events[0].start) + " Click to learn more!"}
         />
 
-        <FutureEventCard className="paragraph-text"
-          website={events[4].url}
-          imgUrl={events[4].pic}
-          altImgUrl={events[4].alt}
-          when={DateConv(events[4].start)}
-          info={events[4].info}
+        <EventCard
+          url={events[2].url}
+          pic={events[2].pic}
+          info={DateConv(events[2].start) + " Click to learn more!"}
         />
-
-        <FutureEventCard className="paragraph-text"
-          website={events[5].url}
-          imgUrl={events[5].pic}
-          altImgUrl={events[5].alt}
-          when={DateConv(events[5].start)}
-          info={events[5].info}
+        <EventCard
+          url={events[3].url}
+          pic={events[3].pic}
+          info={DateConv(events[3].start) + " Click to learn more!"}
         />
       </div>
     </div>

@@ -1,0 +1,5 @@
+.all {
+  margin: 20px 30px;
+  justify-content: space-evenly;
+  display: flex;
+}

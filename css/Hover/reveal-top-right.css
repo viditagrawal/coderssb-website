@@ -1,0 +1,74 @@
+figure {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  max-width: 25%;
+  background-color: #2266a5;
+  color: #fff;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+figure > img {
+  vertical-align: top;
+  max-width: 100%;
+}
+
+figure figcaption {
+  background-color: #135796;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+figure,
+figure:before,
+figure:after,
+figure *,
+figure *:before,
+figure *:after {
+  box-sizing: border-box;
+  transition: all 0.35s ease;
+}
+
+/** reveal **/
+figure:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  background-color: #135796;
+}
+
+figure figcaption {
+  opacity: 0;
+}
+
+figure:hover:before {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  transition-delay: 0.21s;
+  cursor: pointer;
+  text-align: center;
+  font-size: 10px;
+  font-size: 3.5vw;
+}
+
+/** reveal-top-right **/
+figure:before {
+  -webkit-transform: translate(100%, -100%);
+  transform: translate(100%, -100%);
+}
