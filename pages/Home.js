@@ -14,7 +14,7 @@ export default function HomePage() {
       <div className="w3-cell">
         <h1
           className="p-officer-description"
-          style={{ fontSize: 60, paddingLeft: 75 }}
+          style={{ fontSize: 60, paddingLeft: 100 }}
         >
           {" "}
           Our Mission{" "}
@@ -22,8 +22,8 @@ export default function HomePage() {
         <p
           className="p-officer-description"
           style={{
-            paddingLeft: 75,
-            paddingRight: 75,
+            paddingLeft: 100,
+            paddingRight: 100,
             paddingTop: 0,
             paddingBottom: 25,
             fontSize: 27
