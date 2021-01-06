@@ -10,19 +10,20 @@ export const events = [
   {
     id: 0,
     title: "Social & Intro to W21",
-    start: new Date(2021, 0, 7, 19, 0, 0),
-    end: new Date(2021, 0, 7, 20, 0, 0),
-    url: "https://www.facebook.com/events/336856614058713/",
+    start: new Date(2021, 0, 8, 19, 0, 0),
+    end: new Date(2021, 0, 8, 20, 0, 0),
+    url: "https://www.facebook.com/events/189047422942078",
     info:
       "Join us for a fun night of games and and learn more about our upcoming events for the Winter",
-    pic: "Events/Fall2020/how_to_land_an_internship.png",
-    alt: "logo.png"
+    pic: "Events/Winter2021/winter_social.png",
+    alt:
+      "Join us for our winter social to have the chance to win 3 amazon gift cards"
   },
   {
     id: 1,
     title: "Linkedin & Resume Workshop",
-    start: new Date(2021, 0, 12, 18, 30, 0),
-    end: new Date(2021, 0, 12, 19, 30, 0),
+    start: new Date(2021, 1, 2, 18, 30, 0),
+    end: new Date(2021, 1, 2, 19, 30, 0),
     url: "https://www.facebook.com/events/796825201106990/",
     info:
       "Click to learn more about our Linkedin & Resume workshop. Stop by for 1:1 feedback",
@@ -53,8 +54,8 @@ export const events = [
   {
     id: 5,
     title: "Communication, Networking, & Negotiation workshop ",
-    start: new Date(2021, 0, 26, 18, 30, 0),
-    end: new Date(2021, 0, 26, 19, 30, 0),
+    start: new Date(2021, 0, 19, 18, 30, 0),
+    end: new Date(2021, 0, 19, 19, 30, 0),
     url: "https://www.facebook.com/events/467604784157325/",
     info:
       "Practice your elevator pitches, learn how to better email recruiters, and learn how to negotiate in the workforce",
@@ -85,8 +86,8 @@ export const events = [
   {
     id: 8,
     title: "CS Professor Coffee Talk",
-    start: new Date(2021, 1, 9, 18, 30, 0),
-    end: new Date(2021, 1, 8, 19, 30, 0),
+    start: new Date(2021, 0, 26, 18, 30, 0),
+    end: new Date(2021, 0, 26, 19, 30, 0),
     url: "https://www.facebook.com/events/373080633839518",
     info: "Click to learn more about our upcoming professor coffee talk!",
     pic: "Events/Fall2020/classes_preview.png",
@@ -116,8 +117,8 @@ export const events = [
   {
     id: 11,
     title: "Specialized Internships Panel",
-    start: new Date(2021, 1, 23, 18, 30, 0),
-    end: new Date(2021, 1, 23, 19, 30, 0),
+    start: new Date(2021, 1, 16, 18, 30, 0),
+    end: new Date(2021, 1, 16, 19, 30, 0),
     url: "https://www.facebook.com/events/373080633839518",
     info: "Click to learn more about our upcoming professor coffee talk!",
     pic: "Events/Fall2020/classes_preview.png",
