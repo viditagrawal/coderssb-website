@@ -28,18 +28,18 @@ export const events = [
     info:
       "Click to learn more about our Linkedin & Resume workshop. Stop by for 1:1 feedback",
     pic: "Events/Fall2020/coffee_talk_microsoft.png",
-    alt: "logo.png"
+    alt: "Linkedin & Resume workshop graphic"
   },
   {
     id: 2,
     title: "Project Series: Intro to React",
     start: new Date(2021, 0, 14, 19, 0, 0),
     end: new Date(2021, 0, 14, 20, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://fb.me/e/1Yhdv4oB4",
     info:
       "Project Series Workshop 1: Creating and hosting a React application.",
     pic: "ProjectSeries/workshop1-c.png",
-    alt: "logo.png"
+    alt: "Introduction to react project series"
   },
   {
     id: 4,
@@ -49,18 +49,18 @@ export const events = [
     url: "https://www.coderssb.com/ProjectSeries",
     info: "Project Series Workshop 2: React fundamentals.",
     pic: "ProjectSeries/workshop2-c.png",
-    alt: "logo.png"
+    alt: "Learning the fundamentals of react project series graphic"
   },
   {
     id: 5,
-    title: "Communication, Networking, & Negotiation workshop ",
+    title: "Landing Your First Interview",
     start: new Date(2021, 0, 19, 18, 30, 0),
     end: new Date(2021, 0, 19, 19, 30, 0),
-    url: "https://www.facebook.com/events/467604784157325/",
+    url: "https://www.facebook.com/events/897241164414359",
     info:
-      "Practice your elevator pitches, learn how to better email recruiters, and learn how to negotiate in the workforce",
-    pic: "Events/Fall2020/informational_meeting.png",
-    alt: "logo.png"
+      "Come join us to learn how to look better on paper, make successful elevator pitches, and cold email recruiters! Even if you've already landed your first interview, the tips and strategies that can be gained from this event are invaluable. ",
+    pic: "Events/Winter2021/land_first_interview.png",
+    alt: "Landing your first interview image"
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ export const events = [
     info:
       "Learn how to let users login to your website via their Google account",
     pic: "ProjectSeries/workshop3-c.png",
-    alt: "logo.png"
+    alt: "Google OAuth sign in tutorial"
   },
   {
     id: 7,
@@ -81,7 +81,7 @@ export const events = [
     url: "https://www.coderssb.com/ProjectSeries",
     info: "Present a video demo of your wesbite",
     pic: "ProjectSeries/midpointShowcase-c.png",
-    alt: "logo.png"
+    alt: "Midpoint showcase graphic"
   },
   {
     id: 8,
@@ -91,7 +91,7 @@ export const events = [
     url: "https://www.facebook.com/events/373080633839518",
     info: "Click to learn more about our upcoming professor coffee talk!",
     pic: "Events/Fall2020/classes_preview.png",
-    alt: "logo.png"
+    alt: "UCSB professor coffee talk"
   },
   {
     id: 9,
@@ -102,7 +102,7 @@ export const events = [
     info:
       "Learn how to let users login to your website via their Google account",
     pic: "ProjectSeries/workshop4-c.png",
-    alt: "logo.png"
+    alt: "Connecting to a database project series graphic"
   },
   {
     id: 10,
@@ -112,7 +112,7 @@ export const events = [
     url: "https://www.coderssb.com/ProjectSeries",
     info: "Learn how to utilize an API to fetch data for your website",
     pic: "ProjectSeries/workshop5-c.png",
-    alt: "logo.png"
+    alt: "Conecting to an API project series graphic"
   },
   {
     id: 11,
@@ -122,7 +122,7 @@ export const events = [
     url: "https://www.facebook.com/events/373080633839518",
     info: "Click to learn more about our upcoming professor coffee talk!",
     pic: "Events/Fall2020/classes_preview.png",
-    alt: "logo.png"
+    alt: "Specialized internship panel"
   },
   {
     id: 12,
@@ -133,7 +133,7 @@ export const events = [
     info:
       "There are no workshops this week. Use this time to finish up your Website.",
     pic: "ProjectSeries/workWeek-c.png",
-    alt: "logo.png"
+    alt: "Project series work week graphic"
   },
   {
     id: 13,
@@ -143,7 +143,7 @@ export const events = [
     url: "https://www.coderssb.com/ProjectSeries",
     info: "Demo your website in front of recruiters and win prizes!",
     pic: "ProjectSeries/finalShowcase-c.png",
-    alt: "logo.png"
+    alt: "Final showcase graphic"
   }
 ];
 

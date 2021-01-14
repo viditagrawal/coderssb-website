@@ -33,9 +33,9 @@ export default function Events() {
           info={DateConv(events[2].start) + " Click to learn more!"}
         />
         <EventCard
-          url={events[3].url}
-          pic={events[3].pic}
-          info={DateConv(events[3].start) + " Click to learn more!"}
+          url={events[4].url}
+          pic={events[4].pic}
+          info={DateConv(events[4].start) + " Click to learn more!"}
         />
       </div>
     </div>
