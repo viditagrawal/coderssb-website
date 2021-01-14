@@ -4,6 +4,11 @@ import "../../css/Events.css";
 import "../../css/Hover/reveal-top-right.css";
 
 function DateConv(dateObj) {
+  var minutes = "00";
+  if (dateObj.getMinutes() != 0) {
+    minutes = dateObj.getMinutes();
+  }
+
   return (
     "" +
     (dateObj.getMonth() + 1) +
@@ -13,7 +18,9 @@ function DateConv(dateObj) {
     dateObj.getFullYear() +
     " @ " +
     (dateObj.getHours() - 12) +
-    "PM"
+    ":" +
+    minutes +
+    " PM"
   );
 }
 
