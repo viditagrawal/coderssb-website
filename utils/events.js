@@ -46,7 +46,7 @@ export const events = [
     title: "Project Series: React fundamentals",
     start: new Date(2021, 0, 21, 19, 0, 0),
     end: new Date(2021, 0, 21, 20, 30, 0),
-    url: "https://www.coderssb.com/ProjectSeries",
+    url: "https://fb.me/e/3ar3Ec8xU",
     info: "Project Series Workshop 2: React fundamentals.",
     pic: "ProjectSeries/workshop2-c.png",
     alt: "Learning the fundamentals of react project series graphic"
