@@ -88,11 +88,6 @@ export default function ProjectSeriesPage() {
                  At the end of the quarter, your team will participate in our showcase where you 
                  will be able to display your final product to a panel of judges. All skill levels 
                  are welcome. Stay tuned for more information on our panel and exciting prizes! 
-                Register your team <a 
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSeMtcyr95cKYof14ZbrExpPy1HDbJ_MgHqxeaDc0GXC8dH73w/viewform"
-                    target="_blank"
-                    className="link"
-                >here</a> in advance.
             </p>
             <p className="paragraph-text">
                 Throughout the quarter, we will have 7 events from week 2-9 (with a gap week in week 8) 
@@ -139,13 +134,11 @@ export default function ProjectSeriesPage() {
    
                 <tr>
                     <td>
-                        <p className="projectSeriesText">Introducing our <a 
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSfjcJ4mlNq9kBvOX6krGW6_RQdDTcdO8hI3twwcT2FeP0SdXA/viewform?gxids=7628"
-                            target="_blank"
-                            className="projectSeriesLink">project series</a>!</p>
+                        <p className="projectSeriesText">Introducing our project series!</p>
                     </td>
                     <td>
-                        <p className="projectSeriesText">workshop 1 | slideshow | video recording | code</p> 
+                        <p className="projectSeriesText">
+                            workshop 1 | <a href="https://docs.google.com/presentation/d/1GsmxRTXGTIGrjZfVEkURXkTK-hpjqNcMo7WNc80XEpE/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/1pH89Ygi6MfW35hkbl4uxBrjzmHXv8S7Z/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series" target="_blank" className="projectSeriesLink">code</a></p> 
                     </td>
                     <td>
                         <p className="projectSeriesText">workshop 2 | slideshow | video recording | code</p>
@@ -234,16 +227,46 @@ export default function ProjectSeriesPage() {
                 </div>
                 <div className="w3-col m6 s2 w3-padding-large">
                     <span
+                        className="resources-text"><a className="resources-text-link"href=
+                        "https://drive.google.com/drive/folders/1vKSjbAbvDCfa2u7W0LTWgx4V7JVGpf_N?usp=sharing"
+                        target="_blank"
+                        > Folder with all our resources.</a>
+                    </span>
+                    <p
+                        className="resources-text">Learn how to set up your GitHub repo <a className="resources-text-link"href=
+                        "https://docs.google.com/document/d/1q-W8fQjpR2KVEb-9XT09cXJGcGKDkB216yfzTafJ4dA/edit?usp=sharing"
+                        target="_blank"
+                        > here.</a>
+                    </p>
+                    <p
+                        className="resources-text">Learn how to set up your React app <a className="resources-text-link"href=
+                        "https://docs.google.com/document/d/15b8BNC9B8EbqUkhkB2pEgw-rdFdqVmXC0Hcfh5cNQFE/edit?usp=sharing"
+                        target="_blank"
+                        > here.</a>
+                    </p>                    
+                    <p
                         className="resources-text">Learn the fundamentals of React <a className="resources-text-link"href=
                         "https://www.freecodecamp.org/news/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2/"
                         target="_blank"
                         > here.</a>
-                    </span>
+                    </p>
                     <p className="resources-text">Watch a video tutorial of React <a className="resources-text-link"href=
                         "https://www.youtube.com/watch?v=Ke90Tje7VS0&amp;t=32s&amp;ab_channel=ProgrammingwithMosh"
                         target="_blank"
                         > here.</a>
-                    </p>  
+                    </p> 
+                    <span
+                        className="resources-text">Create a navbar using React router <a className="resources-text-link"href=
+                        "https://www.youtube.com/watch?v=Law7wfdg_ls&amp;t=858s&amp;ab_channel=DevEd"
+                        target="_blank"
+                        > here.</a>
+                    </span> 
+                    <p
+                        className="resources-text">Learn how to host your website in Firebase <a className="resources-text-link"href=
+                        "https://docs.google.com/document/d/1uGQxP5FYOe4NfP9nLwNEFAkvUh76P-ccARDO_ephhoE/edit?usp=sharing"
+                        target="_blank"
+                        > here.</a>
+                    </p>
                 </div>
             </div>
 
