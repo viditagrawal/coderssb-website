@@ -136,13 +136,14 @@ export default function ProjectSeriesPage() {
    
                 <tr>
                     <td>
+
                         <p className="projectSeriesText">Introducing our project series!</p>
                     </td>
                     <td>
-                        <p className="projectSeriesText">workshop 1 | <a href="https://docs.google.com/presentation/d/1GsmxRTXGTIGrjZfVEkURXkTK-hpjqNcMo7WNc80XEpE/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/1pH89Ygi6MfW35hkbl4uxBrjzmHXv8S7Z/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series" target="_blank" className="projectSeriesLink">code</a></p> 
+                        <p className="projectSeriesText">workshop 1 | <a href="https://docs.google.com/presentation/d/1GsmxRTXGTIGrjZfVEkURXkTK-hpjqNcMo7WNc80XEpE/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/1pH89Ygi6MfW35hkbl4uxBrjzmHXv8S7Z/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series/tree/hosting-feature" target="_blank" className="projectSeriesLink">code</a></p> 
                     </td>
                     <td>
-                        <p className="projectSeriesText">workshop 2 | <a href="https://docs.google.com/presentation/d/1mGx069RZoCcsyJ4bufxhIwZs8aSnYALJDMjQUrhIoaM/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/1xglr4bTv6LF-BOt-aq0iFKNtLhx8UCvu/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series" target="_blank" className="projectSeriesLink">code</a></p>
+                        <p className="projectSeriesText">workshop 2 | <a href="https://docs.google.com/presentation/d/1mGx069RZoCcsyJ4bufxhIwZs8aSnYALJDMjQUrhIoaM/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/1xglr4bTv6LF-BOt-aq0iFKNtLhx8UCvu/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series/tree/workshop2" target="_blank" className="projectSeriesLink">code</a></p>
                     </td>                    
                 </tr>
 
@@ -172,7 +173,7 @@ export default function ProjectSeriesPage() {
 
                 <tr>
                     <td>
-                        <p className="projectSeriesText">workshop 3 | slideshow | video recording | code</p>
+                    <p className="projectSeriesText">workshop 3 | <a href="https://docs.google.com/presentation/d/1JP8JMJbuSHPBRdcEzaClZ8bVLzQTm4ixvHWbpqeGkvs/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/17_n1k2a7jOmStVXfrOoMIgkU_40Qn2YK/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series" target="_blank" className="projectSeriesLink">code</a></p>
                     </td>
                     <td>
                         <p className="projectSeriesText">Midpoint Showcase</p>
