@@ -173,7 +173,7 @@ export default function ProjectSeriesPage() {
 
                 <tr>
                     <td>
-                    <p className="projectSeriesText">workshop 3 | <a href="https://docs.google.com/presentation/d/1JP8JMJbuSHPBRdcEzaClZ8bVLzQTm4ixvHWbpqeGkvs/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/17_n1k2a7jOmStVXfrOoMIgkU_40Qn2YK/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series" target="_blank" className="projectSeriesLink">code</a></p>
+                    <p className="projectSeriesText">workshop 3 | <a href="https://docs.google.com/presentation/d/1JP8JMJbuSHPBRdcEzaClZ8bVLzQTm4ixvHWbpqeGkvs/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/17_n1k2a7jOmStVXfrOoMIgkU_40Qn2YK/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series/tree/workshop3" target="_blank" className="projectSeriesLink">code</a></p>
                     </td>
                     <td>
                         <p className="projectSeriesText">Midpoint Showcase</p>
