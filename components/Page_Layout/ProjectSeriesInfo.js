@@ -176,10 +176,10 @@ export default function ProjectSeriesPage() {
                     <p className="projectSeriesText">workshop 3 | <a href="https://docs.google.com/presentation/d/1JP8JMJbuSHPBRdcEzaClZ8bVLzQTm4ixvHWbpqeGkvs/edit?usp=sharing" target="_blank" className="projectSeriesLink">slideshow</a> | <a href="https://drive.google.com/file/d/17_n1k2a7jOmStVXfrOoMIgkU_40Qn2YK/view?usp=sharing" target="_blank" className="projectSeriesLink">video recording</a> | <a href="https://github.com/pkuang5/workshop-w21-project-series/tree/workshop3" target="_blank" className="projectSeriesLink">code</a></p>
                     </td>
                     <td>
-                        <p className="projectSeriesText">Midpoint Showcase</p>
+                        <p className="projectSeriesText">Midpoint Showcase | <a href="https://docs.google.com/presentation/d/1QfurwKYRUNBxYERKpwSE1qEpbeatfMZojT2AaGNLTjg/edit?usp=sharing">slideshow</a> | <a href="https://drive.google.com/file/d/1WPOVSDjPGUVRwqNKTWOXabDEGhzAmdvR/view?usp=sharing">video recording</a></p>
                     </td>
                     <td>
-                        <p className="projectSeriesText">workshop 4 | slideshow | video recording | code</p>
+                        <p className="projectSeriesText">workshop 4 | <a href="https://docs.google.com/presentation/d/19lfndTU2xSnVun5Y9m78WN9Bgu-VOU4r0cowCzNToZM/edit?usp=sharing">slideshow</a>| <a href="">video recording</a> | code</p>
                     </td>                    
                 </tr>
 
