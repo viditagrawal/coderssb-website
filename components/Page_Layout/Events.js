@@ -29,20 +29,20 @@ export default function Events() {
     <div>
       <div className="all">
         <EventCard
-          url={events[6].url}
-          pic={events[6].pic}
-          info={DateConv(events[6].start) + " Click to learn more!"}
-        />
-
-        <EventCard
-          url={events[12].url}
-          pic={events[12].pic}
-          info={DateConv(events[12].start) + " Click to learn more!"}
-        />
-        <EventCard
           url={events[8].url}
           pic={events[8].pic}
           info={DateConv(events[8].start) + " Click to learn more!"}
+        />
+
+        <EventCard
+          url={events[11].url}
+          pic={events[11].pic}
+          info={DateConv(events[9].start) + " Click to learn more!"}
+        />
+        <EventCard
+          url={events[10].url}
+          pic={events[10].pic}
+          info={DateConv(events[10].start) + " Click to learn more!"}
         />
       </div>
     </div>
