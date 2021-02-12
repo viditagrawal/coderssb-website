@@ -134,6 +134,15 @@ export const events = [
     info: "Demo your website in front of recruiters and win prizes!",
     pic: "ProjectSeries/finalShowcase-c.png",
     alt: "Final showcase graphic"
+  },
+  {
+    id: 13,
+    title: "LinkedIn Workshop",
+    start: new Date(2021, 1, 2, 18, 0, 0),
+    end: new Date(2021, 1, 2, 19, 0, 0),
+    url: "",
+    pic: "Events/Winter2021/LinkedInWorkshop.png",
+    alt: "LinkedIn & Resume Workshop"
   }
 ];
 
