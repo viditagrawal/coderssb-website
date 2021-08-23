@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+:root {
+	--turquoise: #0FA3B1;
+	--orange: #FF9B42;
+	--navy: #38618C;
+	--yellow: #FFEE93;
+	--green: #E4FDE1;
+	--white: #FFFFFF;
+	--black: #232121;
+}
+
+.h1 {
+	font-family: 'Work Sans', sans-serif;
+	color: var(--black);
+	font-size: 45px;
+}
+
+.h2 {
+	font-family: 'Work Sans', sans-serif;
+	color: var(--black);
+	font-size: 34px;
+}
+
+.h3 {
+	font-family: 'Work Sans', sans-serif;
+	color: var(--black);
+	font-size: 24px;
+}
+
+.p {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	color: var(--black);
+	font-size: 14.5px;
+}
+
+.button {
+	border: solid 2.3px var(--navy);
+	padding: 14px 28px;
+	border-radius:  50px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	color: var(--navy);
+	font-size: 15px;
+}
+
+.button:hover {
+	background-color: var(--navy);
+    color: var(--white);
+	transition-delay: 0.1s;
+}
+
+.link {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	color: var(--black);
+	font-size: 14.5px;
+	text-decoration: solid 1.5px underline;
+}
+
+.link:hover {
+	text-decoration: none;
+	transition-delay: 0.1s;
+}
+
+/* 
+
+Additional margins
+
+margin between images/objects (3 images in a row, cards, social media icons etc.): 40px
+margin between image and text when horizontal (i.e. here's what we do, merch image and text): 75px
+margin between image and body text when vertical (i.e upcoming events, officers): 13px
+margin between page headers and body text: 20px
+margin between headers and body text/images (i.e. on home page- upcoming events, companies we've worked with): 28px 
+margin between text on merch page: 30px
+margin between arrow icon and text (home page, resources page): 10px
+margin between page sections: 110px
+side margins (between content and end of screen): 80px
+side margins for offerings on home page: 110px
+
+*/
