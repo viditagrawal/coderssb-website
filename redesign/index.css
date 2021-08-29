@@ -105,6 +105,12 @@ a.secondary_title:hover {
   text-decoration: underline;
 }
 
+img.info_sessions {
+  float: left;
+  height: 100%;
+  margin-top: 30px;
+}
+
 .h1 {
   font-family: "Work Sans", sans-serif;
   color: var(--black);

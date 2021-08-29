@@ -3,8 +3,7 @@ import "../../redesign/index.css";
 
 const style = {
   height: "110vh",
-  backgroundColor: "#ddd",
-  padding: "20px 10px  10px 10px"
+  backgroundColor: "#ddd"
 };
 
 export default function Info_Sessions(props) {
@@ -13,9 +12,15 @@ export default function Info_Sessions(props) {
     cardStyle.backgroundColor = props.bgcolor;
   }
 
+  const INFO_SESSIONS = "info_sessions";
+
   return (
     <div id={`#card${props.id}`} style={cardStyle}>
-      <h1 className={"secondary_title"}>Info Sessions</h1>
+      <img
+        className={INFO_SESSIONS}
+        src="redesign/white_logo_design.svg"
+        alt="computer on a search homepage"
+      />
     </div>
   );
 }
