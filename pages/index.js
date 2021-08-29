@@ -1,18 +1,17 @@
-import Card from "../components/redesign/Card";
-
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center"
-};
+import Coders_SB from "../components/redesign/Coders_SB";
+import What_We_Do from "../components/redesign/What_We_Do";
+import Info_Sessions from "../components/redesign/Info_Sessions";
+import Resources from "../components/redesign/Resources";
+import Upcoming_Events from "../components/redesign/Upcoming_Events";
 
 export default function Index() {
   return (
-    <div style={styles}>
-      <Card id={0} title={"Coders SB"} bgcolor="#D2F5FF" />
-      <Card id={1} title={"Here's What We Do"} bgcolor="#466D91" />
-      <Card id={2} title={"Info Sessions"} bgcolor="#E4FDE1" />
-      <Card id={3} title={"Resources"} bgcolor="#FFEE93" />
-      <Card id={4} title={"Upcoming Events"} bgcolor="white" />
+    <div>
+      <Coders_SB id={0} bgcolor="#D2F5FF" />
+      <What_We_Do id={1} bgcolor="#466D91" />
+      <Info_Sessions id={2} bgcolor="#E4FDE1" />
+      <Resources id={3} bgcolor="#FFEE93" />
+      <Upcoming_Events id={4} bgcolor="white" />
     </div>
   );
 }

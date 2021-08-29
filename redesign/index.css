@@ -1,70 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap");
 
 :root {
-	--turquoise: #0FA3B1;
-	--orange: #FF9B42;
-	--navy: #38618C;
-	--yellow: #FFEE93;
-	--green: #E4FDE1;
-	--white: #FFFFFF;
-	--black: #232121;
+  --turquoise: #0fa3b1;
+  --orange: #ff9b42;
+  --navy: #38618c;
+  --yellow: #ffee93;
+  --green: #e4fde1;
+  --white: #ffffff;
+  --black: #232121;
+}
+
+.main_title {
+  font-family: "Work Sans", sans-serif;
+  color: "#38618C";
+  font-size: 75px;
+  text-align: center;
+}
+
+.secondary_title {
+  font-family: "Work Sans", sans-serif;
+  color: "#38618C";
+  font-size: 45px;
+  text-align: center;
 }
 
 .h1 {
-	font-family: 'Work Sans', sans-serif;
-	color: var(--black);
-	font-size: 45px;
+  font-family: "Work Sans", sans-serif;
+  color: var(--black);
+  font-size: 45px;
 }
 
 .h2 {
-	font-family: 'Work Sans', sans-serif;
-	color: var(--black);
-	font-size: 34px;
+  font-family: "Work Sans", sans-serif;
+  color: var(--black);
+  font-size: 34px;
 }
 
 .h3 {
-	font-family: 'Work Sans', sans-serif;
-	color: var(--black);
-	font-size: 24px;
+  font-family: "Work Sans", sans-serif;
+  color: var(--black);
+  font-size: 24px;
 }
 
 .p {
-	font-family: 'Inter', sans-serif;
-	font-weight: 400;
-	color: var(--black);
-	font-size: 14.5px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 14.5px;
 }
 
 .button {
-	border: solid 2.3px var(--navy);
-	padding: 14px 28px;
-	border-radius:  50px;
-	text-align: center;
-	text-decoration: none;
-	font-family: 'Inter', sans-serif;
-	font-weight: 600;
-	color: var(--navy);
-	font-size: 15px;
+  border: solid 2.3px var(--navy);
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 15px;
 }
 
 .button:hover {
-	background-color: var(--navy);
-    color: var(--white);
-	transition-delay: 0.1s;
+  background-color: var(--navy);
+  color: var(--white);
+  transition-delay: 0.1s;
 }
 
 .link {
-	font-family: 'Inter', sans-serif;
-	font-weight: 400;
-	color: var(--black);
-	font-size: 14.5px;
-	text-decoration: solid 1.5px underline;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 14.5px;
+  text-decoration: solid 1.5px underline;
 }
 
 .link:hover {
-	text-decoration: none;
-	transition-delay: 0.1s;
+  text-decoration: none;
+  transition-delay: 0.1s;
 }
 
 /* 
