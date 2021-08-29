@@ -2,12 +2,12 @@ import React from "react";
 import "../../redesign/index.css";
 
 const style = {
-  height: "100vh",
+  height: "110vh",
   backgroundColor: "#ddd",
   padding: "20px 10px  10px 10px"
 };
 
-export default function Card(props) {
+export default function Info_Sessions(props) {
   const cardStyle = { ...style };
   if (props.bgcolor) {
     cardStyle.backgroundColor = props.bgcolor;

@@ -5,24 +5,104 @@
   --turquoise: #0fa3b1;
   --orange: #ff9b42;
   --navy: #38618c;
-  --yellow: #ffee93;
+  --yellow: #aa993a;
   --green: #e4fde1;
   --white: #ffffff;
   --black: #232121;
 }
 
-.main_title {
+h1.main_title {
   font-family: "Work Sans", sans-serif;
-  color: "#38618C";
-  font-size: 75px;
+  color: #38618c;
+  font-size: 90px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  text-shadow: 0px 1px, 1px 0px, 1px 0px;
+}
+
+p.main_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #38618c;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 175px;
+  margin-right: 175px;
+  max-width: 20;
+  font-size: 14.5px;
+}
+
+img.main_title {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+button.main_title {
+  border: solid 2.3px var(--navy);
+  padding: 14px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: var(--navy);
+  font-size: 15px;
+}
+
+button.main_title:hover {
+  background-color: var(--navy);
+  color: var(--white);
+  transition-delay: 0.1s;
+}
+
+h1.secondary_title {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  font-size: 45px;
   text-align: center;
 }
 
-.secondary_title {
+img.secondary_title_right {
+  float: right;
+  margin-top: 28px;
+  margin-right: 80px;
+  vertical-align: middle;
+}
+
+h2.secondary_title {
   font-family: "Work Sans", sans-serif;
-  color: "#38618C";
-  font-size: 45px;
-  text-align: center;
+  color: #e4fde1;
+  font-size: 34px;
+  text-align: left;
+  margin-left: 175px;
+}
+
+p.secondary_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 175px;
+  margin-right: 175px;
+  max-width: 20;
+  font-size: 14.5px;
+  text-align: left;
+}
+
+a.secondary_title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 14.5px;
+  text-decoration: solid 1.5px;
+}
+
+a.secondary_title:hover {
+  text-decoration: none;
+  transition-delay: 0.1s;
+  text-decoration: underline;
 }
 
 .h1 {

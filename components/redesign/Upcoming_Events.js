@@ -7,7 +7,7 @@ const style = {
   padding: "20px 10px  10px 10px"
 };
 
-export default function Card(props) {
+export default function Upcoming_Events(props) {
   const cardStyle = { ...style };
   if (props.bgcolor) {
     cardStyle.backgroundColor = props.bgcolor;
@@ -15,7 +15,7 @@ export default function Card(props) {
 
   return (
     <div id={`#card${props.id}`} style={cardStyle}>
-      <h1 className={"main_title"}>Upcoming Events</h1>
+      <h1 className={"secondary_title"}>Upcoming Events</h1>
     </div>
   );
 }
