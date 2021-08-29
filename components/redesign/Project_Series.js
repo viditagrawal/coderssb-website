@@ -2,7 +2,7 @@ import React from "react";
 import "../../redesign/index.css";
 
 const style = {
-  height: "100vh",
+  height: "110vh",
   backgroundColor: "#ddd",
   padding: "20px 10px  10px 10px"
 };
@@ -13,27 +13,25 @@ export default function Project_Series(props) {
     cardStyle.backgroundColor = props.bgcolor;
   }
 
-  const SECONDARY_TITLE = "secondary_title";
-  const SECONDARY_TITLE_RIGHT = "secondary_title_right";
+  const PROJECT_SERIES = "project_series";
+  const PROJECT_SERIES_RIGHT = "project_series_right";
 
   return (
     <div id={`#card${props.id}`} style={cardStyle}>
-      <h1 className={SECONDARY_TITLE}>Here's What We Do</h1>
+      <h1 className={PROJECT_SERIES}>Here's What We Do</h1>
       <img
-        className={SECONDARY_TITLE_RIGHT}
+        className={PROJECT_SERIES_RIGHT}
         src="redesign/blue_screen_image.svg"
         alt="computer on a search homepage"
       />
-      <h2 className={SECONDARY_TITLE}> Project Series </h2>
-      <p className={SECONDARY_TITLE}>
+      <h2 className={PROJECT_SERIES}> Project Series </h2>
+      <p className={PROJECT_SERIES}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation.
-        <a
-          className={SECONDARY_TITLE}
-          href="https://www.google.com"
-          target="_blank"
-        >
+        <br />
+        <br />
+        <a className={PROJECT_SERIES} href="https://www.google.com">
           {" "}
           Learn More ⮕{" "}
         </a>
