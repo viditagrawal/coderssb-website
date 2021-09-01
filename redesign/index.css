@@ -67,6 +67,38 @@
 	transition-delay: 0.1s;
 }
 
+h1.eventsOverview {
+	font-family: 'Work Sans', sans-serif;
+	color: var(--black);
+	font-size: 45px;
+	text-align: left;
+}
+
+h1.upcomingEvents {
+	font-family: 'Work Sans', sans-serif;
+	color: var(--black);
+	font-size: 45px;
+	text-align: left;
+}
+
+p.eventsOverview {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	color: var(--black);
+	font-size: 14.5px;
+	text-align: left;
+}
+
+img.eventsOverview {
+	float: right;
+	margin-top: 70px;
+	margin-right: 80px;
+	margin-left: 13px;
+	height: 70%;
+	vertical-align: middle;
+}
+
+
 /* 
 
 Additional margins

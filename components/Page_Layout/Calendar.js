@@ -42,7 +42,7 @@ class Calendar extends React.Component {
     return (
       <div>
         <p style={{ textAlign: "center", fontWeight: "bold" }}>
-          Note: All times are show in Pacific time (PST/PDT).
+          Note: All times are shown in Pacific time (PST/PDT).
         </p>
         <div style={{ height: "500pt", padding: "20px" }}>
           <BigCalendar

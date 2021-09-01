@@ -143,6 +143,33 @@ export const events = [
     url: "",
     pic: "Events/Winter2021/LinkedInWorkshop.png",
     alt: "LinkedIn & Resume Workshop"
+  },
+  {
+    id: 14,
+    title: "How to Land an Internship",
+    start: new Date(2021, 9, 13, 19, 0, 0),
+    end: new Date(2021, 9, 13, 20, 0, 0),
+    url: "",
+    pic: "Events/Winter2021/LinkedInWorkshop.png",
+    alt: "LinkedIn & Resume Workshop"
+  },
+  {
+    id: 15,
+    title: "Informational Meeting",
+    start: new Date(2021, 9, 18, 18, 0, 0),
+    end: new Date(2021, 9, 18, 19, 0, 0),
+    url: "",
+    pic: "Events/Winter2021/LinkedInWorkshop.png",
+    alt: "LinkedIn & Resume Workshop"
+  },
+  {
+    id: 16,
+    title: "Project Series",
+    start: new Date(2021, 9, 2, 18, 0, 0),
+    end: new Date(2021, 9, 2, 19, 0, 0),
+    url: "",
+    pic: "Events/Winter2021/LinkedInWorkshop.png",
+    alt: "LinkedIn & Resume Workshop"
   }
 ];
 
