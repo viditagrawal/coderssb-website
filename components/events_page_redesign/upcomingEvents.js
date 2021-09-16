@@ -1,6 +1,6 @@
 import React from "react";
 import "../../redesign/index.css";
-import EventCard from "../../EventCard";
+import EventCard from "../../components/Page_Layout/EventCard";
 import { events } from "../../utils/events";
 import "../../css/Events.css";
 import "../../css/Hover/reveal-top-right.css";

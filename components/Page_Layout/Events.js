@@ -2,6 +2,7 @@ import EventCard from "./EventCard";
 import { events } from "../../utils/events";
 import "../../css/Events.css";
 import "../../css/Hover/reveal-top-right.css";
+import "../../redesign/index.css";
 
 function DateConv(dateObj) {
   var minutes = "00";
@@ -27,6 +28,12 @@ function DateConv(dateObj) {
 export default function Events() {
   return (
     <div>
+       <h1 className="eventsOverview"> Events </h1>
+        <p className="eventsOverview">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation.
+        </p>
       <div className="all">
         <EventCard
           url={events[8].url}
