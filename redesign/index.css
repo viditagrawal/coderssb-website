@@ -237,6 +237,46 @@ p.upcoming_events {
   font-size: 14.5px;
 }
 
+p.companies {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: black;
+  margin-top: 5px;
+  margin-left: 110px;
+  font-size: 14.5px;
+}
+
+img.companies {
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+h2.join_us {
+  font-family: "Work Sans", sans-serif;
+  color: black;
+  font-size: 34px;
+  text-align: left;
+  margin-top: 175px;
+  margin-left: 170px;
+}
+
+p.join_us {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 170px;
+  max-width: 20;
+  font-size: 14.5px;
+  text-align: left;
+}
+
+.join_us_container {
+  justify-content: space-evenly;
+  display: flex;
+}
+
 .h1 {
   font-family: "Work Sans", sans-serif;
   color: var(--black);

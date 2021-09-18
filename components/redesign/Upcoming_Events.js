@@ -3,7 +3,7 @@ import Card from "./Card";
 import "../../redesign/index.css";
 
 const style = {
-  height: "150vh",
+  height: "65vh",
   backgroundColor: "#ddd"
 };
 
