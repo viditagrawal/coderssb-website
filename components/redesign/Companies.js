@@ -27,19 +27,22 @@ export default function Companies(props) {
     cardStyle.backgroundColor = props.bgcolor;
   }
   return (
-    <div style={cardStyle}>
-      <h2 className={UPCOMING_EVENTS}>Companies We've Worked With</h2>
-      <p className={COMPANIES}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam.{" "}
-      </p>
-      {/* <img src={COMPANIES_SVG} className={COMPANIES} /> */}
-      <div className={COMPANIES_CONTAINER}>
-        <img src={GOOGLE_SVG} />
-        <img src={FACEBOOK_SVG} />
-        <img src={AMAZON_SVG} />
-        <img src={GITHUB_SVG} />
+    <div>
+      <hr />
+      <div style={cardStyle}>
+        <h2 className={UPCOMING_EVENTS}>Companies We've Worked With</h2>
+        <p className={COMPANIES}>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam.{" "}
+        </p>
+        {/* <img src={COMPANIES_SVG} className={COMPANIES} /> */}
+        <div className={COMPANIES_CONTAINER}>
+          <img src={GOOGLE_SVG} />
+          <img src={FACEBOOK_SVG} />
+          <img src={AMAZON_SVG} />
+          <img src={GITHUB_SVG} />
+        </div>
       </div>
     </div>
   );
