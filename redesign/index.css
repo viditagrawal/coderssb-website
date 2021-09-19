@@ -246,9 +246,15 @@ p.companies {
   font-size: 14.5px;
 }
 
+.companies_container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
 img.companies {
   margin-left: 110px;
-  margin-right: 110px;
+  display: inline-block;
 }
 
 h2.join_us {
@@ -272,9 +278,33 @@ p.join_us {
   text-align: left;
 }
 
+p.footer {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 170px;
+  max-width: 20;
+  font-size: 14.5px;
+  text-align: left;
+}
+
 .join_us_container {
   justify-content: space-evenly;
   display: flex;
+}
+
+.footer_item {
+  font-family: "Work Sans", sans-serif;
+  font-size: 10px;
+  color: black;
+}
+
+p.footer_title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 25px;
+  color: white;
 }
 
 .h1 {

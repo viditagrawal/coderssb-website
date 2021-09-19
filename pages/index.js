@@ -5,6 +5,8 @@ import Resources from "../components/redesign/Resources";
 import Upcoming_Events from "../components/redesign/Upcoming_Events";
 import Companies from "../components/redesign/Companies";
 import Join_Us from "../components/redesign/Join_Us";
+import FooterPage from "../components/redesign/FooterPage";
+
 export default function Index() {
   return (
     <div>
@@ -15,6 +17,7 @@ export default function Index() {
       <Upcoming_Events id={4} bgcolor="white" />
       <Companies id={5} bgcolor="white" />
       <Join_Us id={6} bgcolor="white" />
+      <FooterPage id={7} bgcolor="white" />
     </div>
   );
 }
