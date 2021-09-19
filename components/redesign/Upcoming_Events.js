@@ -3,8 +3,12 @@ import Card from "./Card";
 import "../../redesign/index.css";
 
 const style = {
-  height: "80vh",
-  backgroundColor: "#ddd"
+  height: "70vh",
+  backgroundColor: "#ddd",
+  display: "flex",
+  flexDirection: "column",
+  marginLeft: "80px",
+  marginRight: "80px"
 };
 
 export default function Upcoming_Events(props) {

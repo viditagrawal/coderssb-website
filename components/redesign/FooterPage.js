@@ -27,14 +27,14 @@ export default function FooterPage(props) {
               {
                 icon: <img src="Icons/facebook.png" />,
                 title: "Facebook",
-                url: "https://discord.com/invite/bW69w4QsS6",
+                url: "https://www.facebook.com/coderssb",
                 openExternal: true,
                 className: { FOOTER_ITEM }
               },
               {
                 icon: <img src="Icons/discord.png" />,
                 title: "Discord",
-                url: "https://www.facebook.com/coderssb",
+                url: "https://discord.com/invite/bW69w4QsS6",
                 openExternal: true,
                 className: { FOOTER_ITEM }
               },

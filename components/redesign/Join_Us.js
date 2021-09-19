@@ -6,8 +6,8 @@ import Join_Us_Icons from "./Join_Us_Icons";
 const style = {
   display: "flex",
   flexDirection: "row",
-  height: "40vh",
-  alignItems: "flex-end",
+  height: "30vh",
+  alignItems: "center",
   backgroundColor: "#ddd",
   marginBottom: "50px"
 };

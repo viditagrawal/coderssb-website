@@ -18,7 +18,6 @@ export default function Companies(props) {
   const GITHUB_SVG = "redesign/companies/github.svg";
 
   // same format as upcoming event for title
-  const UPCOMING_EVENTS = "upcoming_events";
   const COMPANIES = "companies";
   const COMPANIES_CONTAINER = "companies_container";
 
@@ -30,7 +29,7 @@ export default function Companies(props) {
     <div>
       <hr />
       <div style={cardStyle}>
-        <h2 className={UPCOMING_EVENTS}>Companies We've Worked With</h2>
+        <h2 className={COMPANIES}>Companies We've Worked With</h2>
         <p className={COMPANIES}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
