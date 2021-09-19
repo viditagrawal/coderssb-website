@@ -3,7 +3,9 @@ import Card from "./Card";
 import "../../redesign/index.css";
 
 const style = {
-  height: "25vh",
+  height: "45vh",
+  display: "flex",
+  flexDirection: "column",
   backgroundColor: "#ddd"
 };
 
@@ -28,11 +30,11 @@ export default function Companies(props) {
     <div style={cardStyle}>
       <h2 className={UPCOMING_EVENTS}>Companies We've Worked With</h2>
       <p className={COMPANIES}>
-        Here are a few of the companies that we've worked with. Coders SB
-        frequently hosts company info sessions.{" "}
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam.{" "}
       </p>
       {/* <img src={COMPANIES_SVG} className={COMPANIES} /> */}
-
       <div className={COMPANIES_CONTAINER}>
         <img src={GOOGLE_SVG} />
         <img src={FACEBOOK_SVG} />

@@ -8,8 +8,13 @@ import Join_Us from "../components/redesign/Join_Us";
 import FooterPage from "../components/redesign/FooterPage";
 
 export default function Index() {
+  const style = {
+    display: "flex",
+    flexDirection: "column"
+  };
+
   return (
-    <div>
+    <div style={style}>
       <Coders_SB id={0} bgcolor="#D2F5FF" />
       <Project_Series id={1} bgcolor="#466D91" />
       <Info_Sessions id={2} bgcolor="#E4FDE1" />
