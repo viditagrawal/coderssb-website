@@ -11,34 +11,72 @@
 	--black: #232121;
 }
 
-.h1 {
+h1.merchOverview {
 	font-family: 'Work Sans', sans-serif;
 	color: var(--black);
 	font-size: 45px;
+	margin-top: 75px;
+  	margin-bottom: 10px;
 }
 
-.h2 {
+h2.merchOverview {
 	font-family: 'Work Sans', sans-serif;
 	color: var(--black);
 	font-size: 34px;
 }
 
-.h3 {
+img.merchItem {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	z-index: 1;
+}
+
+img.title_logo {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	height: 70px;
+	width: 70px;
+	z-index: 1;
+}
+
+h1.merchItem {
+	font-family: "Work Sans", sans-serif;
+	color: var(--black);
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+  }
+
+h3.merchItem {
 	font-family: 'Work Sans', sans-serif;
 	color: var(--black);
 	font-size: 24px;
 }
 
-.p {
+p.merchOverview {
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	color: var(--black);
 	font-size: 14.5px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.button {
+p.merchItem {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	color: var(--black);
+	font-size: 14.5px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-right: 100px;
+}
+
+button.merchItem {
 	border: solid 2.3px var(--navy);
-	padding: 14px 28px;
+	padding: 15px 28px;
 	border-radius:  50px;
 	text-align: center;
 	text-decoration: none;
@@ -48,11 +86,60 @@
 	font-size: 15px;
 }
 
-.button:hover {
+button.merchItem:hover {
 	background-color: var(--navy);
     color: var(--white);
 	transition-delay: 0.1s;
 }
+
+
+
+
+
+.h1 {
+	font-family: "Work Sans", sans-serif;
+	color: var(--black);
+	font-size: 45px;
+  }
+  
+  .h2 {
+	font-family: "Work Sans", sans-serif;
+	color: var(--black);
+	font-size: 34px;
+  }
+  
+  .h3 {
+	font-family: "Work Sans", sans-serif;
+	color: var(--black);
+	font-size: 24px;
+  }
+  
+  .p {
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	color: var(--black);
+	font-size: 14.5px;
+  }
+  
+  .button {
+	border: solid 2.3px var(--navy);
+	padding: 14px 28px;
+	border-radius: 50px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	color: var(--navy);
+	font-size: 15px;
+  }
+  
+  .button:hover {
+	background-color: var(--navy);
+	color: var(--white);
+	transition-delay: 0.1s;
+  }
+
+
 
 .link {
 	font-family: 'Inter', sans-serif;

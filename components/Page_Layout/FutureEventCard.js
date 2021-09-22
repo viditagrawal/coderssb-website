@@ -1,4 +1,5 @@
 import "../../css/FutureEventCardStyle.css";
+import "../../redesign/index.css";
 
 export default function FutureEventCard(props) {
   return (
@@ -12,6 +13,6 @@ export default function FutureEventCard(props) {
           </div>
         </a>
       </div>
-    </div>
+    </div> 
   );
 }
