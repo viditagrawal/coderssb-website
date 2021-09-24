@@ -126,6 +126,8 @@ h2.info_sessions {
   color: #0fa3b1;
   font-size: 34px;
   margin-top: 250px;
+  margin-bottom: 0px;
+
 }
 
 img.info_sessions {
@@ -176,6 +178,7 @@ h2.resources {
   text-align: left;
   margin-top: 250px;
   margin-left: 170px;
+  margin-bottom: 0px;
 }
 
 p.resources {

@@ -24,7 +24,7 @@ export default function Resources(props) {
   const RESOURCES_RIGHT = "resources_right";
 
   return (
-    <div id={`#card${props.id}`} style={style_container}>
+    <div id={`#card${props.id}`} style={cardStyle}>
       <div style={style_title}>
         <h2 className={RESOURCES}> Resources </h2>
         <p className={RESOURCES}>
