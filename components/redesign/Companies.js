@@ -10,7 +10,6 @@ const style = {
 };
 
 export default function Companies(props) {
-  const COMPANIES_SVG = "redesign/companies.svg";
 
   const GOOGLE_SVG = "redesign/companies/google.svg";
   const FACEBOOK_SVG = "redesign/companies/facebook.svg";
