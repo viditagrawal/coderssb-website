@@ -1,14 +1,23 @@
 import React from "react";
 import "../../redesign/index.css";
 
-const style = {
-  height: "110vh",
+
+const style_container = {
+  height: "100vh",
   backgroundColor: "#ddd",
-  padding: "20px 10px  10px 10px"
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center"
 };
 
+const style_title = {
+  display: "flex",
+  flexDirection: "column"
+};
+
+
 export default function Project_Series(props) {
-  const cardStyle = { ...style };
+  const cardStyle = { ...style_container };
   if (props.bgcolor) {
     cardStyle.backgroundColor = props.bgcolor;
   }
@@ -18,24 +27,22 @@ export default function Project_Series(props) {
 
   return (
     <div id={`#card${props.id}`} style={cardStyle}>
-      <h1 className={PROJECT_SERIES}>Here's What We Do</h1>
       <img
         className={PROJECT_SERIES_RIGHT}
         src="redesign/blue_screen_image.svg"
         alt="computer on a search homepage"
       />
-      <h2 className={PROJECT_SERIES}> Project Series </h2>
-      <p className={PROJECT_SERIES}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation.
+      <div style={style_title}><h2 className={PROJECT_SERIES}> Project Series </h2>
+        <p className={PROJECT_SERIES}>
+          In our project series you will work with a team of up to four to create a full stack web application using React, the industry standard for building user interfaces. We will have prizes and awards at the end of each quarter!
         <br />
-        <br />
-        <a className={PROJECT_SERIES} href="https://www.google.com">
-          {" "}
-          Learn More ⮕{" "}
-        </a>
-      </p>
+          <br />
+          <a className={PROJECT_SERIES} href="https://forms.gle/D1QskDhdzznWu6i1A">
+            {" "}
+            Apply Now ⮕{" "}
+          </a>
+        </p> </div>
+
     </div>
   );
 }

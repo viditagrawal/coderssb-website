@@ -10,7 +10,10 @@ import FooterPage from "../components/redesign/FooterPage";
 export default function Index() {
   const style = {
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
+    width: "100vw",
+    marginLeft: "-10px",
+    marginTop: "-10px"
   };
 
   return (

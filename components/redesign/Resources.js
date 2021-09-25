@@ -6,7 +6,8 @@ const style_container = {
   backgroundColor: "#ddd",
   padding: "20px 10px  10px 10px",
   display: "flex",
-  flexDirection: "row"
+  flexDirection: "row",
+  alignItems: "center"
 };
 
 const style_title = {

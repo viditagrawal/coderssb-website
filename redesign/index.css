@@ -63,6 +63,7 @@ button.main_title {
   font-size: 15px;
   z-index: 1;
   position: relative;
+  cursor: pointer;
 }
 
 button.main_title:hover {
@@ -81,17 +82,16 @@ h1.project_series {
 img.project_series_right {
   float: right;
   margin-top: 28px;
-  margin-right: 80px;
   vertical-align: middle;
+  margin-right: 40px;
+
 }
 
 h2.project_series {
   font-family: "Work Sans", sans-serif;
   color: #e4fde1;
   font-size: 34px;
-  text-align: left;
-  margin-top: 200px;
-  margin-left: 175px;
+  margin-bottom: 0px;
 }
 
 p.project_series {
@@ -99,9 +99,7 @@ p.project_series {
   font-weight: 400;
   color: white;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 175px;
-  margin-right: 175px;
+  margin-right: 80px;
   max-width: 20;
   font-size: 14.5px;
   text-align: left;
@@ -125,9 +123,7 @@ h2.info_sessions {
   font-family: "Work Sans", sans-serif;
   color: #0fa3b1;
   font-size: 34px;
-  margin-top: 250px;
   margin-bottom: 0px;
-
 }
 
 img.info_sessions {
@@ -141,7 +137,6 @@ p.info_sessions {
   font-weight: 400;
   color: black;
   margin-top: 20px;
-  margin-bottom: 20px;
   margin-right: 80px;
   max-width: 20;
   font-size: 14.5px;
@@ -163,12 +158,8 @@ a.info_sessions:hover {
 
 img.resources_right {
   float: right;
-  margin-top: 70px;
   margin-right: 80px;
-  margin-left: 13px;
-
-  height: 70%;
-  vertical-align: middle;
+  margin-left: 35px;
 }
 
 h2.resources {
@@ -176,7 +167,6 @@ h2.resources {
   color: #38618c;
   font-size: 34px;
   text-align: left;
-  margin-top: 250px;
   margin-left: 170px;
   margin-bottom: 0px;
 }
@@ -211,7 +201,7 @@ a.resources:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: "wrap";
 }
 
 h2.upcoming_events {
