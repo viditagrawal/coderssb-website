@@ -8,9 +8,12 @@ export default function Card(props) {
 
   /* we only want to style the larger upcoming events logos */
   const img_style = props.isLarge ? {
-    width: "300px",
-    height: "auto"
-  } : {};
+    height: "auto",
+    maxWidth: "100%",
+    width: "30vw"
+  } : {
+      width: "5vw"
+    };
 
   return (
     <div style={style}>

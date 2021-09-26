@@ -18,7 +18,6 @@ export default function Join_Us(props) {
     cardStyle.backgroundColor = props.bgcolor;
   }
 
-  const RESOURCES_RIGHT = "resources_right";
   const JOIN_US = "join_us";
   const JOIN_US_LEFT_SIDE = "join_us_left_side";
   const JOIN_US_SVG = "redesign/join_us.svg";
@@ -38,7 +37,7 @@ export default function Join_Us(props) {
         </div>
         <div>
           <img
-            className={RESOURCES_RIGHT}
+            className={JOIN_US}
             src={JOIN_US_SVG}
             alt="computer screen with smiling faces"
           />

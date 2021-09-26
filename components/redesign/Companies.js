@@ -16,7 +16,6 @@ export default function Companies(props) {
   const AMAZON_SVG = "redesign/companies/amazon.svg";
   const GITHUB_SVG = "redesign/companies/github.svg";
 
-  // same format as upcoming event for title
   const COMPANIES = "companies";
   const COMPANIES_CONTAINER = "companies_container";
 
@@ -34,12 +33,11 @@ export default function Companies(props) {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.{" "}
         </p>
-        {/* <img src={COMPANIES_SVG} className={COMPANIES} /> */}
         <div className={COMPANIES_CONTAINER}>
-          <img src={GOOGLE_SVG} />
-          <img src={FACEBOOK_SVG} />
-          <img src={AMAZON_SVG} />
-          <img src={GITHUB_SVG} />
+          <img src={GOOGLE_SVG} style={resize_img} />
+          <img src={FACEBOOK_SVG} style={resize_img} />
+          <img src={AMAZON_SVG} style={resize_img} />
+          <img src={GITHUB_SVG} style={resize_img} />
         </div>
       </div>
     </div>

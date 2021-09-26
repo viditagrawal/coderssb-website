@@ -13,6 +13,7 @@ export default function Index() {
     flexDirection: "column",
     width: "100vw",
     marginLeft: "-10px",
+    marginRight: "-10px",
     marginTop: "-10px"
   };
 
@@ -23,7 +24,7 @@ export default function Index() {
       <Info_Sessions id={2} bgcolor="#E4FDE1" />
       <Resources id={3} bgcolor="#FFEE93" />
       <Upcoming_Events id={4} bgcolor="white" />
-      <Companies id={5} bgcolor="white" />
+      {/* <Companies id={5} bgcolor="white" /> */}
       <Join_Us id={6} bgcolor="white" />
       <FooterPage id={7} bgcolor="white" />
     </div>
