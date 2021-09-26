@@ -3,7 +3,7 @@ import "../../redesign/index.css";
 
 
 const style_container = {
-  height: "100vh",
+  height: "110vh",
   backgroundColor: "#ddd",
   display: "flex",
   flexDirection: "row",

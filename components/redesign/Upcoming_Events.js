@@ -3,7 +3,7 @@ import Card from "./Card";
 import "../../redesign/index.css";
 
 const style = {
-  height: "90vh",
+  height: "85vh",
   backgroundColor: "#ddd",
   display: "flex",
   flexDirection: "column",
