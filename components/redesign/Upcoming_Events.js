@@ -13,9 +13,13 @@ const style = {
 
 export default function Upcoming_Events(props) {
   const GOOGLE = "https://www.google.com";
-  const HOW_TO_LAND_INTERNSHIP = "redesign/events/how_to_land_internship.svg";
-  const INFORMATIONAL_MEETING = "redesign/events/informational_meeting.svg";
-  const PROJECT_SERIES = "redesign/events/project_series.svg";
+
+  /* EDIT ME */
+  const EVENT_1 = ["redesign/events/fall_2021/intro_to_coders.png",
+    "https://cglink.me/2dD/r1278244"];
+  const EVENT_2 = ["redesign/events/fall_2021/internship_panel.png", "https://cglink.me/2dD/r1286522"];
+  const EVENT_3 = ["redesign/events/project_series.svg", GOOGLE];
+  /* EDIT ME */
 
   const UPCOMING_EVENTS_CONTAINER = "upcoming_events_container";
   const UPCOMING_EVENTS = "upcoming_events";
@@ -26,26 +30,29 @@ export default function Upcoming_Events(props) {
   }
   return (
     <div style={cardStyle}>
-      <h2 className={UPCOMING_EVENTS}> Upcoming Events</h2>
+      <h2 className={UPCOMING_EVENTS}>Upcoming Events</h2>
 
       <div className={UPCOMING_EVENTS_CONTAINER}>
         <Card
-          url={GOOGLE}
-          pic={HOW_TO_LAND_INTERNSHIP}
-          title="How to Land an Internship"
-          info="October 13  |  7pm  |  Zoom"
+          url={EVENT_1[1]}
+          pic={EVENT_1[0]}
+          title="Intro to Coders SB"
+          info="September 27  |  7pm  |  ESB 1001"
+          isLarge={true}
         />
         <Card
-          url={GOOGLE}
-          pic={INFORMATIONAL_MEETING}
-          title="Coders SB Informational Meeting"
-          info="October 18  |  6pm  |  Zoom"
+          url={EVENT_2[1]}
+          pic={EVENT_2[0]}
+          title="Internship Panel"
+          info="September 29  |  7:30pm  |  ESB 1001"
+          isLarge={true}
         />
         <Card
-          url={GOOGLE}
-          pic={PROJECT_SERIES}
+          url={EVENT_3[1]}
+          pic={EVENT_3[0]}
           title="Project Series"
-          info={"Novermeber 2  |  7pm  |  Zoom"}
+          info={"October 7  |  7pm  |  ESB 1001"}
+          isLarge={true}
         />
       </div>
     </div>

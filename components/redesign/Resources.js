@@ -29,9 +29,10 @@ export default function Resources(props) {
       <div style={style_title}>
         <h2 className={RESOURCES}> Resources </h2>
         <p className={RESOURCES}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation. <br />
+          Here are some resources to learn more  about computer science research on campus,
+          applying to internships, preparing for interviews, hackathons on campus, and some
+          links to popular tech stacks. Read more about each and find what excites you!
+         <br />
           <br />
           <a className={RESOURCES} href="https://www.google.com">
             Learn More ⮕

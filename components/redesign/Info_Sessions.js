@@ -35,9 +35,7 @@ export default function Info_Sessions(props) {
 
       <div style={style_title}> <h2 className={INFO_SESSIONS}> Info Sessions </h2>
         <p className={INFO_SESSIONS}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation.
+          Coders SB hosts info sessions with companies to help UCSB students build their professional network. Learn more about upcoming information sessions below
         <br />
           <br />
           <a className={INFO_SESSIONS} href="https://www.google.com">
