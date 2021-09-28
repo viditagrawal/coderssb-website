@@ -6,7 +6,7 @@ import Upcoming_Events from "../components/redesign/Upcoming_Events";
 import Companies from "../components/redesign/Companies";
 import Join_Us from "../components/redesign/Join_Us";
 import FooterPage from "../components/redesign/FooterPage";
-import Navbar from "../components/redesign/Navbar"; 
+import Navbar from "../components/redesign/Navbar";
 
 export default function Index() {
     const style = {
@@ -20,7 +20,7 @@ export default function Index() {
 
     return (
         <div style={style}>
-            <Navbar />
+            {/* <Navbar /> */}
             <Coders_SB id={0} bgcolor="#D2F5FF" />
             <Project_Series id={1} bgcolor="#466D91" />
             <Info_Sessions id={2} bgcolor="#E4FDE1" />
