@@ -94,14 +94,6 @@ export default [
         description:"Sid is a first year Computer Science major at UCSB and a freshman representative for Coders SB. In his free time, he loves to play basketball and go on hikes with his friends. He is also interested in AI/ML and is a research intern at the UCSB Dynamo Lab. During quarantine, he’s been going to a lot of nearby hiking trails, been playing Among Us, and sleeping a lot. He is excited to join this amazing community of Coders SB!",
         image: "Officers/sid.png",
         meme: "Officers/sid-meme.png"
-    }, 
-    {
-        id: "13",
-        name: "Kelly Yan",
-        role: "Content Developer",
-        description:"Kelly is a first year computer science major. In her free time, she likes reading and designing things. Her quarantine obsession has been coloring :)",
-        image: "Officers/kelly.png",
-        meme: "Officers/kelly-meme.png"
-    }     
+    }  
   ];
   
