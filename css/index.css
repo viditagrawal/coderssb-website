@@ -87,40 +87,36 @@
     width: 33.33%;
 }
 
+.officerRow {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
 /* Officers */
 .imageBox {
-    position: relative;
+    /* position: relative; */
     width: 100%;
-    opacity: 1;
 }
 
 .officerImg{
-    width: 95%;
-    height: auto;
-    transition: opacity 0.6s;
-    opacity: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
+    width: 100%;
 }
 
-.hoverImg {
+/* .hoverImg {
     width: 95%;
 }
 
 .officerImg:hover {
     opacity: 0;
-}
+} */
 
 .w3-cell-img {
     width: 35%;
 }
 
 .w3-cell-text {
-    width: 60%;
-    padding: 0;
-    margin: 0;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 .h3-officer-name {
