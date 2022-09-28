@@ -1,99 +1,45 @@
 export default [
     {
       id: "1",
-      name: "Gautam Mundewadi",
+      name: "Sid Majeti",
       role: "President",
-      description: "Gautam is a 3rd year Computer Science major who has had previous internships at Infoblox, Coseer, and Microsoft. In his free time, Gautam loves to take walks near the beach, paint, and play basketball. As President, Gautam is responsible for helping organize company events, Coders SB workshops, and coffee conversations with industry. We hope to see you at our next event!",
-      image: "Officers/gautam.png",
-      meme: "Officers/gautam-meme.png"
+      description: "Hi everyone! My name is Sid Majeti and I am a rising junior majoring in computer science. I have been a part of Coders SB ever since my freshman year and have met some of my closest friends through Coders! In my free time I like to play basketball and go on runs along the beach. Hope to you see you guys soon at our events!",
+      image: "Officers/sid.jpg",
     },
     {
         id: "2",
-        name: "Shirlyn Tang",
+        name: "David Wang",
         role: "Vice President",
-        description: "Shirlyn is a 4th year CS major, and is the Vice President for Coders SB! After graduating this year, she will be a Software Engineer at Facebook. In her free time, she likes to eat hot cheetos, play video games and watch YouTube/Twitch streams. She also loves reality TV shows like Survivor and Love Island. Her advice to freshmen is to take advantage of all the resources and opportunities UCSB has, and to work hard while taking time to have fun throughout college as well.",
-        image: "Officers/shirlyn.png",
-        meme: "Officers/shirlyn-meme.png"
+        description: "Hi my name is David. I'm a second-year computer science major. Some of the topics I'm most interested in exploring are computer vision and machine learning.  In my free time I enjoy rock climbing, video games (Apex legends and league 💀), and reading manga/watching anime. Recently I've also had a fun time learning how to cook.",
+        image: "Officers/david.jpg",
     },
     {
         id: "3",
-        name: "Austin Wong",
-        role: "Treasurer",
-        description:"Austin is a 4th year CS major and the Coders SB incumbent Treasurer! He is the current Web Development Intern at the UCSB Health and Wellness Department @ucsbwellness and has interned at Appfolio Inc. the last two summers. In his free time he loves filming/editing videos, painting, and being much cooler than our VP @shirlyn.t. His advice to freshmen is to leave your comfort zone and take this time to network and form long lasting relationships with your peers and colleagues. Also rush Theta Tau Winter Quarter @ucsbthetatau. Catch him at our events this quarter or just slide into his dms right now @austinwonga 😉",
-        image: "Officers/austin.png",
-        meme: "Officers/austin-meme.png"
+        name: "Vidit Agrawal",
+        role: "General Officer",
+        description:"Hey everyone! My name is Vidit and I'm a sophomore majoring in Computer Science. I'm super excited to meet and get to know everyone this year! A little bit about me: I love to hike and do outdoorsy things like paddleboarding, kayaking, going to the beach, etc. I also really like to listen to music and hang out with friends        ",
+        image: "Officers/vidit.jpg",
     },
     {
         id: "4",
-        name: "Patrick Kuang",
-        role: "Content Developer",
-        description:"Patrick is a 3rd year computer science major from San Ramon, CA. He has interned at novacoast inc and microsoft and will be returning as a SWE intern at microsoft in the coming summer. In his free time, he likes playing games (mostly console) and watching tv (fav shows this year are bojack horseman and mob pyscho 100) and crappy stuff on the internet (my yt recommended is so wack) and i play/watch bball. His advice to freshmen is to talk to as many people as possible, 1st year is the best time to make new friends and mentors that will last you a lifetime. He also recommends that freshmen enjoy their time and don't stress too much about school and jobs. You only go to college once in your life, might as well enjoy it! Feel free to dm him @patrick.kuang about any questions about being a cs major at sb or the microsoft intern experience!",
-        image: "Officers/patrick.png",
-        meme: "Officers/patrick-meme.png"
+        name: "Elaine Ho",
+        role: "General Officer",
+        description:"Hello! my name is Elaine Ho and I am a rising sophomore majoring in Computer Science! During my free time, I love embroidering, sewing clothes, acrylic painting, and watching kdramas.",
+        image: "Officers/elaine.jpg",
     },
     {
         id: "5",
-        name: "Sriya Aluru",
-        role: "Marketing Chair",
-        description:"Sriya is a 2nd year computer science student. She was a freshman representative for our org last year and hopes to learn more about data science and cybersecurity in the future. She loves to meet new people, watch movies, go out to eat, and explore Santa Barbara. Her new quarantine obsessions have been playing (and sucking at) Among Us, watching Space Force, and lotsss of random YouTube videos. Her advice to incoming freshmen is to join clubs, talk to new people, and not be afraid to try new things!!",
-        image: "Officers/sriya.png",
-        meme: "Officers/sriya-meme.png"
+        name: "Sangita Kunapuli",
+        role: "General Officer",
+        description:"Hi my name is Sangita! I'm a third year undergrad studying computer science! In my free time, I enjoy exploring new music, singing a cappella, and bullet journaling.",
+        image: "Officers/sangita.jpg",
     },
     {
         id: "6",
-        name: "Rukmini Bapat",
-        role: "Marketing Chair",
-        description:"Rukmini is a second year computer science major and was a freshman rep for Coders SB last year! She interned at Verizon Media this past summer. She loves to bike, hike, go out to eat, and watch TV shows. Her advice to freshmen is to get involved in club activities in freshman year so you can figure out what you want to be involved in throughout college. Take time to enjoy all college has to offer!",
-        image: "Officers/rukmini.png",
-        meme: "Officers/rukmini-meme.png"
+        name: "Aditi Phatak",
+        role: "General Officer",
+        description:"Hi my name is Aditi Phatak and I am a second year undergraduate majoring in computer science. During my free time, I enjoy crocheting, going on sunrise runs at the beach, and binge watching shows.",
+        image: "Officers/aditi.jpg",
     },
-    {
-        id: "7",
-        name: "Pranav Acharya",
-        role: "Content Developer",
-        description:"Pranav is a 2nd-year CS major who interned at Acqueon this past summer. In his free time, Pranav enjoys watching sports (cricket and NFL), bingeing Netflix shows, listening to Bollywood music, and Zooming with his friends. His advice for freshmen is to join clubs and to go out of your comfort zone to meet new people and make friends (even if it seems super awkward. Dw, all of us felt that way when we were freshmen). Your relationships with your peers will define your once-in-a-lifetime college experience. Feel free to dm him @pranav01acharya with any questions about being a CS major or life at UCSB in general :)",
-        image: "Officers/pranav.png",
-        meme: "Officers/pranav-meme.png"
-    },
-    {
-        id: "8",
-        name: "Jenna Nguyen",
-        role: "Marketing Chair",
-        description:"Jenna is a 1st year Physics major that is looking to change her major to Computer Science. She hopes to build upon her knowledge of coding and computer science and connect with more UCSB students. In her free time, Jenna loves spending quality time with her friends and family, going to the beach, drinking boba, and having game nights. Her new quarantine obsessions have been roller skating, bingeing Netflix shows, and playing Among Us 😎",
-        image: "Officers/jenna.png",
-        meme: "Officers/jenna-meme.png"
-    },
-    {
-        id: "9",
-        name: "Jennifer Lai",
-        role: "Content Developer",
-        description:"Jennifer is a 4th year Computer Science student. She was the co-director of SB Hacks VI and has enjoyed attending a handful of hackathons in the past. She also enjoys playing video games in her spare time. Her advice to incoming freshmen is to put yourself out there and get involved in campus orgs + communities outside of UCSB.",
-        image: "Officers/jennifer.png",
-        meme: "Officers/jennifer-meme.png"
-    }, 
-    {
-        id: "10",
-        name: "Alvin Tu",
-        role: "Marketing Chair",
-        description:"Alvin is a second year Computer Engineering major. Within Computer Engineering, he is looking to expand further on software over hardware (sorry Electrical Engineers :P). In his free time, Alvin likes to watch movies, play games, or film/edit videos. He’s also always down to play basketball, volleyball, or go on runs! His new quarantine obsessions have been sleeping, watching shows, sleeping, and learning how to dance.",
-        image: "Officers/alvin.png",
-        meme: "Officers/alvin-meme.png"
-    },
-    {
-        id: "11",
-        name: "Sangita Kunapuli",
-        role: "Design Chair",
-        description:"Sangita is a first year Computer Science major and a freshman representative/design chair! She is super excited to connect with people interested in comp sci at UCSB through the welcoming and intelligent community of Coders SB. In her free time, Sangita enjoys dancing, singing, trying new recipes, and bullet journaling! Her latest quarantine hobbies have been game nights over zoom, playing among us and covidopoly, and redecorating her room into a DIY dorm room!",
-        image: "Officers/sangita.png",
-        meme: "Officers/sangita-meme.png"
-    },  
-    {
-        id: "11",
-        name: "Sid Majeti",
-        role: "Content Developer",
-        description:"Sid is a first year Computer Science major at UCSB and a freshman representative for Coders SB. In his free time, he loves to play basketball and go on hikes with his friends. He is also interested in AI/ML and is a research intern at the UCSB Dynamo Lab. During quarantine, he’s been going to a lot of nearby hiking trails, been playing Among Us, and sleeping a lot. He is excited to join this amazing community of Coders SB!",
-        image: "Officers/sid.png",
-        meme: "Officers/sid-meme.png"
-    }  
   ];
   

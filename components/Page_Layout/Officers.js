@@ -18,7 +18,6 @@ function NewOfficer(props) {
             <div className="officerImg">
               <img
                 src={props.officer.image}
-                alt="officer image"
                 className="officerImg"
               />
             </div>
