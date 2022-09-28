@@ -50,9 +50,9 @@ export default function navbar(props) {
         <Link href="/Resources">
           <a className="tab">Useful Resources</a>
         </Link>
-        <Link href="/Merchandise">
+        {/* <Link href="/Merchandise">
           <a className="tab">Merchandise</a>
-        </Link>
+        </Link> */}
         <Link href="/ProjectSeries">
           <a className="tab">Project Series</a>
         </Link>
